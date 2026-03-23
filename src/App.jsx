@@ -35,6 +35,9 @@ function App() {
         {listView ? <ListView /> : ""}
         {teamView ? <TeamView /> : ""}
       </div>
+      <footer className="centered">
+        This content is not affiliated with Hoyoverse or its subsidiaries.
+      </footer>
     </>
   );
 }
