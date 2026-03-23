@@ -1,7 +1,13 @@
 import React from "react";
 
 function teamView() {
-  return <>Team</>;
+  return (
+    <>
+      <div id="team_view" className="centered">
+        Team
+      </div>
+    </>
+  );
 }
 
 export default teamView;
