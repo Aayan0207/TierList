@@ -1,6 +1,12 @@
 body {
   background-color: rgb(56, 53, 53);
 }
+button{
+  border-radius: 5px;
+  border:2px solid;
+  background-color: rgb(138, 134, 134);
+  cursor: pointer;
+}
 .centered,
 .centered-v {
   display: flex;
@@ -48,18 +54,47 @@ footer {
 .element {
   height: 15px;
   width: auto;
-  margin-right:2px;
+  margin-right: 2px;
 }
 .tier {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(3,1fr);
-  margin:auto;
+  grid-template-rows: repeat(3, 1fr);
+  margin: auto;
 }
-@media (min-width: 768px){
-  .tier{
+@media (min-width: 768px) {
+  .tier {
     grid-template-rows: 1fr;
-  grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
+.element_slider_image, .weapon_slider_image, .rarity_slider_image{
+  height:24px;
+  width:auto;
+  margin:3px;
+}
+.element_slider_button, .weapon_slider_button, .rarity_slider_button{
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+}
+.active_button{
+  background-color: rgb(16, 104, 199);
+}
+#sliders{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(2,1fr);
+}
+
+#weapon_slider{
+  grid-row: 1;
+  grid-column:2;
+}
+#element_slider{
+  grid-column:1;
+  grid-row:2;
+}
