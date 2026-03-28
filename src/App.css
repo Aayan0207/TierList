@@ -130,3 +130,52 @@ footer {
 .weapon_slider_image {
   max-width: 100%;
 }
+#T0 > div {
+  border: 2px solid red;
+}
+#T1 > div {
+  border: 2px solid orange;
+}
+#T2 > div {
+  border: 2px solid yellow;
+}
+#T3 > div {
+  border: 2px solid green;
+}
+#T4 > div {
+  border: 2px solid rgb(0, 187, 255);
+}
+#T5 > div {
+  border: 2px solid rgb(7, 62, 173);
+}
+#T6 > div {
+  border: 2px solid rgb(28, 28, 134);
+}
+#title0,
+#T0 .category {
+  background-color: red;
+}
+#title1,
+#T1 .category {
+  background-color: orange;
+}
+#title2,
+#T2 .category {
+  background-color: yellow;
+}
+#title3,
+#T3 .category {
+  background-color: green;
+}
+#title4,
+#T4 .category {
+  background-color: rgb(0, 187, 255);
+}
+#title5,
+#T5 .category {
+  background-color: rgb(7, 62, 173);
+}
+#title6,
+#T6 .category {
+  background-color: rgb(28, 28, 134);
+}
