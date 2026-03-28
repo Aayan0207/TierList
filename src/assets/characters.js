@@ -121,8 +121,8 @@ const chars = [
     element: "Anemo",
     weapon: "Bow",
     rarity: 5,
-    tier: -1,
-    role: [],
+    tier: 0,
+    role: ["dps"],
     tags: {},
   },
   {
@@ -778,8 +778,8 @@ const chars = [
     element: "Cryo",
     weapon: "Sword",
     rarity: 5,
-    tier: -1,
-    role: [],
+    tier: 0,
+    role: ["dps"],
     tags: {},
   },
   {
@@ -832,8 +832,8 @@ const chars = [
     element: "Electro",
     weapon: "Catalyst",
     rarity: 5,
-    tier: -1,
-    role: [],
+    tier: 0.5,
+    role: ["dps"],
     tags: {},
   },
   {
@@ -1000,11 +1000,11 @@ const chars = [
   },
   {
     name: "Zibai",
-    element: "Hydro",
-    weapon: "Catalyst",
+    element: "Geo",
+    weapon: "Sword",
     rarity: 5,
-    tier: -1,
-    role: [],
+    tier: 0,
+    role: ["dps"],
     tags: {},
   },
 ];
