@@ -70,6 +70,7 @@ function ListView() {
         <div id="sliders">
           <div id="search_slider">
             <input
+              id="search_input"
               type="text"
               placeholder="Search"
               onChange={(event) => setSearch(event.target.value)}

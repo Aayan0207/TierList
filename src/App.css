@@ -1,9 +1,9 @@
 body {
   background-color: rgb(56, 53, 53);
 }
-button{
+button {
   border-radius: 5px;
-  border:2px solid;
+  border: 2px solid;
   background-color: rgb(138, 134, 134);
   cursor: pointer;
 }
@@ -67,34 +67,66 @@ footer {
     grid-template-rows: 1fr;
     grid-template-columns: repeat(3, 1fr);
   }
+  #sliders {
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 10vw;
+    margin-right: 10vw;
+  }
+  #element_slider {
+    grid-column: 1;
+    grid-row: 2;
+    justify-content: center;
+  }
+  #weapon_slider {
+    grid-row: 1;
+    grid-column: 1;
+  }
+  #search_slider {
+    grid-row: 1;
+    grid-column: 2;
+    justify-content: center;
+  }
 }
 
-.element_slider_image, .weapon_slider_image, .rarity_slider_image{
-  height:24px;
-  width:auto;
-  margin:3px;
+.element_slider_image,
+.weapon_slider_image,
+.rarity_slider_image {
+  height: 24px;
+  width: auto;
+  margin: 3px;
 }
-.element_slider_button, .weapon_slider_button, .rarity_slider_button{
+.element_slider_button,
+.weapon_slider_button,
+.rarity_slider_button {
   height: 40px;
   justify-content: center;
   align-items: center;
   font-size: 16px;
 }
-.active_button{
+.active_button {
   background-color: rgb(16, 104, 199);
 }
-#sliders{
+#sliders {
   display: grid;
-  justify-content: center;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 5px;
+}
+#search_input {
+  height: 80%;
+}
+#sliders > div {
+  display: flex;
   align-items: center;
-  grid-template-columns: repeat(2,1fr);
+  justify-content: center;
+}
+.element_slider_button,
+.weapon_slider_button,
+.rarity_slider_button,
+#search_input {
+  width: 100%;
 }
 
-#weapon_slider{
-  grid-row: 1;
-  grid-column:2;
-}
-#element_slider{
-  grid-column:1;
-  grid-row:2;
+.element_slider_image,
+.weapon_slider_image {
+  max-width: 100%;
 }
