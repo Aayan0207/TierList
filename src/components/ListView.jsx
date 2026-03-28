@@ -5,20 +5,47 @@ function listView() {
   const tiers = [0, 0.5, 1, 1.5, 2, 3, 4];
   return (
     <>
-      <div id="list_view" className="centered-v">
-        List View
+      <div id="list_view">
         <div id="tiers">
           {tiers.map((tier) => {
             return (
               <>
-              T{tier}
-              <div id={tier} className="centered">
-                {chars
-                  .filter((char) => char.tier === tier)
-                  .map((char) => {
-                    return <Card char={char} />;
-                  })}
-              </div>
+                <p id={"title" + tier}>T-{tier}</p>
+                <div id={"T" + tier} className="tier">
+                  <div className="dps">
+                    <p className="category">DPS</p>
+                    {chars
+                      .filter(
+                        (char) =>
+                          char.tier === tier && char.role.includes("dps"),
+                      )
+                      .map((char) => {
+                        return <Card char={char} />;
+                      })}
+                  </div>
+                  <div className="sub_dps">
+                    <p className="category">Sub-DPS</p>
+                    {chars
+                      .filter(
+                        (char) =>
+                          char.tier === tier && char.role.includes("sub"),
+                      )
+                      .map((char) => {
+                        return <Card char={char} />;
+                      })}
+                  </div>
+                  <div className="support">
+                    <p className="category">Support</p>
+                    {chars
+                      .filter(
+                        (char) =>
+                          char.tier === tier && char.role.includes("support"),
+                      )
+                      .map((char) => {
+                        return <Card char={char} />;
+                      })}
+                  </div>
+                </div>
               </>
             );
           })}

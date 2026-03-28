@@ -5,6 +5,8 @@ const chars = [
     weapon: "Claymore",
     rarity: 4,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Albedo",
@@ -12,6 +14,8 @@ const chars = [
     weapon: "Sword",
     rarity: 5,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Alhaitham",
@@ -19,6 +23,8 @@ const chars = [
     weapon: "Sword",
     rarity: 5,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Aloy",
@@ -26,6 +32,8 @@ const chars = [
     weapon: "Bow",
     rarity: 5,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Amber",
@@ -33,6 +41,8 @@ const chars = [
     weapon: "Bow",
     rarity: 4,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Arataki Itto",
@@ -40,6 +50,8 @@ const chars = [
     weapon: "Claymore",
     rarity: 5,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Arlecchino",
@@ -47,6 +59,8 @@ const chars = [
     weapon: "Polearm",
     rarity: 5,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Baizhu",
@@ -54,6 +68,8 @@ const chars = [
     weapon: "Catalyst",
     rarity: 5,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Barbara",
@@ -61,6 +77,8 @@ const chars = [
     weapon: "Catalyst",
     rarity: 4,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Beidou",
@@ -68,13 +86,17 @@ const chars = [
     weapon: "Claymore",
     rarity: 4,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Bennett",
     element: "Pyro",
     weapon: "Sword",
     rarity: 4,
-    tier: -1,
+    tier: 0,
+    role: ["support"],
+    tags: {},
   },
   {
     name: "Candace",
@@ -82,6 +104,8 @@ const chars = [
     weapon: "Polearm",
     rarity: 4,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Charlotte",
@@ -89,6 +113,8 @@ const chars = [
     weapon: "Catalyst",
     rarity: 4,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Chasca",
@@ -96,6 +122,8 @@ const chars = [
     weapon: "Bow",
     rarity: 5,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Chevreuse",
@@ -103,6 +131,8 @@ const chars = [
     weapon: "Polearm",
     rarity: 4,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Chiori",
@@ -110,6 +140,8 @@ const chars = [
     weapon: "Sword",
     rarity: 5,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Chongyun",
@@ -117,6 +149,8 @@ const chars = [
     weapon: "Claymore",
     rarity: 4,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Citlali",
@@ -124,6 +158,8 @@ const chars = [
     weapon: "Catalyst",
     rarity: 5,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Clorinde",
@@ -131,6 +167,8 @@ const chars = [
     weapon: "Sword",
     rarity: 5,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Collei",
@@ -138,6 +176,8 @@ const chars = [
     weapon: "Bow",
     rarity: 4,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Columbina",
@@ -145,6 +185,8 @@ const chars = [
     weapon: "Catalyst",
     rarity: 5,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Cyno",
@@ -152,6 +194,8 @@ const chars = [
     weapon: "Polearm",
     rarity: 5,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Dahlia",
@@ -159,6 +203,8 @@ const chars = [
     weapon: "Sword",
     rarity: 4,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Dehya",
@@ -166,6 +212,8 @@ const chars = [
     weapon: "Claymore",
     rarity: 5,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Diluc",
@@ -173,6 +221,8 @@ const chars = [
     weapon: "Claymore",
     rarity: 5,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Diona",
@@ -180,6 +230,8 @@ const chars = [
     weapon: "Bow",
     rarity: 4,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Dori",
@@ -187,6 +239,8 @@ const chars = [
     weapon: "Claymore",
     rarity: 4,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Durin",
@@ -194,6 +248,8 @@ const chars = [
     weapon: "Sword",
     rarity: 5,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Emilie",
@@ -201,6 +257,8 @@ const chars = [
     weapon: "Polearm",
     rarity: 5,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Escoffier",
@@ -208,6 +266,8 @@ const chars = [
     weapon: "Polearm",
     rarity: 5,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Eula",
@@ -215,6 +275,8 @@ const chars = [
     weapon: "Claymore",
     rarity: 5,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Faruzan",
@@ -222,6 +284,8 @@ const chars = [
     weapon: "Bow",
     rarity: 4,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Fischl",
@@ -229,6 +293,8 @@ const chars = [
     weapon: "Bow",
     rarity: 4,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Flins",
@@ -236,6 +302,8 @@ const chars = [
     weapon: "Polearm",
     rarity: 5,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Freminet",
@@ -243,6 +311,8 @@ const chars = [
     weapon: "Claymore",
     rarity: 4,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Furina",
@@ -250,6 +320,8 @@ const chars = [
     weapon: "Sword",
     rarity: 5,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Gaming",
@@ -257,6 +329,8 @@ const chars = [
     weapon: "Claymore",
     rarity: 4,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Ganyu",
@@ -264,6 +338,8 @@ const chars = [
     weapon: "Bow",
     rarity: 5,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Gorou",
@@ -271,6 +347,8 @@ const chars = [
     weapon: "Bow",
     rarity: 4,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Hu Tao",
@@ -278,6 +356,8 @@ const chars = [
     weapon: "Polearm",
     rarity: 5,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Iansan",
@@ -285,6 +365,8 @@ const chars = [
     weapon: "Polearm",
     rarity: 4,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Ifa",
@@ -292,6 +374,8 @@ const chars = [
     weapon: "Catalyst",
     rarity: 4,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Illuga",
@@ -299,6 +383,8 @@ const chars = [
     weapon: "Polearm",
     rarity: 4,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Ineffa",
@@ -306,6 +392,8 @@ const chars = [
     weapon: "Polearm",
     rarity: 5,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Jahoda",
@@ -313,6 +401,8 @@ const chars = [
     weapon: "Bow",
     rarity: 4,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Jean",
@@ -320,6 +410,8 @@ const chars = [
     weapon: "Sword",
     rarity: 5,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Kachina",
@@ -327,13 +419,17 @@ const chars = [
     weapon: "Polearm",
     rarity: 4,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
-    name: "Kaedehara Kazuha",
+    name: "Kaedehara _Kazuha",
     element: "Anemo",
     weapon: "Sword",
     rarity: 5,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Kaeya",
@@ -341,20 +437,26 @@ const chars = [
     weapon: "Sword",
     rarity: 4,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
-    name: "Kamisato Ayaka",
+    name: "Kamisato_Ayaka",
     element: "Cryo",
     weapon: "Sword",
     rarity: 5,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
-    name: "Kamisato Ayato",
+    name: "Kamisato_Ayato",
     element: "Hydro",
     weapon: "Sword",
     rarity: 5,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Kaveh",
@@ -362,6 +464,8 @@ const chars = [
     weapon: "Claymore",
     rarity: 4,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Keqing",
@@ -369,6 +473,8 @@ const chars = [
     weapon: "Sword",
     rarity: 5,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Kinich",
@@ -376,6 +482,8 @@ const chars = [
     weapon: "Claymore",
     rarity: 5,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Kirara",
@@ -383,6 +491,8 @@ const chars = [
     weapon: "Sword",
     rarity: 4,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Klee",
@@ -390,27 +500,35 @@ const chars = [
     weapon: "Catalyst",
     rarity: 5,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
-    name: "Kujou Sara",
+    name: "Kujou_Sara",
     element: "Electro",
     weapon: "Bow",
     rarity: 4,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
-    name: "Kuki Shinobu",
+    name: "Kuki_Shinobu",
     element: "Electro",
     weapon: "Sword",
     rarity: 4,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
-    name: "Lan Yan",
+    name: "Lan_Yan",
     element: "Anemo",
     weapon: "Catalyst",
     rarity: 4,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Lauma",
@@ -418,6 +536,8 @@ const chars = [
     weapon: "Catalyst",
     rarity: 5,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Layla",
@@ -425,6 +545,8 @@ const chars = [
     weapon: "Sword",
     rarity: 4,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Lisa",
@@ -432,6 +554,8 @@ const chars = [
     weapon: "Catalyst",
     rarity: 4,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Lynette",
@@ -439,6 +563,8 @@ const chars = [
     weapon: "Sword",
     rarity: 4,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Lyney",
@@ -446,6 +572,8 @@ const chars = [
     weapon: "Bow",
     rarity: 5,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Mavuika",
@@ -453,6 +581,8 @@ const chars = [
     weapon: "Claymore",
     rarity: 5,
     tier: 0,
+    role: ["dps"],
+    tags: {},
   },
   {
     name: "Mika",
@@ -460,6 +590,8 @@ const chars = [
     weapon: "Polearm",
     rarity: 4,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Mona",
@@ -467,6 +599,8 @@ const chars = [
     weapon: "Catalyst",
     rarity: 5,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Mualani",
@@ -474,6 +608,8 @@ const chars = [
     weapon: "Catalyst",
     rarity: 5,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Nahida",
@@ -481,6 +617,8 @@ const chars = [
     weapon: "Catalyst",
     rarity: 5,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Navia",
@@ -488,13 +626,17 @@ const chars = [
     weapon: "Claymore",
     rarity: 5,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Nefer",
-    element: "Hydro",
+    element: "Dendro",
     weapon: "Catalyst",
-    rarity: 4,
-    tier: -1,
+    rarity: 5,
+    tier: 0,
+    role: ["dps"],
+    tags: {},
   },
   {
     name: "Neuvillette",
@@ -502,6 +644,8 @@ const chars = [
     weapon: "Catalyst",
     rarity: 5,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Nilou",
@@ -509,6 +653,8 @@ const chars = [
     weapon: "Sword",
     rarity: 5,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Ningguang",
@@ -516,6 +662,8 @@ const chars = [
     weapon: "Catalyst",
     rarity: 4,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Noelle",
@@ -523,6 +671,8 @@ const chars = [
     weapon: "Claymore",
     rarity: 4,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Ororon",
@@ -530,6 +680,8 @@ const chars = [
     weapon: "Bow",
     rarity: 4,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Qiqi",
@@ -537,13 +689,17 @@ const chars = [
     weapon: "Sword",
     rarity: 5,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
-    name: "Raiden Shogun",
+    name: "Raiden_Shogun",
     element: "Electro",
     weapon: "Polearm",
     rarity: 5,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Razor",
@@ -551,6 +707,8 @@ const chars = [
     weapon: "Claymore",
     rarity: 4,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Rosaria",
@@ -558,13 +716,17 @@ const chars = [
     weapon: "Polearm",
     rarity: 4,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
-    name: "Sangonomiya Kokomi",
+    name: "Sangonomiya_Kokomi",
     element: "Hydro",
     weapon: "Catalyst",
     rarity: 5,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Sayu",
@@ -572,6 +734,8 @@ const chars = [
     weapon: "Claymore",
     rarity: 4,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Sethos",
@@ -579,6 +743,8 @@ const chars = [
     weapon: "Bow",
     rarity: 4,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Shenhe",
@@ -586,13 +752,17 @@ const chars = [
     weapon: "Polearm",
     rarity: 5,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
-    name: "Shikanoin Heizou",
+    name: "Shikanoin_Heizou",
     element: "Anemo",
     weapon: "Catalyst",
     rarity: 4,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Sigewinne",
@@ -600,6 +770,8 @@ const chars = [
     weapon: "Bow",
     rarity: 5,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Skirk",
@@ -607,6 +779,8 @@ const chars = [
     weapon: "Sword",
     rarity: 5,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Sucrose",
@@ -614,6 +788,8 @@ const chars = [
     weapon: "Catalyst",
     rarity: 4,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Tartaglia",
@@ -621,6 +797,8 @@ const chars = [
     weapon: "Bow",
     rarity: 5,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Thoma",
@@ -628,6 +806,8 @@ const chars = [
     weapon: "Polearm",
     rarity: 4,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Tighnari",
@@ -635,6 +815,8 @@ const chars = [
     weapon: "Bow",
     rarity: 5,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Traveler",
@@ -642,6 +824,8 @@ const chars = [
     weapon: "Sword",
     rarity: 5,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Varesa",
@@ -649,6 +833,8 @@ const chars = [
     weapon: "Catalyst",
     rarity: 5,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Varka",
@@ -656,6 +842,8 @@ const chars = [
     weapon: "Claymore",
     rarity: 5,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Venti",
@@ -663,6 +851,8 @@ const chars = [
     weapon: "Bow",
     rarity: 5,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Wanderer",
@@ -670,6 +860,8 @@ const chars = [
     weapon: "Catalyst",
     rarity: 5,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Wriothesley",
@@ -677,6 +869,8 @@ const chars = [
     weapon: "Catalyst",
     rarity: 5,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Xiangling",
@@ -684,6 +878,8 @@ const chars = [
     weapon: "Polearm",
     rarity: 4,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Xianyun",
@@ -691,6 +887,8 @@ const chars = [
     weapon: "Catalyst",
     rarity: 5,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Xiao",
@@ -698,6 +896,8 @@ const chars = [
     weapon: "Polearm",
     rarity: 5,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Xilonen",
@@ -705,6 +905,8 @@ const chars = [
     weapon: "Sword",
     rarity: 5,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Xingqiu",
@@ -712,6 +914,8 @@ const chars = [
     weapon: "Sword",
     rarity: 4,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Xinyan",
@@ -719,13 +923,17 @@ const chars = [
     weapon: "Claymore",
     rarity: 4,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
-    name: "Yae Miko",
+    name: "Yae_Miko",
     element: "Electro",
     weapon: "Catalyst",
     rarity: 5,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Yanfei",
@@ -733,6 +941,8 @@ const chars = [
     weapon: "Catalyst",
     rarity: 4,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Yaoyao",
@@ -740,13 +950,17 @@ const chars = [
     weapon: "Polearm",
     rarity: 4,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Yelan",
     element: "Hydro",
     weapon: "Bow",
     rarity: 5,
-    tier: -1,
+    tier: 0,
+    role: ["sub"],
+    tags: {},
   },
   {
     name: "Yoimiya",
@@ -754,20 +968,26 @@ const chars = [
     weapon: "Bow",
     rarity: 5,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
-    name: "Yumemizuki Mizuki",
+    name: "Yumemizuki_Mizuki",
     element: "Anemo",
     weapon: "Catalyst",
     rarity: 5,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
-    name: "Yun Jin",
+    name: "Yun_Jin",
     element: "Geo",
     weapon: "Polearm",
     rarity: 4,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Zhongli",
@@ -775,6 +995,8 @@ const chars = [
     weapon: "Polearm",
     rarity: 5,
     tier: -1,
+    role: [],
+    tags: {},
   },
   {
     name: "Zibai",
@@ -782,6 +1004,8 @@ const chars = [
     weapon: "Catalyst",
     rarity: 5,
     tier: -1,
+    role: [],
+    tags: {},
   },
 ];
 
