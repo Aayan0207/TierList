@@ -43,13 +43,19 @@ footer {
   margin: 5px;
 }
 .element {
-  height: 12px;
+  height: 15px;
   width: auto;
 }
 .tier {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3,1fr);
   margin:auto;
 }
-
+@media (min-width: 768px){
+  .tier{
+    grid-template-rows: 1fr;
+  grid-template-columns: repeat(3,1fr);
+  }
+}
 
