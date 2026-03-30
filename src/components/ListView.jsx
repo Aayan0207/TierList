@@ -173,7 +173,7 @@ function ListView() {
           </div>
         </div>
         <div id="tiers">
-          {tiers.map((tier,index) => {
+          {tiers.map((tier, index) => {
             return (
               <>
                 <p id={"title" + index}>T-{tier}</p>

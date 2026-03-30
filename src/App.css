@@ -110,6 +110,7 @@ footer {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   gap: 5px;
+  margin-top:5px;
 }
 #search_input {
   height: 80%;
@@ -178,4 +179,9 @@ footer {
 #title6,
 #T6 .category {
   background-color: rgb(28, 28, 134);
+}
+.char_name{
+  display:flex;
+  justify-content:center;
+  align-items:center;
 }
