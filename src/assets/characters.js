@@ -157,8 +157,8 @@ const chars = [
     element: "Cryo",
     weapon: "Catalyst",
     rarity: 5,
-    tier: -1,
-    role: [],
+    tier: 0,
+    role: ["support"],
     tags: {},
   },
   {
@@ -265,8 +265,8 @@ const chars = [
     element: "Cryo",
     weapon: "Polearm",
     rarity: 5,
-    tier: -1,
-    role: [],
+    tier: 0,
+    role: ["sub"],
     tags: {},
   },
   {
@@ -535,8 +535,8 @@ const chars = [
     element: "Dendro",
     weapon: "Catalyst",
     rarity: 5,
-    tier: -1,
-    role: [],
+    tier: 0,
+    role: ["support"],
     tags: {},
   },
   {
