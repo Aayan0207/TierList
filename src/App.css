@@ -1,6 +1,15 @@
 body {
   background-color: rgb(56, 53, 53);
 }
+#title {
+  background-color: rgb(138, 134, 134);
+  width: fit-content;
+  padding: 5px;
+  border: 3px solid black;
+  border-radius: 5px;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
 button {
   border-radius: 5px;
   border: 2px solid;
@@ -72,6 +81,18 @@ footer {
     margin-left: 10vw;
     margin-right: 10vw;
   }
+  #list,
+  #team {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    width: 100%;
+  }
+  #list {
+    margin-right: 0vw;
+  }
+  #team {
+    margin-left: 0.5vw;
+  }
   #element_slider {
     grid-column: 1;
     grid-row: 2;
@@ -123,10 +144,18 @@ footer {
 .element_slider_button,
 .weapon_slider_button,
 .rarity_slider_button,
-#search_input {
+#search_input,
+#list,
+#team {
   width: 100%;
 }
-
+#list,
+#team {
+  padding: 10px;
+  font-weight: bold;
+  font-size: medium;
+  border: 3px solid black;
+}
 .element_slider_image,
 .weapon_slider_image {
   max-width: 100%;

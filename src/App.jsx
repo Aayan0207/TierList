@@ -8,9 +8,11 @@ function App() {
   const [teamView, setTeamView] = useState(false);
   return (
     <>
-      <h1 id="title" className="centered">
+    <div id="title_container" className="centered">
+      <h1 id="title">
         Genshin Tierlist
       </h1>
+      </div>
       <div id="selector" className="centered">
         <button
           id="list"
