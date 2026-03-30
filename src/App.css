@@ -1,13 +1,13 @@
 body {
   background-color: rgb(56, 53, 53);
 }
-#title {
+#title{
   background-color: rgb(138, 134, 134);
-  width: fit-content;
-  padding: 5px;
+  width:fit-content;
+  padding:5px;
   border: 3px solid black;
-  border-radius: 5px;
-  margin-bottom: 8px;
+  border-radius:5px;
+  margin-bottom:8px;
   margin-top: 8px;
 }
 button {
@@ -149,9 +149,8 @@ footer {
 #team {
   width: 100%;
 }
-#list,
-#team {
-  padding: 10px;
+#list, #team{
+  padding:10px;
   font-weight: bold;
   font-size: medium;
   border: 3px solid black;
