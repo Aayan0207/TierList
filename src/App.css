@@ -17,9 +17,9 @@ button {
   flex-direction: column;
 }
 footer {
-  position: fixed;
+  position: relative;
   text-align: center;
-  bottom: 5px;
+  top: 5px;
   width: 100%;
   background-color: grey;
 }
@@ -110,7 +110,7 @@ footer {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   gap: 5px;
-  margin-top:5px;
+  margin-top: 5px;
 }
 #search_input {
   height: 80%;
@@ -180,8 +180,8 @@ footer {
 #T6 .category {
   background-color: rgb(28, 28, 134);
 }
-.char_name{
-  display:flex;
-  justify-content:center;
-  align-items:center;
+.char_name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
