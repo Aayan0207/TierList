@@ -6,7 +6,7 @@ const chars = [
     rarity: 4,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Albedo",
@@ -15,7 +15,7 @@ const chars = [
     rarity: 5,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Alhaitham",
@@ -24,7 +24,7 @@ const chars = [
     rarity: 5,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Aloy",
@@ -33,7 +33,7 @@ const chars = [
     rarity: 5,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Amber",
@@ -42,7 +42,7 @@ const chars = [
     rarity: 4,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Arataki Itto",
@@ -51,7 +51,7 @@ const chars = [
     rarity: 5,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Arlecchino",
@@ -60,7 +60,7 @@ const chars = [
     rarity: 5,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Baizhu",
@@ -69,7 +69,7 @@ const chars = [
     rarity: 5,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Barbara",
@@ -78,7 +78,7 @@ const chars = [
     rarity: 4,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Beidou",
@@ -87,7 +87,7 @@ const chars = [
     rarity: 4,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Bennett",
@@ -96,7 +96,7 @@ const chars = [
     rarity: 4,
     tier: 0,
     role: ["support"],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Candace",
@@ -105,7 +105,7 @@ const chars = [
     rarity: 4,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Charlotte",
@@ -114,7 +114,7 @@ const chars = [
     rarity: 4,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Chasca",
@@ -123,7 +123,7 @@ const chars = [
     rarity: 5,
     tier: 0,
     role: ["dps"],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Chevreuse",
@@ -132,7 +132,7 @@ const chars = [
     rarity: 4,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Chiori",
@@ -141,7 +141,7 @@ const chars = [
     rarity: 5,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Chongyun",
@@ -150,7 +150,7 @@ const chars = [
     rarity: 4,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Citlali",
@@ -159,7 +159,7 @@ const chars = [
     rarity: 5,
     tier: 0,
     role: ["support"],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Clorinde",
@@ -168,7 +168,7 @@ const chars = [
     rarity: 5,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Collei",
@@ -177,16 +177,16 @@ const chars = [
     rarity: 4,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Columbina",
     element: "Hydro",
     weapon: "Catalyst",
     rarity: 5,
-    tier: -1,
-    role: [],
-    tags: {},
+    tier: 0,
+    role: ["sub"],
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Cyno",
@@ -195,7 +195,7 @@ const chars = [
     rarity: 5,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Dahlia",
@@ -204,7 +204,7 @@ const chars = [
     rarity: 4,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Dehya",
@@ -213,7 +213,7 @@ const chars = [
     rarity: 5,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Diluc",
@@ -222,7 +222,7 @@ const chars = [
     rarity: 5,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Diona",
@@ -231,7 +231,7 @@ const chars = [
     rarity: 4,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Dori",
@@ -240,7 +240,7 @@ const chars = [
     rarity: 4,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Durin",
@@ -249,7 +249,7 @@ const chars = [
     rarity: 5,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Emilie",
@@ -258,7 +258,7 @@ const chars = [
     rarity: 5,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Escoffier",
@@ -267,7 +267,7 @@ const chars = [
     rarity: 5,
     tier: 0,
     role: ["sub"],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Eula",
@@ -276,7 +276,7 @@ const chars = [
     rarity: 5,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Faruzan",
@@ -285,7 +285,7 @@ const chars = [
     rarity: 4,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Fischl",
@@ -294,16 +294,16 @@ const chars = [
     rarity: 4,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Flins",
     element: "Electro",
     weapon: "Polearm",
     rarity: 5,
-    tier: -1,
-    role: [],
-    tags: {},
+    tier: 0,
+    role: ["dps"],
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Freminet",
@@ -312,7 +312,7 @@ const chars = [
     rarity: 4,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Furina",
@@ -321,7 +321,7 @@ const chars = [
     rarity: 5,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Gaming",
@@ -330,7 +330,7 @@ const chars = [
     rarity: 4,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Ganyu",
@@ -339,7 +339,7 @@ const chars = [
     rarity: 5,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Gorou",
@@ -348,7 +348,7 @@ const chars = [
     rarity: 4,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Hu Tao",
@@ -357,7 +357,7 @@ const chars = [
     rarity: 5,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Iansan",
@@ -366,7 +366,7 @@ const chars = [
     rarity: 4,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Ifa",
@@ -375,7 +375,7 @@ const chars = [
     rarity: 4,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Illuga",
@@ -384,16 +384,16 @@ const chars = [
     rarity: 4,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Ineffa",
     element: "Electro",
     weapon: "Polearm",
     rarity: 5,
-    tier: -1,
-    role: [],
-    tags: {},
+    tier: 0,
+    role: ["subdps"],
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Jahoda",
@@ -402,7 +402,7 @@ const chars = [
     rarity: 4,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Jean",
@@ -411,7 +411,7 @@ const chars = [
     rarity: 5,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Kachina",
@@ -420,7 +420,7 @@ const chars = [
     rarity: 4,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Kaedehara _Kazuha",
@@ -429,7 +429,7 @@ const chars = [
     rarity: 5,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Kaeya",
@@ -438,7 +438,7 @@ const chars = [
     rarity: 4,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Kamisato_Ayaka",
@@ -447,7 +447,7 @@ const chars = [
     rarity: 5,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Kamisato_Ayato",
@@ -456,7 +456,7 @@ const chars = [
     rarity: 5,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Kaveh",
@@ -465,7 +465,7 @@ const chars = [
     rarity: 4,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Keqing",
@@ -474,7 +474,7 @@ const chars = [
     rarity: 5,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Kinich",
@@ -483,7 +483,7 @@ const chars = [
     rarity: 5,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Kirara",
@@ -492,7 +492,7 @@ const chars = [
     rarity: 4,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Klee",
@@ -501,7 +501,7 @@ const chars = [
     rarity: 5,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Kujou_Sara",
@@ -510,7 +510,7 @@ const chars = [
     rarity: 4,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Kuki_Shinobu",
@@ -519,7 +519,7 @@ const chars = [
     rarity: 4,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Lan_Yan",
@@ -528,7 +528,7 @@ const chars = [
     rarity: 4,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Lauma",
@@ -537,7 +537,7 @@ const chars = [
     rarity: 5,
     tier: 0,
     role: ["support"],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Layla",
@@ -546,7 +546,7 @@ const chars = [
     rarity: 4,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Lisa",
@@ -555,7 +555,7 @@ const chars = [
     rarity: 4,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Lynette",
@@ -564,7 +564,7 @@ const chars = [
     rarity: 4,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Lyney",
@@ -573,7 +573,7 @@ const chars = [
     rarity: 5,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Mavuika",
@@ -582,7 +582,7 @@ const chars = [
     rarity: 5,
     tier: 0,
     role: ["dps"],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Mika",
@@ -591,7 +591,7 @@ const chars = [
     rarity: 4,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Mona",
@@ -600,7 +600,7 @@ const chars = [
     rarity: 5,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Mualani",
@@ -609,7 +609,7 @@ const chars = [
     rarity: 5,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Nahida",
@@ -618,7 +618,7 @@ const chars = [
     rarity: 5,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Navia",
@@ -627,7 +627,7 @@ const chars = [
     rarity: 5,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Nefer",
@@ -636,7 +636,7 @@ const chars = [
     rarity: 5,
     tier: 0,
     role: ["dps"],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Neuvillette",
@@ -645,7 +645,7 @@ const chars = [
     rarity: 5,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Nilou",
@@ -654,7 +654,7 @@ const chars = [
     rarity: 5,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Ningguang",
@@ -663,7 +663,7 @@ const chars = [
     rarity: 4,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Noelle",
@@ -672,7 +672,7 @@ const chars = [
     rarity: 4,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Ororon",
@@ -681,7 +681,7 @@ const chars = [
     rarity: 4,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Qiqi",
@@ -690,7 +690,7 @@ const chars = [
     rarity: 5,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Raiden_Shogun",
@@ -699,7 +699,7 @@ const chars = [
     rarity: 5,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Razor",
@@ -708,7 +708,7 @@ const chars = [
     rarity: 4,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Rosaria",
@@ -717,7 +717,7 @@ const chars = [
     rarity: 4,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Sangonomiya_Kokomi",
@@ -726,7 +726,7 @@ const chars = [
     rarity: 5,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Sayu",
@@ -735,7 +735,7 @@ const chars = [
     rarity: 4,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Sethos",
@@ -744,7 +744,7 @@ const chars = [
     rarity: 4,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Shenhe",
@@ -753,7 +753,7 @@ const chars = [
     rarity: 5,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Shikanoin_Heizou",
@@ -762,7 +762,7 @@ const chars = [
     rarity: 4,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Sigewinne",
@@ -771,7 +771,7 @@ const chars = [
     rarity: 5,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Skirk",
@@ -780,7 +780,7 @@ const chars = [
     rarity: 5,
     tier: 0,
     role: ["dps"],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Sucrose",
@@ -789,7 +789,7 @@ const chars = [
     rarity: 4,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Tartaglia",
@@ -798,7 +798,7 @@ const chars = [
     rarity: 5,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Thoma",
@@ -807,7 +807,7 @@ const chars = [
     rarity: 4,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Tighnari",
@@ -816,7 +816,7 @@ const chars = [
     rarity: 5,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Traveler",
@@ -825,7 +825,7 @@ const chars = [
     rarity: 5,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Varesa",
@@ -834,7 +834,7 @@ const chars = [
     rarity: 5,
     tier: 0.5,
     role: ["dps"],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Varka",
@@ -843,7 +843,7 @@ const chars = [
     rarity: 5,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Venti",
@@ -852,7 +852,7 @@ const chars = [
     rarity: 5,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Wanderer",
@@ -861,7 +861,7 @@ const chars = [
     rarity: 5,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Wriothesley",
@@ -870,7 +870,7 @@ const chars = [
     rarity: 5,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Xiangling",
@@ -879,7 +879,7 @@ const chars = [
     rarity: 4,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Xianyun",
@@ -888,7 +888,7 @@ const chars = [
     rarity: 5,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Xiao",
@@ -897,16 +897,16 @@ const chars = [
     rarity: 5,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Xilonen",
     element: "Geo",
     weapon: "Sword",
     rarity: 5,
-    tier: -1,
-    role: [],
-    tags: {},
+    tier: 0.5,
+    role: ["support"],
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Xingqiu",
@@ -915,7 +915,7 @@ const chars = [
     rarity: 4,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Xinyan",
@@ -924,7 +924,7 @@ const chars = [
     rarity: 4,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Yae_Miko",
@@ -933,7 +933,7 @@ const chars = [
     rarity: 5,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Yanfei",
@@ -942,7 +942,7 @@ const chars = [
     rarity: 4,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Yaoyao",
@@ -951,7 +951,7 @@ const chars = [
     rarity: 4,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Yelan",
@@ -960,7 +960,7 @@ const chars = [
     rarity: 5,
     tier: 0,
     role: ["sub"],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Yoimiya",
@@ -969,7 +969,7 @@ const chars = [
     rarity: 5,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Yumemizuki_Mizuki",
@@ -978,7 +978,7 @@ const chars = [
     rarity: 5,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Yun_Jin",
@@ -987,7 +987,7 @@ const chars = [
     rarity: 4,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Zhongli",
@@ -996,7 +996,7 @@ const chars = [
     rarity: 5,
     tier: -1,
     role: [],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
   {
     name: "Zibai",
@@ -1005,7 +1005,7 @@ const chars = [
     rarity: 5,
     tier: 0,
     role: ["dps"],
-    tags: {},
+    tags: { constellation: 0, expert: false, partner: false },
   },
 ];
 
