@@ -96,7 +96,7 @@ const chars = [
     rarity: 4,
     tier: 0,
     role: ["support"],
-    tags: { constellation: 0, expert: false, partner: false },
+    tags: { constellation: 6, expert: false, partner: false },
   },
   {
     name: "Candace",
@@ -780,7 +780,7 @@ const chars = [
     rarity: 5,
     tier: 0,
     role: ["dps"],
-    tags: { constellation: 0, expert: false, partner: false },
+    tags: { constellation: 0, expert: true, partner: true },
   },
   {
     name: "Sucrose",
