@@ -5,28 +5,26 @@ function Card({ char }) {
     <>
       <div className="card">
         <div className="char_details">
-          <div className="char_info">
-            <div className="img_container">
-              <img
-                className="element"
-                src={`../icons/Element_${char.element}.webp`}
-              ></img>
-              <img
-                className={char.rarity == 4 ? "char_img star_4" : "char_img"}
-                src={`../icons/${char.name}_Icon.png`}
-              ></img>
-              {char.tags.constellation != 0 ? (
-                <div className="char_con">C{char.tags.constellation}</div>
-              ) : (
-                ""
-              )}
-            </div>
-            <div className="char_name">{char.name}</div>
+          <div className="img_container">
+            <img
+              className="element"
+              src={`../icons/Element_${char.element}.webp`}
+            ></img>
+            <img
+              className={char.rarity == 4 ? "char_img star_4" : "char_img"}
+              src={`../icons/${char.name}_Icon.png`}
+            ></img>
+            {char.tags.constellation != 0 ? (
+              <div className="char_con">C{char.tags.constellation}</div>
+            ) : (
+              ""
+            )}
           </div>
-          <div className="char_tags">
-            {char.tags.expert ? <p className="char_expert">Expert</p> : ""}
-            {char.tags.partner ? <p className="char_partner">Partner</p> : ""}
-          </div>
+          <div className="char_name">{char.name}</div>
+        </div>
+        <div className="char_tags">
+          {char.tags.expert ? <p className="char_expert">Expert</p> : ""}
+          {char.tags.partner ? <p className="char_partner">Partner</p> : ""}
         </div>
       </div>
     </>
