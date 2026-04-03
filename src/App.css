@@ -44,10 +44,14 @@ footer {
   grid-row: 1;
   z-index: 1;
   grid-column: 1;
-  display: flex;
-  justify-content: right;
-  line-height: 0.5;
-  margin:0px;
+  display: inline-block;
+  justify-self: end;
+  line-height: 1;
+  background-color: rgba(24, 184, 190, 0.841);
+  align-self: end;
+  padding: 2px;
+  border-radius: 5px;
+  margin: 2px;
 }
 .char_img {
   grid-row: 1;
@@ -61,8 +65,9 @@ footer {
   justify-content: left;
   height: 20px;
   width: auto;
-  margin-left:0.5px;
+  margin-left: 0.5px;
   margin-top: 1px;
+  filter: brightness(1.1);
 }
 #tiers {
   display: grid;

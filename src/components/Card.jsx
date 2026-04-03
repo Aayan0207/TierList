@@ -16,7 +16,7 @@ function Card({ char }) {
                 src={`../icons/${char.name}_Icon.png`}
               ></img>
               {char.tags.constellation != 0 ? (
-                <p className="char_con">C{char.tags.constellation}</p>
+                <div className="char_con">C{char.tags.constellation}</div>
               ) : (
                 ""
               )}
