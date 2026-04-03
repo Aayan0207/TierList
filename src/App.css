@@ -92,8 +92,7 @@ footer {
 .card {
   margin: 5px;
   text-align: center;
-  display: inline-block;
-  vertical-align: top;
+  display: block;
 }
 .char_tags {
   display: flex;
@@ -112,11 +111,18 @@ footer {
 #tiers p {
   margin: 5px;
 }
+.dps,
+.sub_dps,
+.support {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 .tier {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(3, 1fr);
-  
+
   margin: auto;
 }
 @media (min-width: 768px) {
@@ -192,7 +198,7 @@ footer {
 #tiers > p {
   font-size: x-large;
 }
-.category {
+.tier > p{
   font-size: large;
 }
 .element_slider_button,
@@ -236,31 +242,31 @@ footer {
   border: 2px solid rgb(28, 28, 134);
 }
 #title0,
-#T0 .category {
+#T0 > p {
   background-color: red;
 }
 #title1,
-#T1 .category {
+#T1 > p {
   background-color: orange;
 }
 #title2,
-#T2 .category {
+#T2 > p {
   background-color: yellow;
 }
 #title3,
-#T3 .category {
+#T3 > p {
   background-color: green;
 }
 #title4,
-#T4 .category {
+#T4 > p {
   background-color: rgb(0, 187, 255);
 }
 #title5,
-#T5 .category {
+#T5 > p {
   background-color: rgb(7, 62, 173);
 }
 #title6,
-#T6 .category {
+#T6 > p {
   background-color: rgb(28, 28, 134);
 }
 .char_name {
@@ -273,4 +279,16 @@ footer {
 }
 .char_partner {
   color: rgb(30, 187, 30);
+}
+.dps{
+  grid-row:2;
+  grid-column:1;
+}
+.support{
+  grid-row:2;
+  grid-column:3;
+}
+.sub_dps{
+  grid-row:2;
+  grid-column:2;
 }

@@ -178,8 +178,8 @@ function ListView() {
               <>
                 <p id={"title" + index} className="tier_title">T-{tier}</p>
                 <div id={"T" + index} className="tier">
+                  <p className="category_dps">DPS</p>
                   <div className="dps">
-                    <p className="category">DPS</p>
                     {chars
                       .filter(
                         (char) =>
@@ -198,8 +198,8 @@ function ListView() {
                         return <Card char={char} />;
                       })}
                   </div>
+                  <p className="category_sub_dps">Sub-DPS</p>
                   <div className="sub_dps">
-                    <p className="category">Sub-DPS</p>
                     {chars
                       .filter(
                         (char) =>
@@ -218,8 +218,8 @@ function ListView() {
                         return <Card char={char} />;
                       })}
                   </div>
+                  <p className="category_support">Support</p>
                   <div className="support">
-                    <p className="category">Support</p>
                     {chars
                       .filter(
                         (char) =>
