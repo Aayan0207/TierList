@@ -5,6 +5,7 @@ function Card({ char }) {
     <>
       <div className="card">
         <div className="char_details">
+          <div className="char_info">
             <div className="img_container">
               <img
                 className="element"
@@ -27,6 +28,7 @@ function Card({ char }) {
             {char.tags.partner ? <p className="char_partner">Partner</p> : ""}
           </div>
         </div>
+      </div>
     </>
   );
 }
