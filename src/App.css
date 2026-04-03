@@ -62,6 +62,7 @@ footer {
 .char_img {
   grid-row: 1;
   grid-column: 1;
+  display:block;
 }
 .element {
   grid-row: 1;
