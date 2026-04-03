@@ -121,7 +121,7 @@ const chars = [
     element: "Anemo",
     weapon: "Bow",
     rarity: 5,
-    tier: -1,
+    tier: 0,
     role: ["dps"],
     tags: { constellation: 0, expert: false, partner: false },
   },
