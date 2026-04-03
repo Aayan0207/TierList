@@ -43,8 +43,8 @@ footer {
 }
 .img_container {
   display: grid;
-  grid-template-rows: 1;
-  grid-template-columns: 1;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
 }
 .char_con {
   grid-row: 1;
