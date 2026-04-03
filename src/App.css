@@ -116,6 +116,7 @@ footer {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(3, 1fr);
+  
   margin: auto;
 }
 @media (min-width: 768px) {
