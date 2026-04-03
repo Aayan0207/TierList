@@ -3,6 +3,12 @@ body {
   font-family: "Chakra Petch";
   font-weight: 650;
 }
+.char_details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 #title {
   background-color: rgb(138, 134, 134);
   width: fit-content;

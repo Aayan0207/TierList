@@ -5,7 +5,6 @@ function Card({ char }) {
     <>
       <div className="card">
         <div className="char_details">
-          <div className="char_info">
             <div className="img_container">
               <img
                 className="element"
@@ -21,16 +20,13 @@ function Card({ char }) {
                 ""
               )}
             </div>
-            <div className="char_name">
-              {char.name}
-            </div>
+            <div className="char_name">{char.name}</div>
           </div>
           <div className="char_tags">
             {char.tags.expert ? <p className="char_expert">Expert</p> : ""}
             {char.tags.partner ? <p className="char_partner">Partner</p> : ""}
           </div>
         </div>
-      </div>
     </>
   );
 }
