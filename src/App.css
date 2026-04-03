@@ -35,13 +35,42 @@ footer {
   width: 100%;
   background-color: grey;
 }
+.img_container {
+  display: grid;
+  grid-template-rows: 1;
+  grid-template-columns: 1;
+}
+.char_con {
+  grid-row: 1;
+  z-index: 1;
+  grid-column: 1;
+  display: flex;
+  justify-content: right;
+  line-height: 0.5;
+  margin:0px;
+}
+.char_img {
+  grid-row: 1;
+  grid-column: 1;
+}
+.element {
+  grid-row: 1;
+  z-index: 1;
+  grid-column: 1;
+  display: flex;
+  justify-content: left;
+  height: 20px;
+  width: auto;
+  margin-left:0.5px;
+  margin-top: 1px;
+}
 #tiers {
   display: grid;
   gap: 5px;
   margin: 5px;
 }
 .char_img {
-  height: 75px;
+  height: 76px;
   width: auto;
   background-color: #e58a20;
   border-radius: 10px;
@@ -71,11 +100,6 @@ footer {
 }
 #tiers p {
   margin: 5px;
-}
-.element {
-  height: 15px;
-  width: auto;
-  margin-right: 2px;
 }
 .tier {
   display: grid;
