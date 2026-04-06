@@ -20,7 +20,7 @@ function Card({ char }) {
               ""
             )}
           </div>
-          <div className="char_name">{char.name}</div>
+          <div className="char_name">{char.name.split("_").join(" ")}</div>
         </div>
         <div className="char_tags">
           {char.tags.expert ? <p className="char_expert">Expert</p> : ""}

@@ -206,7 +206,7 @@ function ListView() {
                       .filter(
                         (char) =>
                           char.tier === tier &&
-                          char.role.includes("sub") &&
+                          char.role.includes("subdps") &&
                           elements.includes(char.element) &&
                           weapons.includes(char.weapon) &&
                           rarities.includes(char.rarity) &&
