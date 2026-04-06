@@ -62,7 +62,11 @@ footer {
 .char_img {
   grid-row: 1;
   grid-column: 1;
-  display:block;
+  display: block;
+  height: 76px;
+  width: auto;
+  background-color: #e58a20;
+  border-radius: 10px;
 }
 .element {
   grid-row: 1;
@@ -80,12 +84,6 @@ footer {
   display: grid;
   gap: 5px;
   margin: 5px;
-}
-.char_img {
-  height: 76px;
-  width: auto;
-  background-color: #e58a20;
-  border-radius: 10px;
 }
 .star_4 {
   background-color: #906fb4;
@@ -113,7 +111,6 @@ footer {
 #tiers p {
   margin: 5px;
 }
-
 .tier {
   display: grid;
   grid-template-columns: 1fr;
