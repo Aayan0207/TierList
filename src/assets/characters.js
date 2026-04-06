@@ -391,7 +391,7 @@ const chars = [
     element: "Electro",
     weapon: "Polearm",
     rarity: 5,
-    tier: -1,
+    tier: 0,
     role: ["subdps"],
     tags: { constellation: 0, expert: false, partner: false },
   },
