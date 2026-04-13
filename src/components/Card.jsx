@@ -1,6 +1,18 @@
 import React from "react";
 
-function Card({ char }) {
+function Card({ char, category }) {
+  let char_data;
+  switch (category) {
+    case "dps":
+      char_data = char.role.dps.tags;
+      break;
+    case "subdps":
+      char_data = char.role.subdps.tags;
+      break;
+    case "support":
+      char_data = char.role.support.tags;
+      break;
+  }
   return (
     <>
       <div className="card">
@@ -14,8 +26,8 @@ function Card({ char }) {
               className={char.rarity == 4 ? "char_img star_4" : "char_img"}
               src={`../icons/${char.name}_Icon.png`}
             ></img>
-            {char.tags.constellation != 0 ? (
-              <div className="char_con">C{char.tags.constellation}</div>
+            {char_data.constellation != 0 ? (
+              <div className="char_con">C{char_data.constellation}</div>
             ) : (
               ""
             )}
@@ -23,11 +35,11 @@ function Card({ char }) {
           <div className="char_name">{char.name.split("_").join(" ")}</div>
         </div>
         <div className="char_tags">
-          {char.tags.expert ? <p className="char_expert">Expert</p> : ""}
-          {char.tags.partner ? (
+          {char_data.expert ? <p className="char_expert">Expert</p> : ""}
+          {char_data.partner ? (
             <p className="char_partner">
               Partner
-              <p className="char_partner_name">({char.tags.partner})</p>
+              <p className="char_partner_name">({char_data.partner})</p>
             </p>
           ) : (
             ""

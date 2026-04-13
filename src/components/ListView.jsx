@@ -185,8 +185,7 @@ function ListView() {
                     {chars
                       .filter(
                         (char) =>
-                          char.tier === tier &&
-                          char.role.includes("dps") &&
+                          char.role.dps.tier == tier &&
                           elements.includes(char.element) &&
                           weapons.includes(char.weapon) &&
                           rarities.includes(char.rarity) &&
@@ -197,7 +196,7 @@ function ListView() {
                             : ""),
                       )
                       .map((char) => {
-                        return <Card char={char} />;
+                        return <Card char={char} category={"dps"} />;
                       })}
                   </div>
                   <div className="sub_dps">
@@ -205,8 +204,7 @@ function ListView() {
                     {chars
                       .filter(
                         (char) =>
-                          char.tier === tier &&
-                          char.role.includes("subdps") &&
+                          char.role.subdps.tier == tier &&
                           elements.includes(char.element) &&
                           weapons.includes(char.weapon) &&
                           rarities.includes(char.rarity) &&
@@ -217,7 +215,7 @@ function ListView() {
                             : ""),
                       )
                       .map((char) => {
-                        return <Card char={char} />;
+                        return <Card char={char} category={"subdps"} />;
                       })}
                   </div>
                   <div className="support">
@@ -225,8 +223,7 @@ function ListView() {
                     {chars
                       .filter(
                         (char) =>
-                          char.tier === tier &&
-                          char.role.includes("support") &&
+                          char.role.support.tier == tier &&
                           elements.includes(char.element) &&
                           weapons.includes(char.weapon) &&
                           rarities.includes(char.rarity) &&
@@ -237,7 +234,7 @@ function ListView() {
                             : ""),
                       )
                       .map((char) => {
-                        return <Card char={char} />;
+                        return <Card char={char} category={"support"} />;
                       })}
                   </div>
                 </div>
