@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(56, 53, 53);
+  background-color: rgb(76, 68, 68);
   font-family: "Chakra Petch";
   font-weight: 650;
 }
@@ -101,6 +101,9 @@ footer {
   flex-direction: column;
   gap: 0px;
   line-height: 0.67;
+}
+.char_partner_name{
+  line-height:0.7;
 }
 .card p {
   margin: 0px;

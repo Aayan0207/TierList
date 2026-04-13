@@ -24,7 +24,14 @@ function Card({ char }) {
         </div>
         <div className="char_tags">
           {char.tags.expert ? <p className="char_expert">Expert</p> : ""}
-          {char.tags.partner ? <p className="char_partner">Partner</p> : ""}
+          {char.tags.partner ? (
+            <p className="char_partner">
+              Partner
+              <p className="char_partner_name">({char.tags.partner})</p>
+            </p>
+          ) : (
+            ""
+          )}
         </div>
       </div>
     </>
