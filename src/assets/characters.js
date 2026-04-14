@@ -363,7 +363,7 @@ const chars = [
         tags: { constellation: 0, expert: false, partner: "" },
       },
       support: {
-        tier: 0,
+        tier: -1,
         tags: { constellation: 0, expert: false, partner: "" },
       },
     },
