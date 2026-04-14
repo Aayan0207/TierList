@@ -522,7 +522,7 @@ const chars = [
         tags: { constellation: 0, expert: false, partner: "" },
       },
       support: {
-        tier: 0,
+        tier: -1,
         tags: { constellation: 0, expert: false, partner: "" },
       },
     },
@@ -627,7 +627,7 @@ const chars = [
         tags: { constellation: 0, expert: false, partner: "" },
       },
       support: {
-        tier: 0,
+        tier: -1,
         tags: { constellation: 0, expert: false, partner: "" },
       },
     },
@@ -1043,7 +1043,7 @@ const chars = [
     role: {
       dps: { tier: -1, tags: { constellation: 0, expert: false, partner: "" } },
       subdps: {
-        tier: 0,
+        tier: -1,
         tags: { constellation: 0, expert: false, partner: "" },
       },
       support: {
@@ -1240,7 +1240,7 @@ const chars = [
         tags: { constellation: 0, expert: false, partner: "" },
       },
       support: {
-        tier: 0,
+        tier: -1,
         tags: { constellation: 0, expert: false, partner: "" },
       },
     },
