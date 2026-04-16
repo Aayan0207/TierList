@@ -186,8 +186,8 @@ function ListView() {
                       .filter(
                         (char) =>
                           char.role.dps.tier == tier &&
-                          elements.includes(char.element) &&
-                          weapons.includes(char.weapon) &&
+                          elements.includes(char.element.charAt(0).toUpperCase() + char.element.slice(1)) &&
+                          weapons.includes(char.weapon.charAt(0).toUpperCase() + char.weapon.slice(1)) &&
                           rarities.includes(char.rarity) &&
                           (search != null
                             ? char.name
@@ -205,8 +205,8 @@ function ListView() {
                       .filter(
                         (char) =>
                           char.role.subdps.tier == tier &&
-                          elements.includes(char.element) &&
-                          weapons.includes(char.weapon) &&
+                          elements.includes(char.element.charAt(0).toUpperCase() + char.element.slice(1)) &&
+                          weapons.includes(char.weapon.charAt(0).toUpperCase() + char.weapon.slice(1)) &&
                           rarities.includes(char.rarity) &&
                           (search != null
                             ? char.name
@@ -224,8 +224,8 @@ function ListView() {
                       .filter(
                         (char) =>
                           char.role.support.tier == tier &&
-                          elements.includes(char.element) &&
-                          weapons.includes(char.weapon) &&
+                          elements.includes(char.element.charAt(0).toUpperCase() + char.element.slice(1)) &&
+                          weapons.includes(char.weapon.charAt(0).toUpperCase() + char.weapon.slice(1)) &&
                           rarities.includes(char.rarity) &&
                           (search != null
                             ? char.name
