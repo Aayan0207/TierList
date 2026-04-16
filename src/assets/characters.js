@@ -2086,3 +2086,4 @@ const chars = [
 ];
 
 export default chars;
+//test
