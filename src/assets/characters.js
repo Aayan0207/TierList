@@ -2086,4 +2086,4 @@ const chars = [
 ];
 
 export default chars;
-//testing smth
+//testing
