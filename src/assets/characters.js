@@ -1009,11 +1009,11 @@ const chars = [
     role: {
       dps: { tier: -1, tags: { constellation: 0, expert: false, partner: "" } },
       subdps: {
-        tier: 0.5,
+        tier: -1,
         tags: { constellation: 0, expert: false, partner: "" },
       },
       support: {
-        tier: 1,
+        tier: 0.5,
         tags: { constellation: 4, expert: false, partner: "" },
       },
     },
