@@ -5,7 +5,6 @@ import ListView from "./components/ListView";
 import { Analytics } from "@vercel/analytics/react";
 
 function App() {
-  const [listView, setListView] = useState(true);
   return (
     <>
       <div id="title_container" className="centered">
@@ -14,7 +13,7 @@ function App() {
       <div id="selector" className="centered">
       </div>
       <div id="viewing_area">
-        {listView ? <ListView /> : ""}
+         <ListView />
       </div>
       <footer>
         This content is not affiliated with Hoyoverse or its subsidiaries.
