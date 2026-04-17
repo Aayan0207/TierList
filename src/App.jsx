@@ -6,7 +6,7 @@ import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   const [listView, setListView] = useState(true);
-  const [teamView, setTeamView] = useState(false);
+  const [teamView, setTeamView] = useState(false); //team test
   return (
     <>
       <div id="title_container" className="centered">
