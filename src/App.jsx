@@ -1,5 +1,4 @@
 import "./App.css";
-import TeamView from "./components/TeamView";
 import ListView from "./components/ListView";
 import { Analytics } from "@vercel/analytics/react";
 
