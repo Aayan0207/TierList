@@ -1,4 +1,3 @@
-import { useState } from "react";
 import "./App.css";
 import TeamView from "./components/TeamView";
 import ListView from "./components/ListView";
