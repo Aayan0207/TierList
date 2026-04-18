@@ -817,7 +817,7 @@ const chars = [
         tags: { constellation: 0, expert: false, partner: "" },
       },
       support: {
-        tier: -1,
+        tier: 1.5,
         tags: { constellation: 0, expert: false, partner: "" },
       },
     },
@@ -908,7 +908,7 @@ const chars = [
         tags: { constellation: 0, expert: false, partner: "" },
       },
       support: {
-        tier: -1,
+        tier: 2,
         tags: { constellation: 0, expert: false, partner: "" },
       },
     },
