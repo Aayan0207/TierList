@@ -35,6 +35,8 @@ function Card({ char, category }) {
           <div className="char_name">{char.name.split("_").join(" ")}</div>
         </div>
         <div className="char_tags">
+          {char_data.hexerei ? <p className="char_hexerei">Hexerei</p> : ""}
+          {char_data.lunar ? <p className="char_lunar">Lunar</p> : ""}
           {char_data.expert ? <p className="char_expert">Expert</p> : ""}
           {char_data.partner ? (
             <p className="char_partner">
