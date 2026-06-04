@@ -2100,6 +2100,23 @@ const chars = [
       },
     },
   },
+      {
+    name: "Prune",
+    element: "Anemo",
+    weapon: "Catalyst",
+    rarity: 4,
+    role: {
+      dps: { tier: -1, tags: { constellation: 0, expert: false, partner: "" } },
+      subdps: {
+        tier: -1,
+        tags: { constellation: 0, expert: false, partner: "" },
+      },
+      support: {
+        tier: 0.5,
+        tags: { constellation: 2, expert: false, partner: "Varka" },
+      },
+    },
+  },
 ];
 
 export default chars;
