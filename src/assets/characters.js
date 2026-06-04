@@ -2083,6 +2083,23 @@ const chars = [
       },
     },
   },
+    {
+    name: "Nicole",
+    element: "Pyro",
+    weapon: "Catalyst",
+    rarity: 5,
+    role: {
+      dps: { tier: -1, tags: { constellation: 0, expert: false, partner: "" } },
+      subdps: {
+        tier: -1,
+        tags: { constellation: 0, expert: false, partner: "" },
+      },
+      support: {
+        tier: 0.5,
+        tags: { constellation: 0, expert: false, partner: "Hexerei" },
+      },
+    },
+  },
 ];
 
 export default chars;
