@@ -7,11 +7,11 @@ const chars = [
     role: {
       dps: { tier: -1, tags: { constellation: 0, expert: false, partner: "" } },
       subdps: {
-        tier: 1,
+        tier: -1,
         tags: { constellation: 6, expert: false, partner: "" },
       },
       support: {
-        tier: -1,
+        tier: 1,
         tags: { constellation: 0, expert: false, partner: "" },
       },
     },
@@ -40,8 +40,8 @@ const chars = [
     rarity: 5,
     role: {
       dps: {
-        tier: 1,
-        tags: { constellation: 0, expert: false, partner: "Lauma" },
+        tier: 2,
+        tags: { constellation: 0, expert: false, partner: "" },
       },
       subdps: {
         tier: -1,
@@ -59,7 +59,7 @@ const chars = [
     weapon: "Bow",
     rarity: 5,
     role: {
-      dps: { tier: 3, tags: { constellation: 0, expert: false, partner: "" } },
+      dps: { tier: 4, tags: { constellation: 0, expert: false, partner: "" } },
       subdps: {
         tier: -1,
         tags: { constellation: 0, expert: false, partner: "" },
@@ -78,11 +78,11 @@ const chars = [
     role: {
       dps: { tier: -1, tags: { constellation: 0, expert: false, partner: "" } },
       subdps: {
-        tier: 3,
+        tier: -1,
         tags: { constellation: 2, expert: false, partner: "" },
       },
       support: {
-        tier: -1,
+        tier: 4,
         tags: { constellation: 0, expert: false, partner: "" },
       },
     },
@@ -139,7 +139,7 @@ const chars = [
         tags: { constellation: 0, expert: false, partner: "" },
       },
       support: {
-        tier: 1,
+        tier: 1.5,
         tags: { constellation: 0, expert: false, partner: "" },
       },
     },
@@ -156,7 +156,7 @@ const chars = [
         tags: { constellation: 0, expert: false, partner: "" },
       },
       support: {
-        tier: 2,
+        tier: 3,
         tags: { constellation: 0, expert: false, partner: "" },
       },
     },
@@ -169,7 +169,7 @@ const chars = [
     role: {
       dps: { tier: -1, tags: { constellation: 0, expert: false, partner: "" } },
       subdps: {
-        tier: 1.5,
+        tier: 3,
         tags: { constellation: 6, expert: false, partner: "" },
       },
       support: {
@@ -207,7 +207,7 @@ const chars = [
         tags: { constellation: 0, expert: false, partner: "" },
       },
       support: {
-        tier: 1.5,
+        tier: 2,
         tags: { constellation: 6, expert: false, partner: "" },
       },
     },
@@ -224,7 +224,7 @@ const chars = [
         tags: { constellation: 0, expert: false, partner: "" },
       },
       support: {
-        tier: 1,
+        tier: 2,
         tags: { constellation: 6, expert: false, partner: "" },
       },
     },
@@ -274,7 +274,7 @@ const chars = [
     role: {
       dps: { tier: -1, tags: { constellation: 0, expert: false, partner: "" } },
       subdps: {
-        tier: 1,
+        tier: 1.5,
         tags: { constellation: 0, expert: false, partner: "" },
       },
       support: {
@@ -291,7 +291,7 @@ const chars = [
     role: {
       dps: { tier: -1, tags: { constellation: 0, expert: false, partner: "" } },
       subdps: {
-        tier: 2,
+        tier: -1,
         tags: { constellation: 6, expert: false, partner: "" },
       },
       support: {
@@ -323,7 +323,7 @@ const chars = [
     weapon: "Sword",
     rarity: 5,
     role: {
-      dps: { tier: 1, tags: { constellation: 0, expert: false, partner: "" } },
+      dps: { tier: 1, tags: { constellation: 0, expert: false, partner: "Durin" } },
       subdps: {
         tier: -1,
         tags: { constellation: 0, expert: false, partner: "" },
@@ -342,7 +342,7 @@ const chars = [
     role: {
       dps: { tier: -1, tags: { constellation: 0, expert: false, partner: "" } },
       subdps: {
-        tier: 1.5,
+        tier: 3,
         tags: { constellation: 6, expert: false, partner: "" },
       },
       support: {
@@ -357,7 +357,7 @@ const chars = [
     weapon: "Catalyst",
     rarity: 5,
     role: {
-      dps: { tier: -1, tags: { constellation: 0, expert: false, partner: "" } },
+      dps: { tier: 0, tags: { constellation: 0, expert: false, partner: "Lauma" } },
       subdps: {
         tier: 0,
         tags: { constellation: 0, expert: false, partner: "" },
@@ -375,7 +375,7 @@ const chars = [
     rarity: 5,
     role: {
       dps: {
-        tier: 1.5,
+        tier: 2,
         tags: { constellation: 0, expert: false, partner: "" },
       },
       subdps: {
@@ -400,7 +400,7 @@ const chars = [
         tags: { constellation: 0, expert: false, partner: "" },
       },
       support: {
-        tier: 1.5,
+        tier: 2,
         tags: { constellation: 6, expert: false, partner: "" },
       },
     },
@@ -413,11 +413,11 @@ const chars = [
     role: {
       dps: { tier: 3, tags: { constellation: 0, expert: false, partner: "" } },
       subdps: {
-        tier: 2,
+        tier: 3,
         tags: { constellation: 0, expert: false, partner: "" },
       },
       support: {
-        tier: 1.5,
+        tier: 2,
         tags: { constellation: 0, expert: false, partner: "" },
       },
     },
@@ -429,7 +429,7 @@ const chars = [
     rarity: 5,
     role: {
       dps: {
-        tier: 1.5,
+        tier: 2,
         tags: { constellation: 0, expert: false, partner: "Xianyun" },
       },
       subdps: {
@@ -454,7 +454,7 @@ const chars = [
         tags: { constellation: 0, expert: false, partner: "" },
       },
       support: {
-        tier: 1,
+        tier: 2,
         tags: { constellation: 6, expert: false, partner: "" },
       },
     },
@@ -471,7 +471,7 @@ const chars = [
         tags: { constellation: 0, expert: false, partner: "" },
       },
       support: {
-        tier: 2,
+        tier: 4,
         tags: { constellation: 4, expert: false, partner: "" },
       },
     },
@@ -482,7 +482,7 @@ const chars = [
     weapon: "Sword",
     rarity: 5,
     role: {
-      dps: { tier: -1, tags: { constellation: 0, expert: false, partner: "" } },
+      dps: { tier: 0.5, tags: { constellation: 0, expert: false, partner: "" } },
       subdps: {
         tier: 0,
         tags: { constellation: 0, expert: false, partner: "" },
@@ -501,7 +501,7 @@ const chars = [
     role: {
       dps: { tier: -1, tags: { constellation: 0, expert: false, partner: "" } },
       subdps: {
-        tier: 0.5,
+        tier: 1,
         tags: { constellation: 0, expert: false, partner: "" },
       },
       support: {
@@ -533,7 +533,7 @@ const chars = [
     weapon: "Claymore",
     rarity: 5,
     role: {
-      dps: { tier: 3, tags: { constellation: 0, expert: false, partner: "" } },
+      dps: { tier: 4, tags: { constellation: 0, expert: false, partner: "" } },
       subdps: {
         tier: -1,
         tags: { constellation: 0, expert: false, partner: "" },
@@ -604,7 +604,7 @@ const chars = [
     weapon: "Claymore",
     rarity: 4,
     role: {
-      dps: { tier: 3, tags: { constellation: 0, expert: false, partner: "" } },
+      dps: { tier: 4, tags: { constellation: 0, expert: false, partner: "" } },
       subdps: {
         tier: -1,
         tags: { constellation: 0, expert: false, partner: "" },
@@ -623,7 +623,7 @@ const chars = [
     role: {
       dps: { tier: -1, tags: { constellation: 0, expert: false, partner: "" } },
       subdps: {
-        tier: 0,
+        tier: 0.5,
         tags: { constellation: 0, expert: false, partner: "" },
       },
       support: {
@@ -638,7 +638,7 @@ const chars = [
     weapon: "Claymore",
     rarity: 4,
     role: {
-      dps: { tier: 1, tags: { constellation: 6, expert: false, partner: "" } },
+      dps: { tier: 1, tags: { constellation: 6, expert: true, partner: "" } },
       subdps: {
         tier: -1,
         tags: { constellation: 0, expert: false, partner: "" },
@@ -656,11 +656,11 @@ const chars = [
     rarity: 5,
     role: {
       dps: {
-        tier: 1.5,
+        tier: 3,
         tags: { constellation: 0, expert: false, partner: "" },
       },
       subdps: {
-        tier: 1.5,
+        tier: 3,
         tags: { constellation: 0, expert: false, partner: "" },
       },
       support: {
@@ -716,7 +716,7 @@ const chars = [
       },
       support: {
         tier: 0,
-        tags: { constellation: 2, expert: false, partner: "" },
+        tags: { constellation: 6, expert: false, partner: "" },
       },
     },
   },
@@ -726,7 +726,7 @@ const chars = [
     weapon: "Catalyst",
     rarity: 4,
     role: {
-      dps: { tier: 2, tags: { constellation: 6, expert: false, partner: "" } },
+      dps: { tier: 1.5, tags: { constellation: 6, expert: false, partner: "" } },
       subdps: {
         tier: -1,
         tags: { constellation: 0, expert: false, partner: "" },
@@ -749,8 +749,8 @@ const chars = [
         tags: { constellation: 0, expert: false, partner: "" },
       },
       support: {
-        tier: 0.5,
-        tags: { constellation: 2, expert: false, partner: "" },
+        tier: 0,
+        tags: { constellation: 6, expert: false, partner: "Zibai" },
       },
     },
   },
@@ -766,7 +766,7 @@ const chars = [
         tags: { constellation: 0, expert: false, partner: "" },
       },
       support: {
-        tier: 0.5,
+        tier: -1,
         tags: { constellation: 0, expert: false, partner: "" },
       },
     },
@@ -779,11 +779,11 @@ const chars = [
     role: {
       dps: { tier: -1, tags: { constellation: 0, expert: false, partner: "" } },
       subdps: {
-        tier: 1.5,
+        tier: -1,
         tags: { constellation: 6, expert: false, partner: "" },
       },
       support: {
-        tier: 1.5,
+        tier: 2,
         tags: { constellation: 6, expert: false, partner: "" },
       },
     },
@@ -800,7 +800,7 @@ const chars = [
         tags: { constellation: 0, expert: false, partner: "" },
       },
       support: {
-        tier: 1,
+        tier: 1.5,
         tags: { constellation: 0, expert: false, partner: "" },
       },
     },
@@ -817,7 +817,7 @@ const chars = [
         tags: { constellation: 0, expert: false, partner: "" },
       },
       support: {
-        tier: 1.5,
+        tier: 3,
         tags: { constellation: 0, expert: false, partner: "" },
       },
     },
@@ -847,7 +847,7 @@ const chars = [
     role: {
       dps: { tier: -1, tags: { constellation: 0, expert: false, partner: "" } },
       subdps: {
-        tier: 2,
+        tier: 4,
         tags: { constellation: 2, expert: false, partner: "" },
       },
       support: {
@@ -863,7 +863,7 @@ const chars = [
     rarity: 5,
     role: {
       dps: {
-        tier: 1,
+        tier: 1.5,
         tags: { constellation: 0, expert: false, partner: "Escoffier" },
       },
       subdps: {
@@ -904,11 +904,11 @@ const chars = [
     role: {
       dps: { tier: -1, tags: { constellation: 0, expert: false, partner: "" } },
       subdps: {
-        tier: -1,
+        tier: 3,
         tags: { constellation: 0, expert: false, partner: "" },
       },
       support: {
-        tier: 2,
+        tier: -1,
         tags: { constellation: 0, expert: false, partner: "" },
       },
     },
@@ -919,7 +919,7 @@ const chars = [
     weapon: "Sword",
     rarity: 5,
     role: {
-      dps: { tier: 2, tags: { constellation: 0, expert: false, partner: "" } },
+      dps: { tier: 3, tags: { constellation: 0, expert: false, partner: "" } },
       subdps: {
         tier: -1,
         tags: { constellation: 0, expert: false, partner: "" },
@@ -962,7 +962,7 @@ const chars = [
         tags: { constellation: 0, expert: false, partner: "" },
       },
       support: {
-        tier: 1,
+        tier: 2,
         tags: { constellation: 6, expert: false, partner: "" },
       },
     },
@@ -973,7 +973,7 @@ const chars = [
     weapon: "Catalyst",
     rarity: 5,
     role: {
-      dps: { tier: 1, tags: { constellation: 0, expert: false, partner: "" } },
+      dps: { tier: 0.5, tags: { constellation: 1, expert: false, partner: "" } },
       subdps: {
         tier: -1,
         tags: { constellation: 0, expert: false, partner: "" },
@@ -996,7 +996,7 @@ const chars = [
         tags: { constellation: 0, expert: false, partner: "" },
       },
       support: {
-        tier: 1.5,
+        tier: 2,
         tags: { constellation: 6, expert: false, partner: "" },
       },
     },
@@ -1013,7 +1013,7 @@ const chars = [
         tags: { constellation: 0, expert: false, partner: "" },
       },
       support: {
-        tier: 0.5,
+        tier: 1,
         tags: { constellation: 4, expert: false, partner: "" },
       },
     },
@@ -1064,7 +1064,7 @@ const chars = [
         tags: { constellation: 0, expert: false, partner: "" },
       },
       support: {
-        tier: 1,
+        tier: 2,
         tags: { constellation: 1, expert: false, partner: "" },
       },
     },
@@ -1081,7 +1081,7 @@ const chars = [
         tags: { constellation: 4, expert: false, partner: "" },
       },
       support: {
-        tier: 3,
+        tier: 4,
         tags: { constellation: 0, expert: false, partner: "" },
       },
     },
@@ -1094,7 +1094,7 @@ const chars = [
     role: {
       dps: { tier: -1, tags: { constellation: 0, expert: false, partner: "" } },
       subdps: {
-        tier: 2,
+        tier: 3,
         tags: { constellation: 6, expert: false, partner: "" },
       },
       support: {
@@ -1109,7 +1109,7 @@ const chars = [
     weapon: "Bow",
     rarity: 5,
     role: {
-      dps: { tier: 1, tags: { constellation: 0, expert: false, partner: "" } },
+      dps: { tier: 2, tags: { constellation: 0, expert: false, partner: "" } },
       subdps: {
         tier: -1,
         tags: { constellation: 0, expert: false, partner: "" },
@@ -1128,7 +1128,7 @@ const chars = [
     role: {
       dps: { tier: 0, tags: { constellation: 0, expert: false, partner: "" } },
       subdps: {
-        tier: 0,
+        tier: 0.5,
         tags: { constellation: 0, expert: false, partner: "" },
       },
       support: {
@@ -1149,7 +1149,7 @@ const chars = [
         tags: { constellation: 0, expert: false, partner: "" },
       },
       support: {
-        tier: 3,
+        tier: 4,
         tags: { constellation: 0, expert: false, partner: "" },
       },
     },
@@ -1160,7 +1160,7 @@ const chars = [
     weapon: "Catalyst",
     rarity: 5,
     role: {
-      dps: { tier: -1, tags: { constellation: 0, expert: false, partner: "" } },
+      dps: { tier: 1, tags: { constellation: 0, expert: true, partner: "" } },
       subdps: {
         tier: 1,
         tags: { constellation: 0, expert: false, partner: "" },
@@ -1199,7 +1199,7 @@ const chars = [
     role: {
       dps: { tier: -1, tags: { constellation: 0, expert: false, partner: "" } },
       subdps: {
-        tier: 0.5,
+        tier: -1,
         tags: { constellation: 0, expert: false, partner: "" },
       },
       support: {
@@ -1234,7 +1234,7 @@ const chars = [
     weapon: "Bow",
     rarity: 5,
     role: {
-      dps: { tier: -1, tags: { constellation: 0, expert: false, partner: "" } },
+      dps: { tier: 1, tags: { constellation: 0, expert: false, partner: "" } },
       subdps: {
         tier: 0,
         tags: { constellation: 0, expert: false, partner: "" },
@@ -1272,7 +1272,7 @@ const chars = [
     rarity: 5,
     role: {
       dps: {
-        tier: 0.5,
+        tier: 1,
         tags: { constellation: 0, expert: false, partner: "" },
       },
       subdps: {
@@ -1293,7 +1293,7 @@ const chars = [
     role: {
       dps: { tier: -1, tags: { constellation: 0, expert: false, partner: "" } },
       subdps: {
-        tier: 0.5,
+        tier: 1,
         tags: { constellation: 0, expert: false, partner: "Lauma" },
       },
       support: {
@@ -1308,7 +1308,7 @@ const chars = [
     weapon: "Catalyst",
     rarity: 4,
     role: {
-      dps: { tier: 2, tags: { constellation: 6, expert: false, partner: "" } },
+      dps: { tier: 2, tags: { constellation: 6, expert: false, partner: "Linnea" } },
       subdps: {
         tier: -1,
         tags: { constellation: 0, expert: false, partner: "" },
@@ -1325,7 +1325,7 @@ const chars = [
     weapon: "Claymore",
     rarity: 4,
     role: {
-      dps: { tier: 2, tags: { constellation: 6, expert: false, partner: "" } },
+      dps: { tier: 2, tags: { constellation: 6, expert: false, partner: "Linnea" } },
       subdps: {
         tier: -1,
         tags: { constellation: 0, expert: false, partner: "" },
@@ -1344,12 +1344,12 @@ const chars = [
     role: {
       dps: { tier: -1, tags: { constellation: 0, expert: false, partner: "" } },
       subdps: {
-        tier: 1,
+        tier: -1,
         tags: { constellation: 0, expert: false, partner: "" },
       },
       support: {
-        tier: -1,
-        tags: { constellation: 0, expert: false, partner: "" },
+        tier: 1,
+        tags: { constellation: 6, expert: false, partner: "" },
       },
     },
   },
@@ -1365,7 +1365,7 @@ const chars = [
         tags: { constellation: 0, expert: false, partner: "" },
       },
       support: {
-        tier: 3,
+        tier: 4,
         tags: { constellation: 0, expert: false, partner: "" },
       },
     },
@@ -1381,7 +1381,7 @@ const chars = [
         tags: { constellation: 0, expert: false, partner: "" },
       },
       subdps: {
-        tier: 0.5,
+        tier: 1.5,
         tags: { constellation: 0, expert: false, partner: "" },
       },
       support: {
@@ -1415,11 +1415,11 @@ const chars = [
     role: {
       dps: { tier: -1, tags: { constellation: 0, expert: false, partner: "" } },
       subdps: {
-        tier: 1,
+        tier: -1,
         tags: { constellation: 6, expert: false, partner: "" },
       },
       support: {
-        tier: 1.5,
+        tier: 2,
         tags: { constellation: 6, expert: false, partner: "" },
       },
     },
@@ -1432,11 +1432,11 @@ const chars = [
     role: {
       dps: { tier: -1, tags: { constellation: 0, expert: false, partner: "" } },
       subdps: {
-        tier: 1.5,
+        tier: -1,
         tags: { constellation: 0, expert: false, partner: "" },
       },
       support: {
-        tier: 1,
+        tier: 2,
         tags: { constellation: 0, expert: false, partner: "" },
       },
     },
@@ -1449,11 +1449,11 @@ const chars = [
     role: {
       dps: { tier: -1, tags: { constellation: 0, expert: false, partner: "" } },
       subdps: {
-        tier: 2,
+        tier: -1,
         tags: { constellation: 2, expert: false, partner: "" },
       },
       support: {
-        tier: 2,
+        tier: 3,
         tags: { constellation: 6, expert: false, partner: "" },
       },
     },
@@ -1465,7 +1465,7 @@ const chars = [
     rarity: 4,
     role: {
       dps: {
-        tier: 1.5,
+        tier: 2,
         tags: { constellation: 6, expert: false, partner: "" },
       },
       subdps: {
@@ -1491,7 +1491,7 @@ const chars = [
       },
       support: {
         tier: 0.5,
-        tags: { constellation: 0, expert: false, partner: "" },
+        tags: { constellation: 0, expert: false, partner: "Skirk" },
       },
     },
   },
@@ -1501,7 +1501,7 @@ const chars = [
     weapon: "Catalyst",
     rarity: 4,
     role: {
-      dps: { tier: 2, tags: { constellation: 6, expert: false, partner: "" } },
+      dps: { tier: 4, tags: { constellation: 6, expert: false, partner: "" } },
       subdps: {
         tier: -1,
         tags: { constellation: 0, expert: false, partner: "" },
@@ -1524,8 +1524,8 @@ const chars = [
         tags: { constellation: 0, expert: false, partner: "" },
       },
       support: {
-        tier: 1.5,
-        tags: { constellation: 0, expert: false, partner: "" },
+        tier: 3,
+        tags: { constellation: 0, expert: false, partner: "Furina" },
       },
     },
   },
@@ -1537,7 +1537,7 @@ const chars = [
     role: {
       dps: {
         tier: 0,
-        tags: { constellation: 0, expert: false, partner: "Escoffier" },
+        tags: { constellation: 0, expert: true, partner: "Escoffier" },
       },
       subdps: {
         tier: -1,
@@ -1557,7 +1557,7 @@ const chars = [
     role: {
       dps: { tier: -1, tags: { constellation: 0, expert: false, partner: "" } },
       subdps: {
-        tier: 1,
+        tier: -1,
         tags: { constellation: 1, expert: false, partner: "" },
       },
       support: {
@@ -1573,7 +1573,7 @@ const chars = [
     rarity: 5,
     role: {
       dps: {
-        tier: 1.5,
+        tier: 2,
         tags: { constellation: 0, expert: false, partner: "" },
       },
       subdps: {
@@ -1594,11 +1594,11 @@ const chars = [
     role: {
       dps: { tier: -1, tags: { constellation: 0, expert: false, partner: "" } },
       subdps: {
-        tier: 1.5,
+        tier: -1,
         tags: { constellation: 6, expert: false, partner: "" },
       },
       support: {
-        tier: 1.5,
+        tier: 2,
         tags: { constellation: 6, expert: false, partner: "" },
       },
     },
@@ -1610,7 +1610,7 @@ const chars = [
     rarity: 5,
     role: {
       dps: {
-        tier: 1.5,
+        tier: 3,
         tags: { constellation: 0, expert: false, partner: "" },
       },
       subdps: {
@@ -1631,12 +1631,12 @@ const chars = [
     role: {
       dps: { tier: -1, tags: { constellation: 0, expert: false, partner: "" } },
       subdps: {
-        tier: 3,
+        tier: -1,
         tags: { constellation: 0, expert: false, partner: "" },
       },
       support: {
-        tier: -1,
-        tags: { constellation: 0, expert: false, partner: "" },
+        tier: 4,
+        tags: { constellation: 6, expert: false, partner: "" },
       },
     },
   },
@@ -1648,7 +1648,7 @@ const chars = [
     role: {
       dps: { tier: -1, tags: { constellation: 0, expert: false, partner: "" } },
       subdps: {
-        tier: 3,
+        tier: 4,
         tags: { constellation: 0, expert: false, partner: "" },
       },
       support: {
@@ -1669,8 +1669,8 @@ const chars = [
         tags: { constellation: 0, expert: false, partner: "" },
       },
       support: {
-        tier: 2,
-        tags: { constellation: 0, expert: false, partner: "" },
+        tier: 3,
+        tags: { constellation: 6, expert: false, partner: "" },
       },
     },
   },
@@ -1682,8 +1682,8 @@ const chars = [
     role: {
       dps: { tier: -1, tags: { constellation: 0, expert: false, partner: "" } },
       subdps: {
-        tier: 1.5,
-        tags: { constellation: 0, expert: false, partner: "" },
+        tier: 2,
+        tags: { constellation: 6, expert: false, partner: "" },
       },
       support: {
         tier: -1,
@@ -1699,7 +1699,7 @@ const chars = [
     role: {
       dps: { tier: -1, tags: { constellation: 0, expert: false, partner: "" } },
       subdps: {
-        tier: 3,
+        tier: 4,
         tags: { constellation: 0, expert: false, partner: "" },
       },
       support: {
@@ -1717,7 +1717,7 @@ const chars = [
       dps: { tier: -1, tags: { constellation: 0, expert: false, partner: "" } },
       subdps: {
         tier: 1,
-        tags: { constellation: 0, expert: false, partner: "" },
+        tags: { constellation: 6, expert: false, partner: "" },
       },
       support: {
         tier: -1,
@@ -1731,7 +1731,7 @@ const chars = [
     weapon: "Catalyst",
     rarity: 5,
     role: {
-      dps: { tier: 0, tags: { constellation: 0, expert: false, partner: "" } },
+      dps: { tier: 0.5, tags: { constellation: 0, expert: false, partner: "Hexerei" } },
       subdps: {
         tier: -1,
         tags: { constellation: 0, expert: false, partner: "" },
@@ -1749,8 +1749,8 @@ const chars = [
     rarity: 5,
     role: {
       dps: {
-        tier: 0.5,
-        tags: { constellation: 0, expert: false, partner: "" },
+        tier: 0,
+        tags: { constellation: 0, expert: false, partner: "Hexerei" },
       },
       subdps: {
         tier: -1,
@@ -1770,11 +1770,11 @@ const chars = [
     role: {
       dps: {
         tier: 1,
-        tags: { constellation: 0, expert: false, partner: "Durin" },
+        tags: { constellation: 0, expert: false, partner: "Hexerei" },
       },
       subdps: {
         tier: 1,
-        tags: { constellation: 0, expert: false, partner: "" },
+        tags: { constellation: 0, expert: false, partner: "Varka" },
       },
       support: {
         tier: -1,
@@ -1789,7 +1789,7 @@ const chars = [
     rarity: 5,
     role: {
       dps: {
-        tier: 1.5,
+        tier: 2,
         tags: { constellation: 0, expert: false, partner: "" },
       },
       subdps: {
@@ -1809,7 +1809,7 @@ const chars = [
     rarity: 5,
     role: {
       dps: {
-        tier: 1,
+        tier: 1.5,
         tags: { constellation: 0, expert: false, partner: "Escoffier" },
       },
       subdps: {
@@ -1830,7 +1830,7 @@ const chars = [
     role: {
       dps: { tier: -1, tags: { constellation: 0, expert: false, partner: "" } },
       subdps: {
-        tier: 0.5,
+        tier: 1,
         tags: { constellation: 4, expert: false, partner: "" },
       },
       support: {
@@ -1851,7 +1851,7 @@ const chars = [
         tags: { constellation: 0, expert: false, partner: "" },
       },
       support: {
-        tier: 1,
+        tier: 1.5,
         tags: { constellation: 0, expert: false, partner: "" },
       },
     },
@@ -1863,7 +1863,7 @@ const chars = [
     rarity: 5,
     role: {
       dps: {
-        tier: 1.5,
+        tier: 2,
         tags: { constellation: 0, expert: false, partner: "" },
       },
       subdps: {
@@ -1901,7 +1901,7 @@ const chars = [
     role: {
       dps: { tier: -1, tags: { constellation: 0, expert: false, partner: "" } },
       subdps: {
-        tier: 0.5,
+        tier: 1,
         tags: { constellation: 6, expert: false, partner: "" },
       },
       support: {
@@ -1918,11 +1918,11 @@ const chars = [
     role: {
       dps: { tier: 3, tags: { constellation: 0, expert: false, partner: "" } },
       subdps: {
-        tier: 3,
+        tier: 4,
         tags: { constellation: 6, expert: false, partner: "" },
       },
       support: {
-        tier: 3,
+        tier: 4,
         tags: { constellation: 0, expert: false, partner: "" },
       },
     },
@@ -1935,7 +1935,7 @@ const chars = [
     role: {
       dps: { tier: -1, tags: { constellation: 0, expert: false, partner: "" } },
       subdps: {
-        tier: 1,
+        tier: 1.5,
         tags: { constellation: 0, expert: false, partner: "" },
       },
       support: {
@@ -1950,7 +1950,7 @@ const chars = [
     weapon: "Catalyst",
     rarity: 4,
     role: {
-      dps: { tier: 2, tags: { constellation: 6, expert: false, partner: "" } },
+      dps: { tier: 3, tags: { constellation: 6, expert: false, partner: "" } },
       subdps: {
         tier: -1,
         tags: { constellation: 0, expert: false, partner: "" },
@@ -1973,7 +1973,7 @@ const chars = [
         tags: { constellation: 0, expert: false, partner: "" },
       },
       support: {
-        tier: 1,
+        tier: 2,
         tags: { constellation: 0, expert: false, partner: "" },
       },
     },
@@ -2002,7 +2002,7 @@ const chars = [
     rarity: 5,
     role: {
       dps: {
-        tier: 1.5,
+        tier: 2,
         tags: { constellation: 0, expert: false, partner: "" },
       },
       subdps: {
@@ -2027,7 +2027,7 @@ const chars = [
         tags: { constellation: 0, expert: false, partner: "" },
       },
       support: {
-        tier: 1.5,
+        tier: -1,
         tags: { constellation: 0, expert: false, partner: "" },
       },
     },
@@ -2044,7 +2044,7 @@ const chars = [
         tags: { constellation: 0, expert: false, partner: "" },
       },
       support: {
-        tier: 1.5,
+        tier: 3,
         tags: { constellation: 6, expert: false, partner: "" },
       },
     },
@@ -2096,7 +2096,7 @@ const chars = [
       },
       support: {
         tier: 0.5,
-        tags: { constellation: 0, expert: false, partner: "" },
+        tags: { constellation: 0, expert: false, partner: "Hexerei" },
       },
     },
   },
