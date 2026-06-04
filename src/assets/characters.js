@@ -973,7 +973,7 @@ const chars = [
     weapon: "Catalyst",
     rarity: 5,
     role: {
-      dps: { tier: 0.5, tags: { constellation: 1, expert: false, partner: "" } },
+      dps: { tier: 0.5, tags: { constellation: 1, expert: false, partner: "Hexerei" } },
       subdps: {
         tier: -1,
         tags: { constellation: 0, expert: false, partner: "" },
