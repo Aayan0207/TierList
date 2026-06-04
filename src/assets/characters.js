@@ -2096,7 +2096,7 @@ const chars = [
       },
       support: {
         tier: 0.5,
-        tags: { constellation: 0, expert: false, partner: "Hexerei" },
+        tags: { constellation: 0, expert: false, partner: "" },
       },
     },
   },
