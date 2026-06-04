@@ -34,6 +34,8 @@ const syntax = z.object({
     subdps: z.object({
       tier: tier,
       tags: z.object({
+        hexerei: z.boolean(),
+        lunar: z.boolean(),
         constellation: z.number().min(0).max(6),
         expert: z.boolean(),
         partner: z
