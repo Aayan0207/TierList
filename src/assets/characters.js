@@ -4960,5 +4960,46 @@ const chars = [
       },
     },
   },
+  {
+    name: "Lohen",
+    element: "Cryo",
+    weapon: "Polearm",
+    rarity: 5,
+    role: {
+      dps: {
+        tier: -1,
+        tags: {
+          stellar: false,
+          hexerei: false,
+          lunar: false,
+          constellation: 0,
+          expert: false,
+          partner: "",
+        },
+      },
+      subdps: {
+        tier: -1,
+        tags: {
+          stellar: false,
+          hexerei: false,
+          lunar: false,
+          constellation: 0,
+          expert: false,
+          partner: "",
+        },
+      },
+      support: {
+        tier: -1,
+        tags: {
+          stellar: false,
+          hexerei: false,
+          lunar: false,
+          constellation: 0,
+          expert: false,
+          partner: "",
+        },
+      },
+    },
+  },
 ];
 export default chars;
