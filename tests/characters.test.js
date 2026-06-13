@@ -22,6 +22,9 @@ const syntax = z.object({
     dps: z.object({
       tier: tier,
       tags: z.object({
+        stellar: z.boolean(),
+        hexerei: z.boolean(),
+        lunar: z.boolean(),
         constellation: z.number().min(0).max(6),
         expert: z.boolean(),
         partner: z
@@ -34,6 +37,7 @@ const syntax = z.object({
     subdps: z.object({
       tier: tier,
       tags: z.object({
+        stellar: z.boolean(),
         hexerei: z.boolean(),
         lunar: z.boolean(),
         constellation: z.number().min(0).max(6),
@@ -48,6 +52,9 @@ const syntax = z.object({
     support: z.object({
       tier: tier,
       tags: z.object({
+        stellar: z.boolean(),
+        hexerei: z.boolean(),
+        lunar: z.boolean(),
         constellation: z.number().min(0).max(6),
         expert: z.boolean(),
         partner: z

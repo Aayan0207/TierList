@@ -8,6 +8,7 @@ const chars = [
       dps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -18,6 +19,7 @@ const chars = [
       subdps: {
         tier: 1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: true,
           constellation: 6,
@@ -28,6 +30,7 @@ const chars = [
       support: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -46,6 +49,7 @@ const chars = [
       dps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -56,6 +60,7 @@ const chars = [
       subdps: {
         tier: 1.5,
         tags: {
+          stellar: false,
           hexerei: true,
           lunar: false,
           constellation: 0,
@@ -66,6 +71,7 @@ const chars = [
       support: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -84,6 +90,7 @@ const chars = [
       dps: {
         tier: 2,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -94,6 +101,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -104,6 +112,7 @@ const chars = [
       support: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -122,6 +131,7 @@ const chars = [
       dps: {
         tier: 4,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -132,6 +142,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -142,6 +153,7 @@ const chars = [
       support: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -160,6 +172,7 @@ const chars = [
       dps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -170,6 +183,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 2,
@@ -180,6 +194,7 @@ const chars = [
       support: {
         tier: 4,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -198,6 +213,7 @@ const chars = [
       dps: {
         tier: 1.5,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -208,6 +224,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -218,6 +235,7 @@ const chars = [
       support: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -236,6 +254,7 @@ const chars = [
       dps: {
         tier: 0.5,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -246,6 +265,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -256,6 +276,7 @@ const chars = [
       support: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -274,6 +295,7 @@ const chars = [
       dps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -284,6 +306,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -294,6 +317,7 @@ const chars = [
       support: {
         tier: 1.5,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -312,6 +336,7 @@ const chars = [
       dps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -322,6 +347,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -332,6 +358,7 @@ const chars = [
       support: {
         tier: 3,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -350,6 +377,7 @@ const chars = [
       dps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -360,6 +388,7 @@ const chars = [
       subdps: {
         tier: 3,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 6,
@@ -370,6 +399,7 @@ const chars = [
       support: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -388,6 +418,7 @@ const chars = [
       dps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -398,6 +429,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -408,6 +440,7 @@ const chars = [
       support: {
         tier: 0,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 1,
@@ -426,6 +459,7 @@ const chars = [
       dps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -436,6 +470,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -446,6 +481,7 @@ const chars = [
       support: {
         tier: 2,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 6,
@@ -464,6 +500,7 @@ const chars = [
       dps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -474,6 +511,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -484,6 +522,7 @@ const chars = [
       support: {
         tier: 2,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 6,
@@ -502,6 +541,7 @@ const chars = [
       dps: {
         tier: 0.5,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -512,6 +552,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -522,6 +563,7 @@ const chars = [
       support: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -540,6 +582,7 @@ const chars = [
       dps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -550,6 +593,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -560,6 +604,7 @@ const chars = [
       support: {
         tier: 0,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 6,
@@ -578,6 +623,7 @@ const chars = [
       dps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -588,6 +634,7 @@ const chars = [
       subdps: {
         tier: 2,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -598,6 +645,7 @@ const chars = [
       support: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -616,6 +664,7 @@ const chars = [
       dps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -626,6 +675,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 6,
@@ -636,6 +686,7 @@ const chars = [
       support: {
         tier: 3,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -654,6 +705,7 @@ const chars = [
       dps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -664,6 +716,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -674,6 +727,7 @@ const chars = [
       support: {
         tier: 0,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -692,6 +746,7 @@ const chars = [
       dps: {
         tier: 1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -702,6 +757,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -712,6 +768,7 @@ const chars = [
       support: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -730,6 +787,7 @@ const chars = [
       dps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -740,6 +798,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 6,
@@ -750,6 +809,7 @@ const chars = [
       support: {
         tier: 3,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -768,6 +828,7 @@ const chars = [
       dps: {
         tier: 0,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: true,
           constellation: 0,
@@ -778,6 +839,7 @@ const chars = [
       subdps: {
         tier: 0,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: true,
           constellation: 0,
@@ -788,6 +850,7 @@ const chars = [
       support: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -806,6 +869,7 @@ const chars = [
       dps: {
         tier: 2,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -816,6 +880,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -826,6 +891,7 @@ const chars = [
       support: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -844,6 +910,7 @@ const chars = [
       dps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -854,6 +921,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -864,6 +932,7 @@ const chars = [
       support: {
         tier: 2,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 6,
@@ -882,6 +951,7 @@ const chars = [
       dps: {
         tier: 3,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -892,6 +962,7 @@ const chars = [
       subdps: {
         tier: 3,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -902,6 +973,7 @@ const chars = [
       support: {
         tier: 2,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -920,6 +992,7 @@ const chars = [
       dps: {
         tier: 2,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -930,6 +1003,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -940,6 +1014,7 @@ const chars = [
       support: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -958,6 +1033,7 @@ const chars = [
       dps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -968,6 +1044,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -978,6 +1055,7 @@ const chars = [
       support: {
         tier: 2,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 6,
@@ -996,6 +1074,7 @@ const chars = [
       dps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -1006,6 +1085,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -1016,6 +1096,7 @@ const chars = [
       support: {
         tier: 4,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 4,
@@ -1034,6 +1115,7 @@ const chars = [
       dps: {
         tier: 0.5,
         tags: {
+          stellar: false,
           hexerei: true,
           lunar: false,
           constellation: 0,
@@ -1044,6 +1126,7 @@ const chars = [
       subdps: {
         tier: 0,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -1054,6 +1137,7 @@ const chars = [
       support: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -1072,6 +1156,7 @@ const chars = [
       dps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -1082,6 +1167,7 @@ const chars = [
       subdps: {
         tier: 1.5,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -1092,6 +1178,7 @@ const chars = [
       support: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -1110,6 +1197,7 @@ const chars = [
       dps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -1120,6 +1208,7 @@ const chars = [
       subdps: {
         tier: 0,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -1130,6 +1219,7 @@ const chars = [
       support: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -1148,6 +1238,7 @@ const chars = [
       dps: {
         tier: 4,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -1158,6 +1249,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -1168,6 +1260,7 @@ const chars = [
       support: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -1186,6 +1279,7 @@ const chars = [
       dps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -1196,6 +1290,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -1206,6 +1301,7 @@ const chars = [
       support: {
         tier: 1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 6,
@@ -1224,6 +1320,7 @@ const chars = [
       dps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -1234,6 +1331,7 @@ const chars = [
       subdps: {
         tier: 0.5,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 6,
@@ -1244,6 +1342,7 @@ const chars = [
       support: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -1262,6 +1361,7 @@ const chars = [
       dps: {
         tier: 0,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -1272,6 +1372,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -1282,6 +1383,7 @@ const chars = [
       support: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -1300,6 +1402,7 @@ const chars = [
       dps: {
         tier: 4,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -1310,6 +1413,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -1320,6 +1424,7 @@ const chars = [
       support: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -1338,6 +1443,7 @@ const chars = [
       dps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -1348,6 +1454,7 @@ const chars = [
       subdps: {
         tier: 0.5,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -1358,6 +1465,7 @@ const chars = [
       support: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -1376,6 +1484,7 @@ const chars = [
       dps: {
         tier: 1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 6,
@@ -1386,6 +1495,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -1396,6 +1506,7 @@ const chars = [
       support: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -1414,6 +1525,7 @@ const chars = [
       dps: {
         tier: 3,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -1424,6 +1536,7 @@ const chars = [
       subdps: {
         tier: 3,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -1434,6 +1547,7 @@ const chars = [
       support: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -1452,6 +1566,7 @@ const chars = [
       dps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -1462,6 +1577,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -1472,6 +1588,7 @@ const chars = [
       support: {
         tier: 1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 6,
@@ -1490,6 +1607,7 @@ const chars = [
       dps: {
         tier: 1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 1,
@@ -1500,6 +1618,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -1510,6 +1629,7 @@ const chars = [
       support: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -1528,6 +1648,7 @@ const chars = [
       dps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -1538,6 +1659,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -1548,6 +1670,7 @@ const chars = [
       support: {
         tier: 0,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 6,
@@ -1566,6 +1689,7 @@ const chars = [
       dps: {
         tier: 1.5,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 6,
@@ -1576,6 +1700,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -1586,6 +1711,7 @@ const chars = [
       support: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -1604,6 +1730,7 @@ const chars = [
       dps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -1614,6 +1741,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -1624,6 +1752,7 @@ const chars = [
       support: {
         tier: 0,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 6,
@@ -1642,6 +1771,7 @@ const chars = [
       dps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -1652,6 +1782,7 @@ const chars = [
       subdps: {
         tier: 0,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -1662,6 +1793,7 @@ const chars = [
       support: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -1680,6 +1812,7 @@ const chars = [
       dps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -1690,6 +1823,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 6,
@@ -1700,6 +1834,7 @@ const chars = [
       support: {
         tier: 2,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 6,
@@ -1718,6 +1853,7 @@ const chars = [
       dps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -1728,6 +1864,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -1738,6 +1875,7 @@ const chars = [
       support: {
         tier: 1.5,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -1756,6 +1894,7 @@ const chars = [
       dps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -1766,6 +1905,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -1776,6 +1916,7 @@ const chars = [
       support: {
         tier: 2,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -1794,6 +1935,7 @@ const chars = [
       dps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -1804,6 +1946,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -1814,6 +1957,7 @@ const chars = [
       support: {
         tier: 0.5,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -1832,6 +1976,7 @@ const chars = [
       dps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -1842,6 +1987,7 @@ const chars = [
       subdps: {
         tier: 4,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 2,
@@ -1852,6 +1998,7 @@ const chars = [
       support: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -1870,6 +2017,7 @@ const chars = [
       dps: {
         tier: 1.5,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -1880,6 +2028,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -1890,6 +2039,7 @@ const chars = [
       support: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -1908,6 +2058,7 @@ const chars = [
       dps: {
         tier: 2,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -1918,6 +2069,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -1928,6 +2080,7 @@ const chars = [
       support: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -1946,6 +2099,7 @@ const chars = [
       dps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -1956,6 +2110,7 @@ const chars = [
       subdps: {
         tier: 3,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 6,
@@ -1966,6 +2121,7 @@ const chars = [
       support: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -1984,6 +2140,7 @@ const chars = [
       dps: {
         tier: 3,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -1994,6 +2151,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -2004,6 +2162,7 @@ const chars = [
       support: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -2022,6 +2181,7 @@ const chars = [
       dps: {
         tier: 0.5,
         tags: {
+          stellar: false,
           hexerei: true,
           lunar: false,
           constellation: 0,
@@ -2032,6 +2192,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -2042,6 +2203,7 @@ const chars = [
       support: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -2060,6 +2222,7 @@ const chars = [
       dps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -2070,6 +2233,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -2080,6 +2244,7 @@ const chars = [
       support: {
         tier: 2,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 6,
@@ -2098,6 +2263,7 @@ const chars = [
       dps: {
         tier: 0.5,
         tags: {
+          stellar: false,
           hexerei: true,
           lunar: false,
           constellation: 0,
@@ -2108,6 +2274,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -2118,6 +2285,7 @@ const chars = [
       support: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -2136,6 +2304,7 @@ const chars = [
       dps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -2146,6 +2315,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -2156,6 +2326,7 @@ const chars = [
       support: {
         tier: 2,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 6,
@@ -2174,6 +2345,7 @@ const chars = [
       dps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -2184,6 +2356,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -2194,6 +2367,7 @@ const chars = [
       support: {
         tier: 1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 4,
@@ -2212,6 +2386,7 @@ const chars = [
       dps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -2222,6 +2397,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -2232,6 +2408,7 @@ const chars = [
       support: {
         tier: 1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 2,
@@ -2250,6 +2427,7 @@ const chars = [
       dps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -2260,6 +2438,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -2270,6 +2449,7 @@ const chars = [
       support: {
         tier: 0,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: true,
           constellation: 0,
@@ -2288,6 +2468,7 @@ const chars = [
       dps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -2298,6 +2479,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -2308,6 +2490,7 @@ const chars = [
       support: {
         tier: 2,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 1,
@@ -2326,6 +2509,7 @@ const chars = [
       dps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -2336,6 +2520,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 4,
@@ -2346,6 +2531,7 @@ const chars = [
       support: {
         tier: 3,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 4,
@@ -2364,6 +2550,7 @@ const chars = [
       dps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -2374,6 +2561,7 @@ const chars = [
       subdps: {
         tier: 3,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 6,
@@ -2384,6 +2572,7 @@ const chars = [
       support: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -2402,6 +2591,7 @@ const chars = [
       dps: {
         tier: 2,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -2412,6 +2602,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -2422,6 +2613,7 @@ const chars = [
       support: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -2440,6 +2632,7 @@ const chars = [
       dps: {
         tier: 0,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -2450,6 +2643,7 @@ const chars = [
       subdps: {
         tier: 0.5,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -2460,6 +2654,7 @@ const chars = [
       support: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -2478,6 +2673,7 @@ const chars = [
       dps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -2488,6 +2684,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -2498,6 +2695,7 @@ const chars = [
       support: {
         tier: 4,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -2516,6 +2714,7 @@ const chars = [
       dps: {
         tier: 1,
         tags: {
+          stellar: false,
           hexerei: true,
           lunar: false,
           constellation: 0,
@@ -2526,6 +2725,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -2536,6 +2736,7 @@ const chars = [
       support: {
         tier: 0.5,
         tags: {
+          stellar: false,
           hexerei: true,
           lunar: false,
           constellation: 0,
@@ -2554,6 +2755,7 @@ const chars = [
       dps: {
         tier: 0.5,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -2564,6 +2766,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -2574,6 +2777,7 @@ const chars = [
       support: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -2592,6 +2796,7 @@ const chars = [
       dps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -2602,6 +2807,7 @@ const chars = [
       subdps: {
         tier: 1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -2612,6 +2818,7 @@ const chars = [
       support: {
         tier: 1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -2630,6 +2837,7 @@ const chars = [
       dps: {
         tier: 1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -2640,6 +2848,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -2650,6 +2859,7 @@ const chars = [
       support: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -2668,6 +2878,7 @@ const chars = [
       dps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -2678,6 +2889,7 @@ const chars = [
       subdps: {
         tier: 0,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: true,
           constellation: 0,
@@ -2688,6 +2900,7 @@ const chars = [
       support: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -2706,6 +2919,7 @@ const chars = [
       dps: {
         tier: 0,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: true,
           constellation: 0,
@@ -2716,6 +2930,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -2726,6 +2941,7 @@ const chars = [
       support: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -2744,6 +2960,7 @@ const chars = [
       dps: {
         tier: 1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -2754,6 +2971,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -2764,6 +2982,7 @@ const chars = [
       support: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -2782,6 +3001,7 @@ const chars = [
       dps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -2792,6 +3012,7 @@ const chars = [
       subdps: {
         tier: 1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -2802,6 +3023,7 @@ const chars = [
       support: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -2820,6 +3042,7 @@ const chars = [
       dps: {
         tier: 2,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 6,
@@ -2830,6 +3053,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -2840,6 +3064,7 @@ const chars = [
       support: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -2858,6 +3083,7 @@ const chars = [
       dps: {
         tier: 2,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 6,
@@ -2868,6 +3094,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -2878,6 +3105,7 @@ const chars = [
       support: {
         tier: 3,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -2896,6 +3124,7 @@ const chars = [
       dps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -2906,6 +3135,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -2916,6 +3146,7 @@ const chars = [
       support: {
         tier: 1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -2934,6 +3165,7 @@ const chars = [
       dps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -2944,6 +3176,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -2954,6 +3187,7 @@ const chars = [
       support: {
         tier: 4,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -2972,6 +3206,7 @@ const chars = [
       dps: {
         tier: 2,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -2982,6 +3217,7 @@ const chars = [
       subdps: {
         tier: 1.5,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -2992,6 +3228,7 @@ const chars = [
       support: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -3010,6 +3247,7 @@ const chars = [
       dps: {
         tier: 1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 6,
@@ -3020,6 +3258,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -3030,6 +3269,7 @@ const chars = [
       support: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -3048,6 +3288,7 @@ const chars = [
       dps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -3058,6 +3299,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 6,
@@ -3068,6 +3310,7 @@ const chars = [
       support: {
         tier: 2,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 6,
@@ -3086,6 +3329,7 @@ const chars = [
       dps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -3096,6 +3340,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -3106,6 +3351,7 @@ const chars = [
       support: {
         tier: 2,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -3124,6 +3370,7 @@ const chars = [
       dps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -3134,6 +3381,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 2,
@@ -3144,6 +3392,7 @@ const chars = [
       support: {
         tier: 3,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 6,
@@ -3162,6 +3411,7 @@ const chars = [
       dps: {
         tier: 2,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 6,
@@ -3172,6 +3422,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -3182,6 +3433,7 @@ const chars = [
       support: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -3200,6 +3452,7 @@ const chars = [
       dps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -3210,6 +3463,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -3220,6 +3474,7 @@ const chars = [
       support: {
         tier: 0.5,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -3238,6 +3493,7 @@ const chars = [
       dps: {
         tier: 4,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 6,
@@ -3248,6 +3504,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -3258,6 +3515,7 @@ const chars = [
       support: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -3276,6 +3534,7 @@ const chars = [
       dps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -3286,6 +3545,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -3296,6 +3556,7 @@ const chars = [
       support: {
         tier: 3,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -3314,6 +3575,7 @@ const chars = [
       dps: {
         tier: 0,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -3324,6 +3586,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -3334,6 +3597,7 @@ const chars = [
       support: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -3352,6 +3616,7 @@ const chars = [
       dps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -3362,6 +3627,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 1,
@@ -3372,6 +3638,7 @@ const chars = [
       support: {
         tier: 0,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 1,
@@ -3390,6 +3657,7 @@ const chars = [
       dps: {
         tier: 2,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -3400,6 +3668,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -3410,6 +3679,7 @@ const chars = [
       support: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -3428,6 +3698,7 @@ const chars = [
       dps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -3438,6 +3709,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 6,
@@ -3448,6 +3720,7 @@ const chars = [
       support: {
         tier: 2,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 6,
@@ -3466,6 +3739,7 @@ const chars = [
       dps: {
         tier: 3,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -3476,6 +3750,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -3486,6 +3761,7 @@ const chars = [
       support: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -3504,6 +3780,7 @@ const chars = [
       dps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -3514,6 +3791,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -3524,6 +3802,7 @@ const chars = [
       support: {
         tier: 4,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -3542,6 +3821,7 @@ const chars = [
       dps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -3552,6 +3832,7 @@ const chars = [
       subdps: {
         tier: 4,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -3562,6 +3843,7 @@ const chars = [
       support: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -3580,6 +3862,7 @@ const chars = [
       dps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -3590,6 +3873,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -3600,6 +3884,7 @@ const chars = [
       support: {
         tier: 3,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -3618,6 +3903,7 @@ const chars = [
       dps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -3628,6 +3914,7 @@ const chars = [
       subdps: {
         tier: 2,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -3638,6 +3925,7 @@ const chars = [
       support: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -3656,6 +3944,7 @@ const chars = [
       dps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -3666,6 +3955,7 @@ const chars = [
       subdps: {
         tier: 4,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -3676,6 +3966,7 @@ const chars = [
       support: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -3694,6 +3985,7 @@ const chars = [
       dps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -3704,6 +3996,7 @@ const chars = [
       subdps: {
         tier: 1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 6,
@@ -3714,6 +4007,7 @@ const chars = [
       support: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -3732,6 +4026,7 @@ const chars = [
       dps: {
         tier: 0.5,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -3742,6 +4037,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -3752,6 +4048,7 @@ const chars = [
       support: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -3770,6 +4067,7 @@ const chars = [
       dps: {
         tier: 0,
         tags: {
+          stellar: false,
           hexerei: true,
           lunar: false,
           constellation: 0,
@@ -3780,6 +4078,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -3790,6 +4089,7 @@ const chars = [
       support: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -3808,6 +4108,7 @@ const chars = [
       dps: {
         tier: 1,
         tags: {
+          stellar: false,
           hexerei: true,
           lunar: false,
           constellation: 0,
@@ -3818,6 +4119,7 @@ const chars = [
       subdps: {
         tier: 1,
         tags: {
+          stellar: false,
           hexerei: true,
           lunar: false,
           constellation: 0,
@@ -3828,6 +4130,7 @@ const chars = [
       support: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -3846,6 +4149,7 @@ const chars = [
       dps: {
         tier: 2,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -3856,6 +4160,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -3866,6 +4171,7 @@ const chars = [
       support: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -3884,6 +4190,7 @@ const chars = [
       dps: {
         tier: 1.5,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -3894,6 +4201,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -3904,6 +4212,7 @@ const chars = [
       support: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -3922,6 +4231,7 @@ const chars = [
       dps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -3932,6 +4242,7 @@ const chars = [
       subdps: {
         tier: 1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 4,
@@ -3942,6 +4253,7 @@ const chars = [
       support: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -3960,6 +4272,7 @@ const chars = [
       dps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -3970,6 +4283,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -3980,6 +4294,7 @@ const chars = [
       support: {
         tier: 1.5,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -3998,6 +4313,7 @@ const chars = [
       dps: {
         tier: 2,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -4008,6 +4324,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -4018,6 +4335,7 @@ const chars = [
       support: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -4036,6 +4354,7 @@ const chars = [
       dps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -4046,6 +4365,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -4056,6 +4376,7 @@ const chars = [
       support: {
         tier: 0.5,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -4074,6 +4395,7 @@ const chars = [
       dps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -4084,6 +4406,7 @@ const chars = [
       subdps: {
         tier: 1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 6,
@@ -4094,6 +4417,7 @@ const chars = [
       support: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -4112,6 +4436,7 @@ const chars = [
       dps: {
         tier: 3,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -4122,6 +4447,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 6,
@@ -4132,6 +4458,7 @@ const chars = [
       support: {
         tier: 4,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -4150,6 +4477,7 @@ const chars = [
       dps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -4160,6 +4488,7 @@ const chars = [
       subdps: {
         tier: 1.5,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -4170,6 +4499,7 @@ const chars = [
       support: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -4188,6 +4518,7 @@ const chars = [
       dps: {
         tier: 3,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 6,
@@ -4198,6 +4529,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -4208,6 +4540,7 @@ const chars = [
       support: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -4226,6 +4559,7 @@ const chars = [
       dps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -4236,6 +4570,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -4246,6 +4581,7 @@ const chars = [
       support: {
         tier: 2,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -4264,6 +4600,7 @@ const chars = [
       dps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -4274,6 +4611,7 @@ const chars = [
       subdps: {
         tier: 0.5,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -4284,6 +4622,7 @@ const chars = [
       support: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -4302,6 +4641,7 @@ const chars = [
       dps: {
         tier: 2,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -4312,6 +4652,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -4322,6 +4663,7 @@ const chars = [
       support: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -4340,6 +4682,7 @@ const chars = [
       dps: {
         tier: 1.5,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -4350,6 +4693,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -4360,6 +4704,7 @@ const chars = [
       support: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -4378,6 +4723,7 @@ const chars = [
       dps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -4388,6 +4734,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -4398,6 +4745,7 @@ const chars = [
       support: {
         tier: 3,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 6,
@@ -4416,6 +4764,7 @@ const chars = [
       dps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -4426,6 +4775,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -4436,6 +4786,7 @@ const chars = [
       support: {
         tier: 1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -4454,6 +4805,7 @@ const chars = [
       dps: {
         tier: 0,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -4464,6 +4816,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -4474,6 +4827,7 @@ const chars = [
       support: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -4492,6 +4846,7 @@ const chars = [
       dps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -4502,6 +4857,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -4512,6 +4868,7 @@ const chars = [
       support: {
         tier: 0.5,
         tags: {
+          stellar: false,
           hexerei: true,
           lunar: false,
           constellation: 0,
@@ -4530,6 +4887,7 @@ const chars = [
       dps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -4540,6 +4898,7 @@ const chars = [
       subdps: {
         tier: -1,
         tags: {
+          stellar: false,
           hexerei: false,
           lunar: false,
           constellation: 0,
@@ -4550,11 +4909,53 @@ const chars = [
       support: {
         tier: 0.5,
         tags: {
+          stellar: false,
           hexerei: true,
           lunar: false,
           constellation: 2,
           expert: false,
           partner: "Varka",
+        },
+      },
+    },
+  },
+  {
+    name: "Sandrone",
+    element: "Cryo",
+    weapon: "Claymore",
+    rarity: 5,
+    role: {
+      dps: {
+        tier: -1,
+        tags: {
+          stellar: false,
+          hexerei: false,
+          lunar: false,
+          constellation: 0,
+          expert: false,
+          partner: "",
+        },
+      },
+      subdps: {
+        tier: -1,
+        tags: {
+          stellar: false,
+          hexerei: false,
+          lunar: false,
+          constellation: 0,
+          expert: false,
+          partner: "",
+        },
+      },
+      support: {
+        tier: -1,
+        tags: {
+          stellar: false,
+          hexerei: false,
+          lunar: false,
+          constellation: 0,
+          expert: false,
+          partner: "",
         },
       },
     },
