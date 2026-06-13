@@ -276,6 +276,15 @@ footer {
 .char_partner {
   color: rgb(30, 187, 30);
 }
+.char_stellar {
+  color: rgb(148, 116, 237);
+  font-style: italic;
+  font-weight: 700;
+  text-shadow:
+    1px 1px 0 rgba(255, 255, 255, 0.6),
+    -1px -1px 0 rgba(0, 0, 0, 0.25),
+    0 0 4px rgba(255, 255, 255, 0.4);
+}
 .char_lunar {
   color: rgb(0, 187, 255);
   font-style: italic;
