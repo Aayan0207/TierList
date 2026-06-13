@@ -15,7 +15,7 @@ function Card({ char, category }) {
   }
   return (
     <>
-      <div className="card">
+      <div className="char_card">
         <div className="char_details">
           <div className="img_container">
             <img
