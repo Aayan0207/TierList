@@ -2,6 +2,9 @@ import React, { useState } from "react";
 import chars from "../assets/characters.js";
 import Card from "./Card.jsx";
 function ListView() {
+  const ELEMENTS_LENGTH = 7;
+  const RARITIES_LENGTH = 2;
+  const WEAPONS_LENGTH = 5;
   const tiers = [0, 0.5, 1, 1.5, 2, 3, 4];
   const [search, setSearch] = useState("");
   const [elements, setElements] = useState([
@@ -27,16 +30,49 @@ function ListView() {
       setRarities([4, 5]);
       return;
     }
+    if (rarities.length == RARITIES_LENGTH) {
+      setRarities([]);
+    }
     setRarities((prev) =>
       prev.includes(rarity)
         ? prev.filter((e) => e !== rarity)
         : [...prev, rarity],
     );
   }
+  function isTier(char, tier, role) {
+    let charTier = -1;
+    switch (role) {
+      case "dps":
+        charTier = char.role.dps.tier;
+        break;
+      case "subdps":
+        charTier = char.role.subdps.tier;
+        break;
+      case "support":
+        charTier = char.role.support.tier;
+        break;
+    }
+    return (
+      charTier == tier &&
+      elements.includes(
+        char.element.charAt(0).toUpperCase() + char.element.slice(1),
+      ) &&
+      weapons.includes(
+        char.weapon.charAt(0).toUpperCase() + char.weapon.slice(1),
+      ) &&
+      rarities.includes(char.rarity) &&
+      (search != null
+        ? char.name.toLowerCase().includes(search.toLowerCase())
+        : "")
+    );
+  }
   function updateWeapons(weapon) {
     if (weapon == "all") {
       setWeapons(["Sword", "Claymore", "Catalyst", "Polearm", "Bow"]);
       return;
+    }
+    if (weapons.length == WEAPONS_LENGTH) {
+      setWeapons([]);
     }
     setWeapons((prev) =>
       prev.includes(weapon)
@@ -57,13 +93,15 @@ function ListView() {
       ]);
       return;
     }
+    if (elements.length == ELEMENTS_LENGTH) {
+      setElements([]);
+    }
     setElements((prev) =>
       prev.includes(element)
         ? prev.filter((e) => e !== element)
         : [...prev, element],
     );
   }
-  console.log(search);
   return (
     <>
       <div id="list_view">
@@ -80,7 +118,7 @@ function ListView() {
           <div id="rarity_slider">
             <button
               className={`rarity_slider_button 
-              ${rarities.length == 2 ? "active_button" : ""}
+              ${rarities.length == RARITIES_LENGTH ? "active_button" : ""}
             `}
               onClick={() => updateRarity("all")}
             >
@@ -95,7 +133,7 @@ function ListView() {
                   <button
                     key={rarity + "_button"}
                     className={`rarity_slider_button 
-              ${rarities.includes(rarity) ? "active_button" : ""}
+              ${rarities.includes(rarity) && rarities.length != RARITIES_LENGTH ? "active_button" : ""}
             `}
                     onClick={() => updateRarity(rarity)}
                   >
@@ -108,7 +146,7 @@ function ListView() {
           <div id="element_slider">
             <button
               className={`element_slider_button 
-              ${elements.length == 7 ? "active_button" : ""}
+              ${elements.length == ELEMENTS_LENGTH ? "active_button" : ""}
             `}
               onClick={() => updateElements("all")}
             >
@@ -124,7 +162,7 @@ function ListView() {
                     <button
                       key={element + "_button"}
                       className={`element_slider_button 
-              ${elements.includes(element) ? "active_button" : ""}
+              ${elements.includes(element) && elements.length != ELEMENTS_LENGTH ? "active_button" : ""}
             `}
                       onClick={() => updateElements(element)}
                     >
@@ -141,7 +179,7 @@ function ListView() {
           <div id="weapon_slider">
             <button
               className={`weapon_slider_button 
-              ${weapons.length == 5 ? "active_button" : ""}
+              ${weapons.length == WEAPONS_LENGTH ? "active_button" : ""}
             `}
               onClick={() => updateWeapons("all")}
             >
@@ -157,7 +195,7 @@ function ListView() {
                     <button
                       key={weapon + "_button"}
                       className={`weapon_slider_button 
-              ${weapons.includes(weapon) ? "active_button" : ""}
+              ${weapons.includes(weapon) && weapons.length != WEAPONS_LENGTH ? "active_button" : ""}
             `}
                       onClick={() => updateWeapons(weapon)}
                     >
@@ -183,18 +221,7 @@ function ListView() {
                   <div className="dps">
                     <p className="category">DPS</p>
                     {chars
-                      .filter(
-                        (char) =>
-                          char.role.dps.tier == tier &&
-                          elements.includes(char.element.charAt(0).toUpperCase() + char.element.slice(1)) &&
-                          weapons.includes(char.weapon.charAt(0).toUpperCase() + char.weapon.slice(1)) &&
-                          rarities.includes(char.rarity) &&
-                          (search != null
-                            ? char.name
-                                .toLowerCase()
-                                .includes(search.toLowerCase())
-                            : ""),
-                      )
+                      .filter((char) => isTier(char, tier, "dps"))
                       .map((char) => {
                         return <Card char={char} category={"dps"} />;
                       })}
@@ -202,18 +229,7 @@ function ListView() {
                   <div className="sub_dps">
                     <p className="category">Sub-DPS</p>
                     {chars
-                      .filter(
-                        (char) =>
-                          char.role.subdps.tier == tier &&
-                          elements.includes(char.element.charAt(0).toUpperCase() + char.element.slice(1)) &&
-                          weapons.includes(char.weapon.charAt(0).toUpperCase() + char.weapon.slice(1)) &&
-                          rarities.includes(char.rarity) &&
-                          (search != null
-                            ? char.name
-                                .toLowerCase()
-                                .includes(search.toLowerCase())
-                            : ""),
-                      )
+                      .filter((char) => isTier(char, tier, "subdps"))
                       .map((char) => {
                         return <Card char={char} category={"subdps"} />;
                       })}
@@ -221,18 +237,7 @@ function ListView() {
                   <div className="support">
                     <p className="category">Support</p>
                     {chars
-                      .filter(
-                        (char) =>
-                          char.role.support.tier == tier &&
-                          elements.includes(char.element.charAt(0).toUpperCase() + char.element.slice(1)) &&
-                          weapons.includes(char.weapon.charAt(0).toUpperCase() + char.weapon.slice(1)) &&
-                          rarities.includes(char.rarity) &&
-                          (search != null
-                            ? char.name
-                                .toLowerCase()
-                                .includes(search.toLowerCase())
-                            : ""),
-                      )
+                      .filter((char) => isTier(char, tier, "support"))
                       .map((char) => {
                         return <Card char={char} category={"support"} />;
                       })}
