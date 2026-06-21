@@ -41,22 +41,35 @@ function TeamCharCard({ char }) {
           <div className="char_weapon_container">
             <img
               className={
-                char.weapon.rarity == 5
-                  ? "char_weapon"
-                  : "char_weapon char_weapon_4"
+                !char.weapon?.name.match(/^Any_\w*/)
+                  ? char.weapon?.rarity == 5
+                    ? "char_weapon"
+                    : "char_weapon char_weapon_4"
+                  : "char_weapon char_weapon_any"
               }
-              src={`../weapon_icons/Weapon_${char.weapon.name}_2nd.png`}
+              src={`../weapon_icons/Weapon_${char.weapon?.name}_2nd.png`}
             ></img>
+            {char.refinement !== 1 ? (
+              <div className="char_weapon_refinement">R{char.refinement}</div>
+            ) : (
+              ""
+            )}
           </div>
           <div className="char_artifact_container">
-            <img
-              className={
-                char.artifact.rarity == 5
-                  ? "char_artifact"
-                  : "char_artifact char_artifact_4"
-              }
-              src={`../artifact_icons/Item_${char.artifact.link}.png`}
-            ></img>
+            {char.artifact.map((artifact) => {
+              return (
+                <img
+                  className={
+                    artifact?.name !== "Any"
+                      ? artifact?.rarity == 5
+                        ? "char_artifact"
+                        : "char_artifact char_artifact_4"
+                      : "char_artifact char_artifact_any"
+                  }
+                  src={`../artifact_icons/Item_${artifact?.link}.png`}
+                ></img>
+              );
+            })}
           </div>
         </div>
       </div>
