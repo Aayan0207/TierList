@@ -115,10 +115,10 @@ function ListView() {
               value={search}
             ></input>
           </div>
-          <div id="rarity_slider">
+          <div id="rarity_slider" className="btn-group">
             <button
-              className={`rarity_slider_button 
-              ${rarities.length == RARITIES_LENGTH ? "active_button" : ""}
+              className={`btn rarity_slider_button 
+              ${rarities.length == RARITIES_LENGTH ? "btn-info active_button" : "btn-dark"}
             `}
               onClick={() => updateRarity("all")}
             >
@@ -132,8 +132,8 @@ function ListView() {
                 <>
                   <button
                     key={rarity + "_button"}
-                    className={`rarity_slider_button 
-              ${rarities.includes(rarity) && rarities.length != RARITIES_LENGTH ? "active_button" : ""}
+                    className={`btn rarity_slider_button 
+              ${rarities.includes(rarity) && rarities.length != RARITIES_LENGTH ? "btn-info active_button" : "btn-dark"}
             `}
                     onClick={() => updateRarity(rarity)}
                   >
@@ -143,10 +143,10 @@ function ListView() {
               );
             })}
           </div>
-          <div id="element_slider">
+          <div id="element_slider" className="btn-group">
             <button
-              className={`element_slider_button 
-              ${elements.length == ELEMENTS_LENGTH ? "active_button" : ""}
+              className={`btn element_slider_button 
+              ${elements.length == ELEMENTS_LENGTH ? "active_button btn-info" : "btn-dark"}
             `}
               onClick={() => updateElements("all")}
             >
@@ -161,8 +161,8 @@ function ListView() {
                   <>
                     <button
                       key={element + "_button"}
-                      className={`element_slider_button 
-              ${elements.includes(element) && elements.length != ELEMENTS_LENGTH ? "active_button" : ""}
+                      className={`btn element_slider_button 
+              ${elements.includes(element) && elements.length != ELEMENTS_LENGTH ? "active_button btn-info" : "btn-dark"}
             `}
                       onClick={() => updateElements(element)}
                     >
@@ -176,10 +176,10 @@ function ListView() {
               },
             )}
           </div>
-          <div id="weapon_slider">
+          <div id="weapon_slider" className="btn-group">
             <button
-              className={`weapon_slider_button 
-              ${weapons.length == WEAPONS_LENGTH ? "active_button" : ""}
+              className={`btn weapon_slider_button 
+              ${weapons.length == WEAPONS_LENGTH ? "active_button btn-info" : "btn-dark"}
             `}
               onClick={() => updateWeapons("all")}
             >
@@ -194,8 +194,8 @@ function ListView() {
                   <>
                     <button
                       key={weapon + "_button"}
-                      className={`weapon_slider_button 
-              ${weapons.includes(weapon) && weapons.length != WEAPONS_LENGTH ? "active_button" : ""}
+                      className={`btn weapon_slider_button 
+              ${weapons.includes(weapon) && weapons.length != WEAPONS_LENGTH ? "active_button btn-info" : "btn-dark"}
             `}
                       onClick={() => updateWeapons(weapon)}
                     >
