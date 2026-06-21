@@ -90,6 +90,9 @@ button {
   justify-content: center;
   align-items: center;
 }
+.centered-v{
+  flex-direction: column;
+}
 footer {
   position: relative;
   text-align: center;
