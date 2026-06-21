@@ -72,6 +72,15 @@ body {
   justify-content: right;
   align-items: center;
 }
+.char_artifact_piece {
+  display: grid;
+  grid-template-columns: 1;
+  grid-template-rows: 1;
+}
+.char_artifact {
+  grid-row: 1;
+  grid-column: 1;
+}
 .char_artifact_container {
   grid-row: 1;
   grid-column: 2;
@@ -79,7 +88,8 @@ body {
   justify-content: left;
   align-items: center;
 }
-.char_img,.char_weapon {
+.char_img,
+.char_weapon {
   grid-row: 1;
   grid-column: 1;
   display: block;
@@ -178,7 +188,8 @@ footer {
   grid-template-columns: 1fr;
 }
 .char_con,
-.char_weapon_refinement {
+.char_weapon_refinement,
+.char_artifact_2pc {
   grid-row: 1;
   z-index: 1;
   grid-column: 1;
@@ -191,9 +202,9 @@ footer {
   border-radius: 5px;
   margin: 2px;
 }
-.char_weapon_refinement{
-  margin-right:6px;
-  margin-bottom:6px;
+.char_weapon_refinement, .char_artifact_2pc {
+  margin-right: 6px;
+  margin-bottom: 6px;
 }
 .char_team_img {
   height: 90px;
