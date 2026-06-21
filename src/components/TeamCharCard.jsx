@@ -58,16 +58,23 @@ function TeamCharCard({ char }) {
           <div className="char_artifact_container">
             {char.artifact.map((artifact) => {
               return (
-                <img
-                  className={
-                    artifact?.name !== "Any"
-                      ? artifact?.rarity == 5
-                        ? "char_artifact"
-                        : "char_artifact char_artifact_4"
-                      : "char_artifact char_artifact_any"
-                  }
-                  src={`../artifact_icons/Item_${artifact?.link}.png`}
-                ></img>
+                <div className="char_artifact_piece">
+                  <img
+                    className={
+                      artifact?.name !== "Any"
+                        ? artifact?.rarity == 5
+                          ? "char_artifact"
+                          : "char_artifact char_artifact_4"
+                        : "char_artifact char_artifact_any"
+                    }
+                    src={`../artifact_icons/Item_${artifact?.link}.png`}
+                  ></img>
+                  {char.artifact.length === 2 ? (
+                    <div className="char_artifact_2pc">2pc</div>
+                  ) : (
+                    ""
+                  )}
+                </div>
               );
             })}
           </div>
