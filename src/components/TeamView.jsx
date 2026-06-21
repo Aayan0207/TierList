@@ -43,7 +43,12 @@ function TeamView() {
             ""
           )}
           <div id="current_page" className="btn btn-dark">
-            <select onChange={(event) => setPage(Number(event.target.value))}>
+            <select
+              id="page_select"
+              className="form-select form-select-sm"
+              value={page}
+              onChange={(event) => setPage(Number(event.target.value))}
+            >
               {Array.from({ length: MAX_PAGES + 1 }, (_, i) => {
                 return (
                   <option key={i} value={i}>
