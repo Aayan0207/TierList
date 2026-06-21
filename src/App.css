@@ -1,8 +1,54 @@
 body {
-  background-color: rgb(76, 68, 68);
+  background-color: #1f2a2d;
   font-family: "Chakra Petch";
   font-weight: 650;
-  color: black;
+  color: #000000;
+}
+.team_card_title,
+.team_card_rotation,
+.team_card_notes {
+  font-size: 18px;
+}
+.team_card {
+  border: 5px solid;
+}
+.team_card_pyro {
+  border-color: red;
+}
+.team_card_title_pyro {
+  background-color: red;
+}
+.char_equipment {
+  display: grid;
+  grid-template-columns: 2;
+  grid-template-rows: 1;
+}
+.char_weapon_container {
+  grid-row: 1;
+  grid-column: 1;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+.char_artifact_container {
+  grid-row: 1;
+  grid-column: 2;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.char_weapon,
+.char_artifact {
+  background-color: #e58a20;
+  display: block;
+  height: 64px;
+  width: auto;
+  margin: 5px;
+  border-radius: 5px;
+}
+.char_weapon_4,
+.char_artifact_4 {
+  background-color: #906fb4;
 }
 .char_details {
   display: flex;
@@ -11,13 +57,19 @@ body {
   flex-direction: column;
 }
 #title {
-  background-color: rgb(138, 134, 134);
-  width: fit-content;
+  width: 95%;
   padding: 5px;
   border: 3px solid black;
   border-radius: 5px;
   margin-bottom: 8px;
   margin-top: 8px;
+  text-align: center;
+  font-size: xx-large;
+  font-weight: 600;
+  cursor:default;
+}
+#title:hover{
+  background-color: #212529;
 }
 button {
   border-radius: 5px;
@@ -26,7 +78,14 @@ button {
   cursor: pointer;
   font-family: "Chakra Petch";
 }
-#title_container {
+#pagination_view {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.centered,
+.centered-v {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -65,6 +124,10 @@ footer {
   background-color: #e58a20;
   border-radius: 10px;
 }
+.char_team_img {
+  height: 90px;
+  width: auto;
+}
 .element {
   grid-row: 1;
   z-index: 1;
@@ -85,11 +148,42 @@ footer {
 .star_4 {
   background-color: #906fb4;
 }
-.char_card {
+.char_card,
+.team_card {
   margin: 5px;
   text-align: center;
   display: inline-block;
   vertical-align: top;
+}
+.team_card {
+  margin: 0px;
+}
+.team_card_container {
+  display: grid;
+  gap: 0px;
+  margin-top: 5px;
+}
+.team_card {
+  grid-column: 1;
+  grid-row: 2;
+}
+.team_rank_container {
+  grid-column: 1;
+  grid-row: 1;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1;
+  grid-template-rows: 20px auto;
+}
+.team_rank_container p {
+  margin: 0px;
+  margin-top: 3px;
+  margin-left: 5px;
+}
+.team_rank {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .char_tags {
   display: flex;
@@ -102,7 +196,8 @@ footer {
 .char_partner_name {
   line-height: 0.7;
 }
-.card p {
+.card p,
+.team_card p {
   margin: 0px;
 }
 #tiers {
@@ -118,6 +213,10 @@ footer {
   margin: auto;
 }
 @media (min-width: 768px) {
+  .team_card {
+    grid-row: 1;
+    grid-column: 2;
+  }
   .tier {
     grid-template-rows: 1fr;
     grid-template-columns: repeat(3, 1fr);
@@ -169,14 +268,20 @@ footer {
   align-items: center;
   font-size: 16px;
 }
-.active_button {
+/* .active_button {
   background-color: rgb(16, 104, 199);
-}
+} */
 #sliders {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   gap: 5px;
   margin-top: 5px;
+}
+#sliders button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1.5px solid black;
 }
 #search_input {
   height: 80%;
