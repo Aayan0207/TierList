@@ -9,14 +9,56 @@ body {
 .team_card_notes {
   font-size: 18px;
 }
+#current_page {
+  cursor: default;
+}
+#current_page:hover {
+  background-color: #212529;
+}
 .team_card {
   border: 5px solid;
 }
 .team_card_pyro {
-  border-color: red;
+  border-color: #e7610c;
+}
+.team_card_cryo {
+  border-color: #80fefc;
+}
+.team_card_anemo {
+  border-color: #35d59f;
+}
+.team_card_dendro {
+  border-color: #7cb300;
+}
+.team_card_electro {
+  border-color: #c172f6;
+}
+.team_card_geo {
+  border-color: #e5a410;
+}
+.team_card_hydro {
+  border-color: #01b4f5;
 }
 .team_card_title_pyro {
-  background-color: red;
+  background-color: #e7610c;
+}
+.team_card_title_hydro {
+  background-color: #01b4f5;
+}
+.team_card_title_geo {
+  background-color: #e5a410;
+}
+.team_card_title_electro {
+  background-color: #c172f6;
+}
+.team_card_title_dendro {
+  background-color: #7cb300;
+}
+.team_card_title_cryo {
+  background-color: #80fefc;
+}
+.team_card_title_anemo {
+  background-color: #35d59f;
 }
 .char_equipment {
   display: grid;
@@ -66,9 +108,9 @@ body {
   text-align: center;
   font-size: xx-large;
   font-weight: 600;
-  cursor:default;
+  cursor: default;
 }
-#title:hover{
+#title:hover {
   background-color: #212529;
 }
 button {
@@ -83,6 +125,22 @@ button {
   justify-content: center;
   align-items: center;
   gap: 5px;
+  margin-top: 5px;
+}
+#pagination_view .btn {
+  border: 2px solid black;
+}
+#page_select {
+  background-color: #212529;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-size: large;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  cursor: pointer;
 }
 .centered,
 .centered-v {
@@ -90,7 +148,7 @@ button {
   justify-content: center;
   align-items: center;
 }
-.centered-v{
+.centered-v {
   flex-direction: column;
 }
 footer {
@@ -169,6 +227,18 @@ footer {
 .team_card {
   grid-column: 1;
   grid-row: 2;
+}
+.rank_text {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 5px;
+  margin-left: 5px;
+}
+.team_rank {
+  font-size: x-large;
+  font-weight: 800;
 }
 .team_rank_container {
   grid-column: 1;
@@ -372,6 +442,10 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #c0c0c0;
+}
+.char_role {
+  color: #c0c0c0;
 }
 .char_expert {
   color: rgb(247, 57, 4);

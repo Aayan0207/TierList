@@ -10,28 +10,28 @@ const teams = [
     characters: [
       {
         name: "Mavuika",
-        role: "DPS",
+        role: "dps",
         constellation: 0,
         weapon: weapons.thousand_blazing_suns,
         artifact: artifacts.obsidian,
       },
       {
         name: "Citlali",
-        role: "Support",
+        role: "support",
         constellation: 0,
         weapon: weapons.starcallers_watch,
         artifact: artifacts.scroll,
       },
       {
         name: "Xilonen",
-        role: "Support",
+        role: "support",
         constellation: 0,
         weapon: weapons.peak_patrol_song,
         artifact: artifacts.petra,
       },
       {
         name: "Bennett",
-        role: "Support",
+        role: "support",
         constellation: 1,
         weapon: weapons.aquila_favonia,
         artifact: artifacts.noblesse,

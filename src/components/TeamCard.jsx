@@ -35,7 +35,7 @@ function TeamCard({ team, rank }) {
     <>
       <div className="team_card_container">
         <div className={`team_rank_container team_card_title team_card_title_${cardColor}`}>
-          <p className={`team_card_title team_card_title_${cardColor} rank_text`}>Rank</p>
+          <div className={`team_card_title team_card_title_${cardColor} rank_text`}>Rank</div>
           <div className="team_rank">{rank}</div>
         </div>
         <div className={`team_card  team_card_${cardColor}`}>
