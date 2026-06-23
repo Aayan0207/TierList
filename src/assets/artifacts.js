@@ -41,6 +41,53 @@ const artifacts = {
     link: "Bloom_of_the_Mind's_Desire",
     rarity: 5,
   },
+  emblem_of_severed_fate: {
+    name: "Emblem_of_Severed_Fate",
+    link: "",
+    rarity: 5,
+  },
+  echoes_of_an_offering: { name: "Echoes_of_an_Offering", link: "", rarity: 5 },
+  flower_of_paradise_lost: {
+    name: "Flower_of_Paradise_Lost",
+    link: "",
+    rarity: 5,
+  },
+  golden_troupe: { name: "Golden_Troupe", link: "", rarity: 5 },
+  instructor: { name: "Instructor", link: "", rarity: 4 },
+  song_of_days_past: { name: "Song_of_Days_Past", link: "", rarity: 5 },
+  tenacity_of_the_millelith: {
+    name: "Tenacity_of_the_Millelith",
+    link: "",
+    rarity: 5,
+  },
+  unfinished_reverie: { name: "Unfinished_Reverie", link: "", rarity: 5 },
+  viridescent_venerer: { name: "Viridescent_Venerer", link: "", rarity: 5 },
+  long_nights_oath: { name: "Long_Nights_Oath", link: "", rarity: 5 },
+  finale_of_the_deep_galleries: {
+    name: "Finale_of_the_Deep_Galleries",
+    link: "",
+    rarity: 5,
+  },
+  a_day_carved_from_rising_winds: {
+    name: "A_Day_Carved_from_Rising_Winds",
+    link: "",
+    rarity: 5,
+  },
+  desert_pavilion_chronicle: {
+    name: "Desert_Pavilion_Chronicle",
+    link: "",
+    rarity: 5,
+  },
+  fragment_of_harmonic_whimsy: {
+    name: "Fragment_of_Harmonic_Whimsy",
+    link: "",
+    rarity: 5,
+  },
+  nighttime_whispers_in_the_echoing_woods: {
+    name: "Nighttime_Whispers_in_the_Echoing_Woods",
+    link: "",
+    rarity: 5,
+  },
 };
 
 export default artifacts;

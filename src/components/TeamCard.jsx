@@ -7,7 +7,7 @@ function TeamCard({ team, rank }) {
     (char) => char.role.toUpperCase() === "DPS",
   ).name;
   let char_data = chars.find((char) => char.name === dps);
-  let element = char_data.element;
+  let element = char_data?.element;
   switch (element) {
     case "Pyro":
       cardColor = "pyro";

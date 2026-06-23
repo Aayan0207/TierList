@@ -39,6 +39,11 @@ function Card({ char, category }) {
           {char_data.hexerei ? <p className="char_hexerei">Hexerei</p> : ""}
           {char_data.lunar ? <p className="char_lunar">Lunar</p> : ""}
           {char_data.expert ? <p className="char_expert">Expert</p> : ""}
+          {char_data.signature ? (
+            <p className="char_signature">Signature</p>
+          ) : (
+            ""
+          )}
           {char_data.partner ? (
             <p className="char_partner">
               Partner
