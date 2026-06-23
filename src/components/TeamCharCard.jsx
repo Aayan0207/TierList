@@ -10,23 +10,23 @@ function TeamCharCard({ char }) {
           <div className="img_container">
             <img
               className="element"
-              src={`../icons/Element_${char_data.element}.webp`}
+              src={`../icons/Element_${char_data?.element}.webp`}
             ></img>
             <img
               className={
-                char_data.rarity == 4
+                char_data?.rarity == 4
                   ? "char_img star_4 char_team_img"
                   : "char_img char_team_img"
               }
-              src={`../icons/${char_data.name}_Icon.png`}
+              src={`../icons/${char_data?.name}_Icon.png`}
             ></img>
             {char.constellation != 0 ? (
-              <div className="char_con">C{char.constellation}</div>
+              <div className="char_con">C{char?.constellation}</div>
             ) : (
               ""
             )}
           </div>
-          <div className="char_name">{char_data.name.split("_").join(" ")}</div>
+          <div className="char_name">{char_data?.name.split("_").join(" ")}</div>
           <div className="char_role">
             {
               {

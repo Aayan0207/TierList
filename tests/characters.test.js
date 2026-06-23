@@ -42,6 +42,7 @@ const syntax = z.object({
         lunar: z.boolean(),
         constellation: z.number().min(0).max(6),
         expert: z.boolean(),
+        signature: z.boolean(),
         partner: z
           .string()
           .refine(

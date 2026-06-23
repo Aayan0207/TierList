@@ -10,7 +10,31 @@ function App() {
   return (
     <>
       <div id="title_container" className="centered">
-        <h1 id="title" className="btn btn-dark">Genshin Tierlist</h1>
+        <h1 id="title" className="btn btn-dark">
+          Genshin Tierlist
+        </h1>
+      </div>
+      <div id="selector" className="centered">
+        <button
+          id="list"
+          className={listView ? "btn btn-info" : "btn btn-dark"}
+          onClick={() => {
+            setListView(true);
+            setTeamView(false);
+          }}
+        >
+          Character Format
+        </button>
+        <button
+          id="team"
+          className={teamView ? "btn btn-info" : "btn btn-dark"}
+          onClick={() => {
+            setListView(false);
+            setTeamView(true);
+          }}
+        >
+          Teams Format
+        </button>
       </div>
       <div id="viewing_area">
         {listView ? <ListView /> : ""}
