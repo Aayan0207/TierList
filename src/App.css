@@ -76,20 +76,20 @@ body {
 }
 .char_equipment {
   display: grid;
-  grid-template-columns: 2;
-  grid-template-rows: 1;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
 }
 .char_weapon_container {
-  grid-row: 1;
-  grid-column: 1;
+  grid-row: 1fr;
+  grid-column: 1fr;
   display: flex;
   justify-content: right;
   align-items: center;
 }
 .char_artifact_piece {
   display: grid;
-  grid-template-columns: 1;
-  grid-template-rows: 1;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
 }
 .char_artifact {
   grid-row: 1;
@@ -281,7 +281,7 @@ footer {
   grid-row: 1;
   text-align: center;
   display: grid;
-  grid-template-columns: 1;
+  grid-template-columns: 1fr;
   grid-template-rows: 20px auto;
 }
 .team_rank_container p {
