@@ -751,7 +751,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst,
         refinement: 1,
-        artifact: [artifacts.night_of_the_skys_unveiling],
+        artifact: [artifacts.silken_moon_serenade],
       },
       {
         name: "Ineffa",
@@ -1987,7 +1987,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst,
         refinement: 1,
-        artifact: [artifacts.night_of_the_skys_unveiling],
+        artifact: [artifacts.silken_moon_serenade],
       },
       {
         name: "Ineffa",
@@ -2547,7 +2547,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst,
         refinement: 1,
-        artifact: [artifacts.night_of_the_skys_unveiling],
+        artifact: [artifacts.silken_moon_serenade],
       },
       {
         name: "Xilonen",
@@ -3235,7 +3235,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst,
         refinement: 1,
-        artifact: [artifacts.night_of_the_skys_unveiling],
+        artifact: [artifacts.silken_moon_serenade],
       },
       {
         name: "Kuki_Shinobu",
@@ -3707,7 +3707,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst,
         refinement: 1,
-        artifact: [artifacts.night_of_the_skys_unveiling],
+        artifact: [artifacts.silken_moon_serenade],
       },
       {
         name: "Ineffa",
@@ -3899,7 +3899,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_polearm, // Check artifact
         refinement: 1,
-        artifact: [artifacts.any],
+        artifact: [artifacts.night_of_the_skys_unveiling],
       },
       {
         name: "Ineffa",
@@ -3915,7 +3915,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst,
         refinement: 1,
-        artifact: [artifacts.night_of_the_skys_unveiling],
+        artifact: [artifacts.silken_moon_serenade],
       },
       {
         name: "Sucrose",
@@ -3939,7 +3939,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_polearm, // Check artifact
         refinement: 1,
-        artifact: [artifacts.any],
+        artifact: [artifacts.night_of_the_skys_unveiling],
       },
       {
         name: "Ineffa",
@@ -3955,7 +3955,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst,
         refinement: 1,
-        artifact: [artifacts.night_of_the_skys_unveiling],
+        artifact: [artifacts.silken_moon_serenade],
       },
       {
         name: "Sucrose",
@@ -3979,7 +3979,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_polearm, // Check artifact
         refinement: 1,
-        artifact: [artifacts.any],
+        artifact: [artifacts.night_of_the_skys_unveiling],
       },
       {
         name: "Ineffa",
@@ -3995,7 +3995,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst,
         refinement: 1,
-        artifact: [artifacts.night_of_the_skys_unveiling],
+        artifact: [artifacts.silken_moon_serenade],
       },
       {
         name: "Sucrose",
@@ -4019,7 +4019,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.primordial_jade_winged_spear, // Check artifact
         refinement: 1,
-        artifact: [artifacts.any],
+        artifact: [artifacts.night_of_the_skys_unveiling],
       },
       {
         name: "Ineffa",
@@ -4035,7 +4035,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst,
         refinement: 1,
-        artifact: [artifacts.night_of_the_skys_unveiling],
+        artifact: [artifacts.silken_moon_serenade],
       },
       {
         name: "Sucrose",
@@ -4059,7 +4059,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_polearm, // Check artifact
         refinement: 1,
-        artifact: [artifacts.any],
+        artifact: [artifacts.night_of_the_skys_unveiling],
       },
       {
         name: "Ineffa",
@@ -4075,7 +4075,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst,
         refinement: 1,
-        artifact: [artifacts.night_of_the_skys_unveiling],
+        artifact: [artifacts.silken_moon_serenade],
       },
       {
         name: "Xilonen",
@@ -4099,7 +4099,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_polearm, // Check artifact
         refinement: 1,
-        artifact: [artifacts.any],
+        artifact: [artifacts.night_of_the_skys_unveiling],
       },
       {
         name: "Ineffa",
@@ -4115,7 +4115,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst,
         refinement: 1,
-        artifact: [artifacts.tenacity_of_the_millelith],
+        artifact: [artifacts.silken_moon_serenade],
       },
       {
         name: "Sucrose",
@@ -4139,7 +4139,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_polearm, // Check artifact
         refinement: 1,
-        artifact: [artifacts.any],
+        artifact: [artifacts.night_of_the_skys_unveiling],
       },
       {
         name: "Ineffa",
@@ -4155,7 +4155,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst,
         refinement: 1,
-        artifact: [artifacts.night_of_the_skys_unveiling],
+        artifact: [artifacts.silken_moon_serenade],
       },
       {
         name: "Jahoda",
@@ -4179,7 +4179,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_polearm, // Check artifact
         refinement: 1,
-        artifact: [artifacts.any],
+        artifact: [artifacts.night_of_the_skys_unveiling],
       },
       {
         name: "Ineffa",
@@ -4195,7 +4195,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst,
         refinement: 1,
-        artifact: [artifacts.night_of_the_skys_unveiling],
+        artifact: [artifacts.silken_moon_serenade],
       },
       {
         name: "Durin",
@@ -4219,7 +4219,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_polearm, // Check artifact
         refinement: 1,
-        artifact: [artifacts.any],
+        artifact: [artifacts.night_of_the_skys_unveiling],
       },
       {
         name: "Ineffa",
@@ -4235,7 +4235,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst,
         refinement: 1,
-        artifact: [artifacts.night_of_the_skys_unveiling],
+        artifact: [artifacts.silken_moon_serenade],
       },
       {
         name: "Chiori",
@@ -4259,7 +4259,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.deathmatch, // Check artifact
         refinement: 1,
-        artifact: [artifacts.any],
+        artifact: [artifacts.night_of_the_skys_unveiling],
       },
       {
         name: "Ineffa",
@@ -4275,7 +4275,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst,
         refinement: 1,
-        artifact: [artifacts.night_of_the_skys_unveiling],
+        artifact: [artifacts.silken_moon_serenade],
       },
       {
         name: "Sucrose",
@@ -4299,7 +4299,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_polearm, // Check weapon // Check artifact
         refinement: 1,
-        artifact: [artifacts.any],
+        artifact: [artifacts.night_of_the_skys_unveiling],
       },
       {
         name: "Ineffa",
@@ -4315,7 +4315,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst,
         refinement: 1,
-        artifact: [artifacts.night_of_the_skys_unveiling],
+        artifact: [artifacts.silken_moon_serenade],
       },
       {
         name: "Sucrose",
@@ -4339,7 +4339,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_polearm, // Check artifact
         refinement: 1,
-        artifact: [artifacts.any],
+        artifact: [artifacts.night_of_the_skys_unveiling],
       },
       {
         name: "Fischl",
@@ -4355,7 +4355,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst,
         refinement: 1,
-        artifact: [artifacts.night_of_the_skys_unveiling],
+        artifact: [artifacts.silken_moon_serenade],
       },
       {
         name: "Durin",
@@ -4379,7 +4379,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_polearm, // Check artifact
         refinement: 1,
-        artifact: [artifacts.any],
+        artifact: [artifacts.night_of_the_skys_unveiling],
       },
       {
         name: "Ineffa",
@@ -4419,7 +4419,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_polearm, // Check artifact
         refinement: 1,
-        artifact: [artifacts.any],
+        artifact: [artifacts.night_of_the_skys_unveiling],
       },
       {
         name: "Iansan",
@@ -4435,7 +4435,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst,
         refinement: 1,
-        artifact: [artifacts.night_of_the_skys_unveiling],
+        artifact: [artifacts.silken_moon_serenade],
       },
       {
         name: "Sucrose",
@@ -4459,7 +4459,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_polearm, // Check artifact
         refinement: 1,
-        artifact: [artifacts.any],
+        artifact: [artifacts.night_of_the_skys_unveiling],
       },
       {
         name: "Ineffa",
@@ -4499,7 +4499,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_polearm, // Check artifact
         refinement: 1,
-        artifact: [artifacts.any],
+        artifact: [artifacts.night_of_the_skys_unveiling],
       },
       {
         name: "Ineffa",
@@ -4539,7 +4539,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_polearm, // Check artifact
         refinement: 1,
-        artifact: [artifacts.any],
+        artifact: [artifacts.night_of_the_skys_unveiling],
       },
       {
         name: "Fischl",
@@ -4555,7 +4555,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst,
         refinement: 1,
-        artifact: [artifacts.night_of_the_skys_unveiling],
+        artifact: [artifacts.silken_moon_serenade],
       },
       {
         name: "Sucrose",
@@ -4579,7 +4579,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_polearm, // Check artifact
         refinement: 1,
-        artifact: [artifacts.any],
+        artifact: [artifacts.night_of_the_skys_unveiling],
       },
       {
         name: "Fischl",
@@ -4619,7 +4619,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_polearm, // Check artifact
         refinement: 1,
-        artifact: [artifacts.any],
+        artifact: [artifacts.night_of_the_skys_unveiling],
       },
       {
         name: "Iansan",
@@ -4635,7 +4635,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst,
         refinement: 1,
-        artifact: [artifacts.night_of_the_skys_unveiling],
+        artifact: [artifacts.silken_moon_serenade],
       },
       {
         name: "Lan_Yan",
@@ -4659,7 +4659,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_polearm, // Check artifact
         refinement: 1,
-        artifact: [artifacts.any],
+        artifact: [artifacts.night_of_the_skys_unveiling],
       },
       {
         name: "Ineffa",
@@ -4699,7 +4699,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_polearm, // Check artifact
         refinement: 1,
-        artifact: [artifacts.any],
+        artifact: [artifacts.night_of_the_skys_unveiling],
       },
       {
         name: "Kuki_Shinobu",
@@ -4715,7 +4715,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst,
         refinement: 1,
-        artifact: [artifacts.night_of_the_skys_unveiling],
+        artifact: [artifacts.silken_moon_serenade],
       },
       {
         name: "Sucrose",
@@ -4739,7 +4739,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_polearm, // Check artifact
         refinement: 1,
-        artifact: [artifacts.any],
+        artifact: [artifacts.night_of_the_skys_unveiling],
       },
       {
         name: "Ororon",
@@ -4755,7 +4755,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst,
         refinement: 1,
-        artifact: [artifacts.night_of_the_skys_unveiling],
+        artifact: [artifacts.silken_moon_serenade],
       },
       {
         name: "Sucrose",
@@ -4779,7 +4779,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_polearm, // Check artifact
         refinement: 1,
-        artifact: [artifacts.any],
+        artifact: [artifacts.night_of_the_skys_unveiling],
       },
       {
         name: "Fischl",
@@ -4795,7 +4795,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst,
         refinement: 1,
-        artifact: [artifacts.night_of_the_skys_unveiling],
+        artifact: [artifacts.silken_moon_serenade],
       },
       {
         name: "Lan_Yan",
@@ -4819,7 +4819,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_polearm, // Check artifact
         refinement: 1,
-        artifact: [artifacts.any],
+        artifact: [artifacts.night_of_the_skys_unveiling],
       },
       {
         name: "Fischl",
@@ -4859,7 +4859,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_polearm, // Check artifact
         refinement: 1,
-        artifact: [artifacts.any],
+        artifact: [artifacts.night_of_the_skys_unveiling],
       },
       {
         name: "Fischl",
@@ -4899,7 +4899,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.deathmatch, // Check artifact
         refinement: 1,
-        artifact: [artifacts.any],
+        artifact: [artifacts.night_of_the_skys_unveiling],
       },
       {
         name: "Fischl",
@@ -5268,7 +5268,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst,
         refinement: 1,
-        artifact: [artifacts.night_of_the_skys_unveiling],
+        artifact: [artifacts.silken_moon_serenade],
       },
       {
         name: "Ineffa",
@@ -5348,7 +5348,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst,
         refinement: 1,
-        artifact: [artifacts.night_of_the_skys_unveiling],
+        artifact: [artifacts.silken_moon_serenade],
       },
       {
         name: "Ineffa",
@@ -5757,7 +5757,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst,
         refinement: 1,
-        artifact: [artifacts.night_of_the_skys_unveiling],
+        artifact: [artifacts.silken_moon_serenade],
       },
       {
         name: "Sucrose",
@@ -6278,7 +6278,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst,
         refinement: 1,
-        artifact: [artifacts.night_of_the_skys_unveiling],
+        artifact: [artifacts.silken_moon_serenade],
       },
       {
         name: "Durin",
@@ -6358,7 +6358,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst,
         refinement: 1,
-        artifact: [artifacts.night_of_the_skys_unveiling],
+        artifact: [artifacts.silken_moon_serenade],
       },
       {
         name: "Bennett",
@@ -6630,7 +6630,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst,
         refinement: 1,
-        artifact: [artifacts.night_of_the_skys_unveiling],
+        artifact: [artifacts.silken_moon_serenade],
       },
       {
         name: "Illuga",
@@ -6646,7 +6646,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_bow, // Check artifact
         refinement: 1,
-        artifact: [artifacts.any],
+        artifact: [artifacts.aubade_of_morningstar_and_moon],
       },
     ],
   },
@@ -6670,7 +6670,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst,
         refinement: 1,
-        artifact: [artifacts.night_of_the_skys_unveiling],
+        artifact: [artifacts.silken_moon_serenade],
       },
       {
         name: "Ineffa",
@@ -6686,7 +6686,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_bow, // Check artifact
         refinement: 1,
-        artifact: [artifacts.any],
+        artifact: [artifacts.aubade_of_morningstar_and_moon],
       },
     ],
   },
@@ -6710,7 +6710,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst,
         refinement: 1,
-        artifact: [artifacts.night_of_the_skys_unveiling],
+        artifact: [artifacts.silken_moon_serenade],
       },
       {
         name: "Ineffa",
@@ -6750,7 +6750,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst,
         refinement: 1,
-        artifact: [artifacts.night_of_the_skys_unveiling],
+        artifact: [artifacts.silken_moon_serenade],
       },
       {
         name: "Gorou",
@@ -6766,7 +6766,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_bow, // Check artifact
         refinement: 1,
-        artifact: [artifacts.any],
+        artifact: [artifacts.aubade_of_morningstar_and_moon],
       },
     ],
   },
@@ -6790,7 +6790,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst,
         refinement: 1,
-        artifact: [artifacts.night_of_the_skys_unveiling],
+        artifact: [artifacts.silken_moon_serenade],
       },
       {
         name: "Ineffa",
@@ -6990,7 +6990,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst,
         refinement: 1,
-        artifact: [artifacts.night_of_the_skys_unveiling],
+        artifact: [artifacts.silken_moon_serenade],
       },
       {
         name: "Ineffa",
@@ -7006,7 +7006,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_bow, // Check artifact
         refinement: 1,
-        artifact: [artifacts.any],
+        artifact: [artifacts.aubade_of_morningstar_and_moon],
       },
     ],
   },
@@ -7030,7 +7030,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst,
         refinement: 1,
-        artifact: [artifacts.night_of_the_skys_unveiling],
+        artifact: [artifacts.silken_moon_serenade],
       },
       {
         name: "Illuga",
@@ -7046,7 +7046,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_bow, // Check artifact
         refinement: 1,
-        artifact: [artifacts.any],
+        artifact: [artifacts.aubade_of_morningstar_and_moon],
       },
     ],
   },
@@ -7070,7 +7070,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst,
         refinement: 1,
-        artifact: [artifacts.night_of_the_skys_unveiling],
+        artifact: [artifacts.silken_moon_serenade],
       },
       {
         name: "Ineffa",
@@ -7110,7 +7110,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst,
         refinement: 1,
-        artifact: [artifacts.night_of_the_skys_unveiling],
+        artifact: [artifacts.silken_moon_serenade],
       },
       {
         name: "Ineffa",
@@ -7126,7 +7126,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_bow, // Check artifact
         refinement: 1,
-        artifact: [artifacts.any],
+        artifact: [artifacts.aubade_of_morningstar_and_moon],
       },
     ],
   },
@@ -7150,7 +7150,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst,
         refinement: 1,
-        artifact: [artifacts.night_of_the_skys_unveiling],
+        artifact: [artifacts.silken_moon_serenade],
       },
       {
         name: "Illuga",
@@ -7166,7 +7166,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_bow, // Check artifact
         refinement: 1,
-        artifact: [artifacts.any],
+        artifact: [artifacts.aubade_of_morningstar_and_moon],
       },
     ],
   },
@@ -7190,7 +7190,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst,
         refinement: 1,
-        artifact: [artifacts.night_of_the_skys_unveiling],
+        artifact: [artifacts.silken_moon_serenade],
       },
       {
         name: "Ineffa",
@@ -7230,7 +7230,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst,
         refinement: 1,
-        artifact: [artifacts.night_of_the_skys_unveiling],
+        artifact: [artifacts.silken_moon_serenade],
       },
       {
         name: "Furina",
@@ -7246,7 +7246,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_bow, // Check artifact
         refinement: 1,
-        artifact: [artifacts.any],
+        artifact: [artifacts.aubade_of_morningstar_and_moon],
       },
     ],
   },
@@ -7310,7 +7310,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst,
         refinement: 1,
-        artifact: [artifacts.night_of_the_skys_unveiling],
+        artifact: [artifacts.silken_moon_serenade],
       },
       {
         name: "Ineffa",
@@ -7390,7 +7390,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst,
         refinement: 1,
-        artifact: [artifacts.night_of_the_skys_unveiling],
+        artifact: [artifacts.silken_moon_serenade],
       },
       {
         name: "Xilonen",
@@ -7510,7 +7510,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst,
         refinement: 1,
-        artifact: [artifacts.night_of_the_skys_unveiling],
+        artifact: [artifacts.silken_moon_serenade],
       },
       {
         name: "Ineffa",
@@ -7550,7 +7550,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst,
         refinement: 1,
-        artifact: [artifacts.night_of_the_skys_unveiling],
+        artifact: [artifacts.silken_moon_serenade],
       },
       {
         name: "Ineffa",
@@ -7590,7 +7590,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst,
         refinement: 1,
-        artifact: [artifacts.night_of_the_skys_unveiling],
+        artifact: [artifacts.silken_moon_serenade],
       },
       {
         name: "Ineffa",
@@ -7710,7 +7710,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst,
         refinement: 1,
-        artifact: [artifacts.night_of_the_skys_unveiling],
+        artifact: [artifacts.silken_moon_serenade],
       },
       {
         name: "Ineffa",
@@ -7790,7 +7790,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst,
         refinement: 1,
-        artifact: [artifacts.night_of_the_skys_unveiling],
+        artifact: [artifacts.silken_moon_serenade],
       },
       {
         name: "Ineffa",
@@ -7806,7 +7806,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_bow, // Check artifact
         refinement: 1,
-        artifact: [artifacts.any],
+        artifact: [artifacts.aubade_of_morningstar_and_moon],
       },
     ],
   },
@@ -7950,7 +7950,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst,
         refinement: 1,
-        artifact: [artifacts.night_of_the_skys_unveiling],
+        artifact: [artifacts.silken_moon_serenade],
       },
       {
         name: "Lauma",
@@ -8198,7 +8198,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst,
         refinement: 1,
-        artifact: [artifacts.night_of_the_skys_unveiling],
+        artifact: [artifacts.silken_moon_serenade],
       },
       {
         name: "Sucrose",
@@ -8318,7 +8318,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst,
         refinement: 1,
-        artifact: [artifacts.night_of_the_skys_unveiling],
+        artifact: [artifacts.silken_moon_serenade],
       },
       {
         name: "Linnea",
@@ -8326,7 +8326,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_bow, // Check artifact
         refinement: 1,
-        artifact: [artifacts.any],
+        artifact: [artifacts.aubade_of_morningstar_and_moon],
       },
     ],
   },
@@ -8358,7 +8358,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst,
         refinement: 1,
-        artifact: [artifacts.night_of_the_skys_unveiling],
+        artifact: [artifacts.silken_moon_serenade],
       },
       {
         name: "Xilonen",
@@ -8398,7 +8398,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst,
         refinement: 1,
-        artifact: [artifacts.night_of_the_skys_unveiling],
+        artifact: [artifacts.silken_moon_serenade],
       },
       {
         name: "Durin",
@@ -8438,7 +8438,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst,
         refinement: 1,
-        artifact: [artifacts.night_of_the_skys_unveiling],
+        artifact: [artifacts.silken_moon_serenade],
       },
       {
         name: "Fischl",
@@ -8478,7 +8478,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst,
         refinement: 1,
-        artifact: [artifacts.night_of_the_skys_unveiling],
+        artifact: [artifacts.silken_moon_serenade],
       },
       {
         name: "Linnea",
@@ -8486,7 +8486,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_bow, // Check artifact
         refinement: 1,
-        artifact: [artifacts.any],
+        artifact: [artifacts.aubade_of_morningstar_and_moon],
       },
     ],
   },
@@ -8518,7 +8518,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst,
         refinement: 1,
-        artifact: [artifacts.night_of_the_skys_unveiling],
+        artifact: [artifacts.silken_moon_serenade],
       },
       {
         name: "Durin",
@@ -8558,7 +8558,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst,
         refinement: 1,
-        artifact: [artifacts.night_of_the_skys_unveiling],
+        artifact: [artifacts.silken_moon_serenade],
       },
       {
         name: "Ororon",
@@ -8590,7 +8590,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst,
         refinement: 1,
-        artifact: [artifacts.night_of_the_skys_unveiling],
+        artifact: [artifacts.silken_moon_serenade],
       },
       {
         name: "Ineffa",
@@ -8630,7 +8630,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst,
         refinement: 1,
-        artifact: [artifacts.night_of_the_skys_unveiling],
+        artifact: [artifacts.silken_moon_serenade],
       },
       {
         name: "Ineffa",
@@ -9406,7 +9406,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst,
         refinement: 1,
-        artifact: [artifacts.tenacity_of_the_millelith],
+        artifact: [artifacts.silken_moon_serenade],
       },
     ],
   },
@@ -10286,7 +10286,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst,
         refinement: 1,
-        artifact: [artifacts.night_of_the_skys_unveiling],
+        artifact: [artifacts.silken_moon_serenade],
       },
     ],
   },
@@ -10350,7 +10350,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst,
         refinement: 1,
-        artifact: [artifacts.night_of_the_skys_unveiling],
+        artifact: [artifacts.silken_moon_serenade],
       },
       {
         name: "Ineffa",
@@ -10366,7 +10366,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_bow, // Check artifact
         refinement: 1,
-        artifact: [artifacts.any],
+        artifact: [artifacts.aubade_of_morningstar_and_moon],
       },
     ],
   },
@@ -10390,7 +10390,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst,
         refinement: 1,
-        artifact: [artifacts.night_of_the_skys_unveiling],
+        artifact: [artifacts.silken_moon_serenade],
       },
       {
         name: "Illuga",
@@ -10406,7 +10406,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_bow, // Check artifact
         refinement: 1,
-        artifact: [artifacts.any],
+        artifact: [artifacts.aubade_of_morningstar_and_moon],
       },
     ],
   },
@@ -10430,7 +10430,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst,
         refinement: 1,
-        artifact: [artifacts.night_of_the_skys_unveiling],
+        artifact: [artifacts.silken_moon_serenade],
       },
       {
         name: "Illuga",
@@ -10446,7 +10446,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_bow, // Check artifact
         refinement: 1,
-        artifact: [artifacts.any],
+        artifact: [artifacts.aubade_of_morningstar_and_moon],
       },
     ],
   },
@@ -10470,7 +10470,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst,
         refinement: 1,
-        artifact: [artifacts.night_of_the_skys_unveiling],
+        artifact: [artifacts.silken_moon_serenade],
       },
       {
         name: "Illuga",
@@ -10518,7 +10518,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst,
         refinement: 1,
-        artifact: [artifacts.night_of_the_skys_unveiling],
+        artifact: [artifacts.silken_moon_serenade],
       },
       {
         name: "Linnea",
@@ -10526,7 +10526,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_bow, // Check artifact
         refinement: 1,
-        artifact: [artifacts.any],
+        artifact: [artifacts.aubade_of_morningstar_and_moon],
       },
     ],
   },
@@ -10558,7 +10558,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst,
         refinement: 1,
-        artifact: [artifacts.night_of_the_skys_unveiling],
+        artifact: [artifacts.silken_moon_serenade],
       },
       {
         name: "Linnea",
@@ -10566,7 +10566,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_bow, // Check artifact
         refinement: 1,
-        artifact: [artifacts.any],
+        artifact: [artifacts.aubade_of_morningstar_and_moon],
       },
     ],
   },
@@ -10598,7 +10598,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst,
         refinement: 1,
-        artifact: [artifacts.night_of_the_skys_unveiling],
+        artifact: [artifacts.silken_moon_serenade],
       },
       {
         name: "Linnea",
@@ -10606,7 +10606,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_bow, // Check artifact
         refinement: 1,
-        artifact: [artifacts.any],
+        artifact: [artifacts.aubade_of_morningstar_and_moon],
       },
     ],
   },
@@ -10638,7 +10638,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst,
         refinement: 1,
-        artifact: [artifacts.night_of_the_skys_unveiling],
+        artifact: [artifacts.silken_moon_serenade],
       },
       {
         name: "Linnea",
@@ -10646,7 +10646,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_bow, // Check artifact
         refinement: 1,
-        artifact: [artifacts.any],
+        artifact: [artifacts.aubade_of_morningstar_and_moon],
       },
     ],
   },
@@ -10678,7 +10678,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst,
         refinement: 1,
-        artifact: [artifacts.night_of_the_skys_unveiling],
+        artifact: [artifacts.silken_moon_serenade],
       },
       {
         name: "Linnea",
@@ -10686,7 +10686,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_bow, // Check artifact
         refinement: 1,
-        artifact: [artifacts.any],
+        artifact: [artifacts.aubade_of_morningstar_and_moon],
       },
     ],
   },
@@ -10718,7 +10718,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst,
         refinement: 1,
-        artifact: [artifacts.night_of_the_skys_unveiling],
+        artifact: [artifacts.silken_moon_serenade],
       },
       {
         name: "Linnea",
@@ -10726,7 +10726,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_bow, // Check artifact
         refinement: 1,
-        artifact: [artifacts.any],
+        artifact: [artifacts.aubade_of_morningstar_and_moon],
       },
     ],
   },
@@ -10766,7 +10766,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_bow, // Check artifact
         refinement: 1,
-        artifact: [artifacts.any],
+        artifact: [artifacts.aubade_of_morningstar_and_moon],
       },
     ],
   },
@@ -10798,7 +10798,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst,
         refinement: 1,
-        artifact: [artifacts.night_of_the_skys_unveiling],
+        artifact: [artifacts.silken_moon_serenade],
       },
       {
         name: "Linnea",
@@ -10806,7 +10806,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_bow, // Check artifact
         refinement: 1,
-        artifact: [artifacts.any],
+        artifact: [artifacts.aubade_of_morningstar_and_moon],
       },
     ],
   },
@@ -10838,7 +10838,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst,
         refinement: 1,
-        artifact: [artifacts.night_of_the_skys_unveiling],
+        artifact: [artifacts.silken_moon_serenade],
       },
       {
         name: "Linnea",
@@ -10846,7 +10846,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_bow, // Check artifact
         refinement: 1,
-        artifact: [artifacts.any],
+        artifact: [artifacts.aubade_of_morningstar_and_moon],
       },
     ],
   },
@@ -10878,7 +10878,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst,
         refinement: 1,
-        artifact: [artifacts.night_of_the_skys_unveiling],
+        artifact: [artifacts.silken_moon_serenade],
       },
       {
         name: "Gorou",
@@ -10918,7 +10918,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst,
         refinement: 1,
-        artifact: [artifacts.night_of_the_skys_unveiling],
+        artifact: [artifacts.silken_moon_serenade],
       },
       {
         name: "Ineffa",
@@ -10958,7 +10958,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst,
         refinement: 1,
-        artifact: [artifacts.night_of_the_skys_unveiling],
+        artifact: [artifacts.silken_moon_serenade],
       },
       {
         name: "Chiori",
@@ -10998,7 +10998,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst,
         refinement: 1,
-        artifact: [artifacts.night_of_the_skys_unveiling],
+        artifact: [artifacts.silken_moon_serenade],
       },
       {
         name: "Ineffa",
@@ -11046,7 +11046,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_bow, // Check artifact
         refinement: 1,
-        artifact: [artifacts.any],
+        artifact: [artifacts.aubade_of_morningstar_and_moon],
       },
     ],
   },
@@ -11078,7 +11078,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst,
         refinement: 1,
-        artifact: [artifacts.night_of_the_skys_unveiling],
+        artifact: [artifacts.silken_moon_serenade],
       },
       {
         name: "Xilonen",
@@ -11118,7 +11118,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst,
         refinement: 1,
-        artifact: [artifacts.night_of_the_skys_unveiling],
+        artifact: [artifacts.silken_moon_serenade],
       },
       {
         name: "Zhongli",
@@ -11158,7 +11158,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst,
         refinement: 1,
-        artifact: [artifacts.night_of_the_skys_unveiling],
+        artifact: [artifacts.silken_moon_serenade],
       },
       {
         name: "Gorou",
@@ -11198,7 +11198,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst,
         refinement: 1,
-        artifact: [artifacts.night_of_the_skys_unveiling],
+        artifact: [artifacts.silken_moon_serenade],
       },
       {
         name: "Fischl",
@@ -11238,7 +11238,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst,
         refinement: 1,
-        artifact: [artifacts.night_of_the_skys_unveiling],
+        artifact: [artifacts.silken_moon_serenade],
       },
       {
         name: "Aino",
@@ -11278,7 +11278,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst,
         refinement: 1,
-        artifact: [artifacts.night_of_the_skys_unveiling],
+        artifact: [artifacts.silken_moon_serenade],
       },
       {
         name: "Yelan",
@@ -11358,7 +11358,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst,
         refinement: 1,
-        artifact: [artifacts.night_of_the_skys_unveiling],
+        artifact: [artifacts.silken_moon_serenade],
       },
       {
         name: "Fischl",
@@ -11398,7 +11398,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst,
         refinement: 1,
-        artifact: [artifacts.night_of_the_skys_unveiling],
+        artifact: [artifacts.silken_moon_serenade],
       },
       {
         name: "Jahoda",
@@ -11438,7 +11438,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst,
         refinement: 1,
-        artifact: [artifacts.night_of_the_skys_unveiling],
+        artifact: [artifacts.silken_moon_serenade],
       },
       {
         name: "Dahlia",
@@ -11518,7 +11518,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst,
         refinement: 1,
-        artifact: [artifacts.night_of_the_skys_unveiling],
+        artifact: [artifacts.silken_moon_serenade],
       },
       {
         name: "Navia",
@@ -11558,7 +11558,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst,
         refinement: 1,
-        artifact: [artifacts.night_of_the_skys_unveiling],
+        artifact: [artifacts.silken_moon_serenade],
       },
       {
         name: "Furina",
@@ -11726,7 +11726,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_bow, // Check artifact
         refinement: 1,
-        artifact: [artifacts.any],
+        artifact: [artifacts.aubade_of_morningstar_and_moon],
       },
     ],
   },
@@ -11942,7 +11942,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst, // Check artifact
         refinement: 1,
-        artifact: [artifacts.any],
+        artifact: [artifacts.night_of_the_skys_unveiling],
       },
       {
         name: "Lauma",
@@ -11982,7 +11982,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst, // Check artifact
         refinement: 1,
-        artifact: [artifacts.any],
+        artifact: [artifacts.night_of_the_skys_unveiling],
       },
       {
         name: "Lauma",
@@ -12022,7 +12022,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst, // Check artifact
         refinement: 1,
-        artifact: [artifacts.any],
+        artifact: [artifacts.night_of_the_skys_unveiling],
       },
       {
         name: "Lauma",
@@ -12062,7 +12062,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst, // Check artifact
         refinement: 1,
-        artifact: [artifacts.any],
+        artifact: [artifacts.night_of_the_skys_unveiling],
       },
       {
         name: "Lauma",
@@ -12102,7 +12102,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst, // Check artifact
         refinement: 1,
-        artifact: [artifacts.any],
+        artifact: [artifacts.night_of_the_skys_unveiling],
       },
       {
         name: "Lauma",
@@ -12142,7 +12142,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst, // Check artifact
         refinement: 1,
-        artifact: [artifacts.any],
+        artifact: [artifacts.night_of_the_skys_unveiling],
       },
       {
         name: "Lauma",
@@ -12166,7 +12166,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_bow, // Check artifact
         refinement: 1,
-        artifact: [artifacts.any],
+        artifact: [artifacts.aubade_of_morningstar_and_moon],
       },
     ],
   },
@@ -12182,7 +12182,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst, // Check artifact
         refinement: 1,
-        artifact: [artifacts.any],
+        artifact: [artifacts.night_of_the_skys_unveiling],
       },
       {
         name: "Lauma",
@@ -12222,7 +12222,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst, // Check artifact
         refinement: 1,
-        artifact: [artifacts.any],
+        artifact: [artifacts.night_of_the_skys_unveiling],
       },
       {
         name: "Lauma",
@@ -12262,7 +12262,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst, // Check artifact
         refinement: 1,
-        artifact: [artifacts.any],
+        artifact: [artifacts.night_of_the_skys_unveiling],
       },
       {
         name: "Lauma",
@@ -12302,7 +12302,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst, // Check artifact
         refinement: 1,
-        artifact: [artifacts.any],
+        artifact: [artifacts.night_of_the_skys_unveiling],
       },
       {
         name: "Lauma",
@@ -12342,7 +12342,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst, // Check artifact
         refinement: 1,
-        artifact: [artifacts.any],
+        artifact: [artifacts.night_of_the_skys_unveiling],
       },
       {
         name: "Columbina",
@@ -12350,7 +12350,7 @@ const teams = [
         constellation: 0,
         weapon: weapons.any_catalyst,
         refinement: 1,
-        artifact: [artifacts.aubade_of_morningstar_and_moon],
+        artifact: [artifacts.silken_moon_serenade],
       },
       {
         name: "Nahida",
