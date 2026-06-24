@@ -5,6 +5,83 @@ const weapons = {
   any_polearm: { name: "Any_Polearm", rarity: 5, type: "Polearm" },
   any_catalyst: { name: "Any_Catalyst", rarity: 5, type: "Catalyst" },
   fractured_halo: { name: "Fractured_Halo", rarity: 5, type: "Polearm" },
+  sacrificial_fragments: {
+    name: "Sacrificial_Fragments",
+    rarity: 4,
+    type: "Catalyst",
+  },
+  bloodsoaked_ruins: {
+    name: "Bloodsoaked_Ruins",
+    rarity: 5,
+    type: "Polearm",
+  },
+  surfs_up: {
+    name: "Surf's_Up",
+    rarity: 5,
+    type: "Catalyst",
+  },
+  the_daybreak_chronicles: {
+    name: "The_Daybreak_Chronicles",
+    rarity: 5,
+    type: "Bow",
+  },
+  vivid_notions: {
+    name: "Vivid_Notions",
+    rarity: 5,
+    type: "Catalyst",
+  },
+  azurelight: { name: "Azurelight", rarity: 5, type: "Sword" },
+  verdict: { name: "Verdict", rarity: 5, type: "Claymore" },
+  symphonist_of_scents: {
+    name: "Symphonist_of_Scents",
+    rarity: 5,
+    type: "Polearm",
+  },
+  lightbearing_moonshard: {
+    name: "Lightbearing_Moonshard",
+    rarity: 5,
+    type: "Sword",
+  },
+  calamity_queller: {
+    name: "Calamity_Queller",
+    rarity: 5,
+    type: "Polearm",
+  },
+  astral_vultures_crimson_plumage: {
+    name: "Astral_Vulture's_Crimson_Plumage",
+    rarity: 5,
+    type: "Bow",
+  },
+  crimson_moons_semblance: {
+    name: "Crimson_Moon's_Semblance",
+    rarity: 5,
+    type: "Polearm",
+  },
+  cashflow_supervision: {
+    name: "Cashflow_Supervision",
+    rarity: 5,
+    type: "Catalyst",
+  },
+  the_first_great_magic: {
+    name: "The_First_Great_Magic",
+    rarity: 5,
+    type: "Bow",
+  },
+  tulaytullahss_remembrance: {
+    name: "Tulaytullah's_Remembrance",
+    rarity: 5,
+    type: "Catalyst",
+  },
+  disaster_and_remorse: {
+    name: "Disaster_and_Remorse",
+    rarity: 5,
+    type: "Polearm",
+  },
+  gest_of_the_mighty_wolf: {
+    name: "Gest_of_the_Mighty_Wolf",
+    rarity: 5,
+    type: "Claymore",
+  },
   reliquary_of_truth: {
     name: "Reliquary_of_Truth",
     rarity: 5,
@@ -44,9 +121,13 @@ const weapons = {
   aquila_favonia: { name: "Aquila_Favonia", rarity: 5, type: "Sword" },
   aqua_simulacra: { name: "Aqua_Simulacra", rarity: 5, type: "Bow" },
   skyward_atlas: { name: "Skyward_Atlas", rarity: 5, type: "Catalyst" },
-  jade_cutter: { name: "Jade_Cutter", rarity: 5, type: "Sword" },
+  primordial_jade_cutter: {
+    name: "Primordial_Jade_Cutter",
+    rarity: 5,
+    type: "Sword",
+  },
   primordial_jade_winged_spear: {
-    name: "Primordial_Jade_Winged_Spear",
+    name: "Primordial_Jade_Winged-Spear",
     rarity: 5,
     type: "Polearm",
   },
@@ -67,12 +148,24 @@ const weapons = {
     rarity: 5,
     type: "Sword",
   },
+  engulfing_lightning: {
+    name: "Engulfing_Lightning",
+    rarity: 5,
+    type: "Polearm",
+  },
+  absolution: { name: "Absolution", rarity: 5, type: "Sword" },
   staff_of_homa: { name: "Staff_of_Homa", rarity: 5, type: "Polearm" },
-  hunters_path: { name: "Hunters_Path", rarity: 5, type: "Bow" },
+  hunters_path: { name: "Hunter's_Path", rarity: 5, type: "Bow" },
+  thundering_pulse: { name: "Thundering_Pulse", rarity: 5, type: "Bow" },
   mistsplitter_reforged: {
     name: "Mistsplitter_Reforged",
     rarity: 5,
     type: "Sword",
+  },
+  kaguras_verity: {
+    name: "Kagura's_Verity",
+    rarity: 5,
+    type: "Catalyst",
   },
   uraku_misugiri: { name: "Uraku_Misugiri", rarity: 5, type: "Sword" },
   redhorn_stonethresher: {
@@ -85,7 +178,7 @@ const weapons = {
     rarity: 3,
     type: "Catalyst",
   },
-  widsith: { name: "Widsith", rarity: 4, type: "Catalyst" },
+  the_widsith: { name: "The_Widsith", rarity: 4, type: "Catalyst" },
   harbinger_of_dawn: { name: "Harbinger_of_Dawn", rarity: 3, type: "Sword" },
 };
 

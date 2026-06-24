@@ -5,8 +5,8 @@ import TeamCard from "./TeamCard";
 const ENTRIES_PER_PAGE = 10;
 const MAX_PAGES = Math.ceil(Teams.length / ENTRIES_PER_PAGE) - 1;
 let allTeams = Teams.sort((a, b) => b.dps - a.dps);
-function TeamView() {
-  const [page, setPage] = useState(0);
+function TeamView() { 
+  const [page, setPage] = useState(0); 
   const [teams, setTeams] = useState(allTeams.slice(0, 10));
   useEffect(() => {
     setTeams(

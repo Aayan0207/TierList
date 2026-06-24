@@ -3,10 +3,7 @@ import TeamCharCard from "./TeamCharCard";
 import chars from "../assets/characters";
 function TeamCard({ team, rank }) {
   let cardColor = "";
-  let dps = team.characters.find(
-    (char) => char.role.toUpperCase() === "DPS",
-  ).name;
-  let char_data = chars.find((char) => char.name === dps);
+  let char_data = chars.find((char) => char.name === team?.characters?.[0].name);
   let element = char_data?.element;
   switch (element) {
     case "Pyro":
