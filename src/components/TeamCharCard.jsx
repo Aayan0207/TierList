@@ -26,15 +26,8 @@ function TeamCharCard({ char }) {
               ""
             )}
           </div>
-          <div className="char_name">{char_data?.name.split("_").join(" ")}</div>
-          <div className="char_role">
-            {
-              {
-                dps: "DPS",
-                subdps: "Sub-DPS",
-                support: "Support",
-              }[char.role]
-            }
+          <div className="char_name">
+            {char_data?.name.split("_").join(" ")}
           </div>
         </div>
         <div className="char_equipment">
@@ -44,7 +37,9 @@ function TeamCharCard({ char }) {
                 !char.weapon?.name.match(/^Any_\w*/)
                   ? char.weapon?.rarity == 5
                     ? "char_weapon"
-                    : "char_weapon char_weapon_4"
+                    : char.weapon?.rarity == 4
+                      ? "char_weapon char_weapon_4"
+                      : "char_weapon char_weapon_3"
                   : "char_weapon char_weapon_any"
               }
               src={`../weapon_icons/Weapon_${char.weapon?.name}_2nd.png`}

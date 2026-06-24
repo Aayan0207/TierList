@@ -9,9 +9,6 @@ const allowedNames = chars.map((c) => c.name.toLowerCase());
 
 const character = z.object({
   name: z.string().refine((name) => allowedNames.includes(name.toLowerCase())),
-  role: z
-    .string()
-    .refine((role) => ["dps", "subdps", "support"].includes(role)),
   constellation: z.number().min(0).max(6),
   refinement: z.number().min(1).max(5),
   weapon: z
@@ -52,7 +49,6 @@ const character = z.object({
 });
 
 const syntax = z.object({
-  title: z.string().refine((title) => title != ""),
   dps: z.number().min(0),
   rotation: z.string(),
   notes: z.string(),
@@ -66,7 +62,6 @@ test("Syntax match for all teams in teams.js", () => {
       syntax.parse(team);
     } catch (e) {
       error = true;
-      console.error(`Team: ${team.title}`);
       console.error(`Team_Index: ${teams.indexOf(team)}`);
       e.issues.forEach((issue) => {
         const path = issue.path.join(".");
