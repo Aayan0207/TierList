@@ -125,7 +125,7 @@ body {
 .char_artifact_4 {
   background-color: #906fb4;
 }
-.char_weapon_3{
+.char_weapon_3 {
   background-color: #5f96ac;
 }
 .char_artifact_any,
@@ -364,6 +364,27 @@ footer {
     grid-column: 2;
     justify-content: center;
   }
+  .team_card {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+  }
+  .team_card_notes,
+  .team_card_rotation {
+    font-size: 18px;
+    word-wrap: break-word;
+    white-space: normal;
+    max-width: 0;
+    min-width: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+  }
+  .team_card_view {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 .element_slider_image,
 .weapon_slider_image,
@@ -492,7 +513,7 @@ footer {
 .char_partner {
   color: rgb(30, 187, 30);
 }
-.char_signature{
+.char_signature {
   color: rgb(231, 199, 17);
 }
 .char_stellar {

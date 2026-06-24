@@ -36,9 +36,6 @@ function TeamCard({ team, rank }) {
           <div className="team_rank">{rank}</div>
         </div>
         <div className={`team_card  team_card_${cardColor}`}>
-          <div className={`team_card_title team_card_title_${cardColor}`}>
-            {team.title}
-          </div>
           <div className={`team_card_view team_card_view_${cardColor}`}>
             {team.characters.map((char) => {
               return <TeamCharCard char={char} />;
