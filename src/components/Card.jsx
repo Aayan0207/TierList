@@ -45,10 +45,10 @@ function Card({ char, category }) {
             ""
           )}
           {char_data.partner ? (
-            <p className="char_partner">
+            <div className="char_partner">
               Partner
               <p className="char_partner_name">({char_data.partner})</p>
-            </p>
+            </div>
           ) : (
             ""
           )}
