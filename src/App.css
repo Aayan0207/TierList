@@ -76,12 +76,12 @@ body {
 }
 .char_equipment {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, auto);
   grid-template-rows: 1fr;
 }
 .char_weapon_container {
-  grid-row: 1fr;
-  grid-column: 1fr;
+  grid-row: 1;
+  grid-column: 1;
   display: flex;
   justify-content: right;
   align-items: center;
