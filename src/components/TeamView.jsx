@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Teams from "../assets/teams";
 import TeamCard from "./TeamCard";
+import TeamFilter from "./TeamFilter";
 
 const ENTRIES_PER_PAGE = 10;
 const MAX_PAGES = Math.ceil(Teams.length / ENTRIES_PER_PAGE) - 1;
@@ -8,6 +9,7 @@ let allTeams = Teams.sort((a, b) => b.dps - a.dps);
 function TeamView() { 
   const [page, setPage] = useState(0); 
   const [teams, setTeams] = useState(allTeams.slice(0, 10));
+  const [filterTeams, setFilterTeams] = useState(true); //Change this to false
   useEffect(() => {
     setTeams(
       allTeams.slice(page * ENTRIES_PER_PAGE, (page + 1) * ENTRIES_PER_PAGE),
@@ -16,6 +18,7 @@ function TeamView() {
   return (
     <>
       <div id="team_view" className="centered-v">
+        {filterTeams ? <TeamFilter setFilterButton={setFilterTeams}/> : <button className="btn btn-info" onClick={() => setFilterTeams(true)}>Filter Teams</button>}
         {teams.map((team) => {
           return <TeamCard team={team} rank={allTeams.indexOf(team) + 1} />;
         })}

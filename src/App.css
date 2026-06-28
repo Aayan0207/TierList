@@ -4,6 +4,28 @@ body {
   font-weight: 650;
   color: #000000;
 }
+
+.team_filter_char_name_select .dropdown-menu,
+.team_filter_char_artifact_select .dropdown-menu,
+.team_filter_char_weapon_select .dropdown-menu {
+  max-height: 350px;
+  overflow-y: auto;
+  max-width: min-content;
+}
+.team_filter_char_name_option button,
+.team_filter_char_weapon_option button,
+.team_filter_char_artifact_option button {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 5px;
+}
+.team_filter_char_name_option img,
+.team_filter_char_weapon_option img,
+.team_filter_char_artifact_option img {
+  height: 35px;
+  width: auto;
+}
 .team_card_title,
 .team_card_rotation,
 .team_card_notes {
@@ -324,7 +346,35 @@ footer {
   grid-template-rows: repeat(3, 1fr);
   margin: auto;
 }
+.team_filter_char,
+.team_filter_char_details_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 5px;
+}
+.team_filter_char_img_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.team_filter_char_details_container {
+  gap: 5px;
+}
+#team_filter_box {
+  display: grid;
+}
 @media (min-width: 768px) {
+  #team_filter_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 5px;
+    margin: 5px;
+  }
   .team_card {
     grid-row: 1;
     grid-column: 2;
