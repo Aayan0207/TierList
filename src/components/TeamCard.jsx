@@ -3,7 +3,9 @@ import TeamCharCard from "./TeamCharCard";
 import chars from "../assets/characters";
 function TeamCard({ team, rank }) {
   let cardColor = "";
-  let char_data = chars.find((char) => char.name === team?.characters?.[0].name);
+  let char_data = chars.find(
+    (char) => char.name === Object.keys(team?.characters)[0],
+  );
   let element = char_data?.element;
   switch (element) {
     case "Pyro":
@@ -31,14 +33,20 @@ function TeamCard({ team, rank }) {
   return (
     <>
       <div className="team_card_container">
-        <div className={`team_rank_container team_card_title team_card_title_${cardColor}`}>
-          <div className={`team_card_title team_card_title_${cardColor} rank_text`}>Rank</div>
+        <div
+          className={`team_rank_container team_card_title team_card_title_${cardColor}`}
+        >
+          <div
+            className={`team_card_title team_card_title_${cardColor} rank_text`}
+          >
+            Rank
+          </div>
           <div className="team_rank">{rank}</div>
         </div>
         <div className={`team_card  team_card_${cardColor}`}>
           <div className={`team_card_view team_card_view_${cardColor}`}>
-            {team.characters.map((char) => {
-              return <TeamCharCard char={char} />;
+            {Object.entries(team.characters).map(([name, char]) => {
+              return <TeamCharCard char={{ ...char, name: name }} />;
             })}
           </div>
           {team.rotation ? (

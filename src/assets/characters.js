@@ -5367,5 +5367,93 @@ const chars = [
       },
     },
   },
+  {
+    name: "Alyosha",
+    element: "Electro",
+    weapon: "Polearm",
+    rarity: 4,
+    role: {
+      dps: {
+        tier: -1,
+        tags: {
+          stellar: false,
+          hexerei: false,
+          lunar: false,
+          signature: false,
+          constellation: 0,
+          expert: false,
+          partner: "",
+        },
+      },
+      subdps: {
+        tier: -1,
+        tags: {
+          stellar: false,
+          hexerei: false,
+          lunar: false,
+          signature: false,
+          constellation: 0,
+          expert: false,
+          partner: "",
+        },
+      },
+      support: {
+        tier: -1,
+        tags: {
+          stellar: false,
+          hexerei: false,
+          lunar: false,
+          signature: false,
+          constellation: 0,
+          expert: false,
+          partner: "",
+        },
+      },
+    },
+  },
+  {
+    name: "Odette",
+    element: "Cryo",
+    weapon: "Sword",
+    rarity: 5,
+    role: {
+      dps: {
+        tier: -1,
+        tags: {
+          stellar: false,
+          hexerei: false,
+          lunar: false,
+          signature: false,
+          constellation: 0,
+          expert: false,
+          partner: "",
+        },
+      },
+      subdps: {
+        tier: -1,
+        tags: {
+          stellar: false,
+          hexerei: false,
+          lunar: false,
+          signature: false,
+          constellation: 0,
+          expert: false,
+          partner: "",
+        },
+      },
+      support: {
+        tier: -1,
+        tags: {
+          stellar: false,
+          hexerei: false,
+          lunar: false,
+          signature: false,
+          constellation: 0,
+          expert: false,
+          partner: "",
+        },
+      },
+    },
+  },
 ];
 export default chars;

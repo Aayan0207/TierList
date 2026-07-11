@@ -51,7 +51,7 @@ function TeamCharCard({ char }) {
             )}
           </div>
           <div className="char_artifact_container">
-            {char.artifact.map((artifact) => {
+            {[...char.artifact].map((artifact) => {
               return (
                 <div className="char_artifact_piece">
                   <img
