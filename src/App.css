@@ -4,7 +4,22 @@ body {
   font-weight: 650;
   color: #000000;
 }
-
+.filter_buttons,
+#team_filter_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+.filter_buttons > button {
+  margin: 5px;
+}
+#team_filter_container {
+  flex-direction: column;
+  background: linear-gradient(135deg, #0b2f3c, #12475a, #0d3c4d);
+  border: 5px solid black;
+  border-radius: 15px;
+}
 .team_filter_char_name_select .dropdown-menu,
 .team_filter_char_artifact_select .dropdown-menu,
 .team_filter_char_weapon_select .dropdown-menu {
@@ -440,9 +455,6 @@ footer {
   align-items: center;
   font-size: 16px;
 }
-/* .active_button {
-  background-color: rgb(16, 104, 199);
-} */
 #sliders {
   display: grid;
   grid-template-columns: repeat(1, 1fr);

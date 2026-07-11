@@ -8,7 +8,6 @@ import artifacts from "../src/assets/artifacts.js";
 const allowedNames = chars.map((c) => c.name.toLowerCase());
 
 const character = z.object({
-  name: z.string().refine((name) => allowedNames.includes(name.toLowerCase())),
   constellation: z.number().min(0).max(6),
   refinement: z.number().min(1).max(5),
   weapon: z
@@ -27,7 +26,7 @@ const character = z.object({
       }, `Weapon ${weapon} not found`),
     ),
   artifact: z
-    .array(
+    .set(
       z
         .object({
           name: z.string(),
@@ -52,7 +51,16 @@ const syntax = z.object({
   dps: z.number().min(0),
   rotation: z.string(),
   notes: z.string(),
-  characters: z.array(character).length(4),
+  characters: z
+    .record(z.string(), character)
+    .refine(
+      (obj) =>
+        Object.keys(obj).length === 4 &&
+        Object.keys(obj).every((name) =>
+          allowedNames.includes(name.toLowerCase()),
+        ),
+    ),
+  members: z.set(z.string()).size(4),
 });
 
 test("Syntax match for all teams in teams.js", () => {
