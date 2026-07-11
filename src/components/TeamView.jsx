@@ -2,10 +2,11 @@ import React, { useEffect, useState } from "react";
 import Teams from "../assets/teams";
 import TeamCard from "./TeamCard";
 import TeamFilter from "./TeamFilter";
+import releasedChars from "../assets/released";
 
 const ENTRIES_PER_PAGE = 10;
 const MAX_PAGES = Math.ceil(Teams.length / ENTRIES_PER_PAGE) - 1;
-let allTeams = Teams.sort((a, b) => b.dps - a.dps);
+let allTeams = Teams.filter(team => !team.characters.some(char => !releasedChars.has(char.name))).sort((a, b) => b.dps - a.dps);
 function TeamView() { 
   const [page, setPage] = useState(0); 
   const [teams, setTeams] = useState(allTeams.slice(0, 10));

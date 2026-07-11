@@ -1,6 +1,7 @@
 import chars from "../src/assets/characters.js";
 import { z } from "zod";
 import { test, expect } from "vitest";
+import releasedChars from "../src/assets/released.js";
 
 const allowedNames = chars.map((c) => c.name.toLowerCase());
 const tier = z.union([
@@ -71,6 +72,9 @@ const syntax = z.object({
 test("Syntax match for all characters in the array", () => {
   let error = false;
   chars.forEach((char) => {
+    if (!releasedChars.has(char?.name)) {
+      console.warn(`\x1b[33mCharacter "${char.name}" not found in released characters.\x1b[0m`);
+    }
     try {
       syntax.parse(char);
     } catch (e) {

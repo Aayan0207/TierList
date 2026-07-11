@@ -1,6 +1,9 @@
 import React from "react";
-
+import releasedChars from "../assets/released";
 function Card({ char, category }) {
+  if (!releasedChars.has(char.name)){
+    return;
+  }
   let char_data;
   switch (category) {
     case "dps":
