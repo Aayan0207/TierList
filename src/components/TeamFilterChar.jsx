@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import characters from "../assets/characters";
 import artifacts from "../assets/artifacts";
 import weapons from "../assets/weapons";
@@ -14,20 +14,24 @@ function TeamFilterChar({ setTeam }) {
   const [charSearch, setCharSearch] = useState("");
   const [artifactSearch, setArtifactSearch] = useState("");
   const [weaponSearch, setWeaponSearch] = useState("");
+  const previousChar = useRef(null);
 
   useEffect(() => {
     if (!selectedChar) {
       return;
     }
     setTeam((prev) => {
-      return {
-        ...prev,
-        [selectedChar?.name]: {
-          weapon: selectedWeapon,
-          artifacts: new Set(selectedArtifacts.filter((set) => set)),
-        },
+      const updatedTeam = { ...prev };
+      if (previousChar?.name !== selectedChar.name) {
+        delete updatedTeam[previousChar.name];
+      }
+      updatedTeam[selectedChar?.name] = {
+        weapon: selectedWeapon,
+        artifacts: new Set(selectedArtifacts.filter((set) => set)),
       };
+      return updatedTeam;
     });
+    previousChar.name = selectedChar.name;
   }, [selectedChar, selectedArtifacts, selectedWeapon]);
 
   return (
