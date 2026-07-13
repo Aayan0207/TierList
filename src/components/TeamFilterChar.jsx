@@ -46,7 +46,7 @@ function TeamFilterChar({ setTeam }) {
               src={`../icons/${selectedChar?.name}_Icon.png`}
             />
             <div className="char_name">
-              {selectedChar.name.replaceAll("_", " ")}
+              {`${selectedChar.name.replaceAll("_", " ")} ${selectedChar.name == "Traveler" ? `(${selectedChar.element})` : ""}`}
             </div>
           </>
         ) : (
@@ -61,7 +61,7 @@ function TeamFilterChar({ setTeam }) {
             aria-expanded="false"
           >
             {selectedChar?.name
-              ? selectedChar.name.replaceAll("_", " ")
+              ? `${selectedChar.name.replaceAll("_", " ")} ${selectedChar.name == "Traveler" ? `(${selectedChar.element})` : ""}`
               : "Select Character"}
           </button>
           <ul className="dropdown-menu">
@@ -100,7 +100,7 @@ function TeamFilterChar({ setTeam }) {
                         }
                         src={`../icons/${char.name}_Icon.png`}
                       />
-                      {char.name.replaceAll("_", " ")}
+                      {`${char.name.replaceAll("_", " ")} ${char.name == "Traveler" ? `(${char.element})` : ""}`}
                     </button>
                   </li>
                 );
