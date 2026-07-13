@@ -5,11 +5,13 @@ import TeamFilter from "./TeamFilter";
 import releasedChars from "../assets/released";
 
 const ENTRIES_PER_PAGE = 10;
-const MAX_PAGES = Math.ceil(Teams.length / ENTRIES_PER_PAGE) - 1;
 const BASE_TEAMS = Teams.filter((team) =>
   team.members.isSubsetOf(releasedChars),
 ).sort((a, b) => b.dps - a.dps);
 function TeamView() {
+  const [maxPages, setMaxPages] = useState(
+    Math.ceil(BASE_TEAMS.length / ENTRIES_PER_PAGE) - 1,
+  );
   const [page, setPage] = useState(0);
   const [allTeams, setAllTeams] = useState(BASE_TEAMS);
   const [teams, setTeams] = useState(BASE_TEAMS.slice(0, 10));
@@ -37,6 +39,11 @@ function TeamView() {
       allTeams.slice(page * ENTRIES_PER_PAGE, (page + 1) * ENTRIES_PER_PAGE),
     );
   }, [page, allTeams]);
+
+  useEffect(() => {
+    setMaxPages(Math.ceil(allTeams.length / ENTRIES_PER_PAGE) - 1);
+    setPage(0);
+  }, [allTeams]);
 
   useEffect(() => {
     if (!filter) {
@@ -128,7 +135,7 @@ function TeamView() {
                 value={page}
                 onChange={(event) => setPage(Number(event.target.value))}
               >
-                {Array.from({ length: MAX_PAGES + 1 }, (_, i) => {
+                {Array.from({ length: maxPages + 1 }, (_, i) => {
                   return (
                     <option key={i} value={i}>
                       {i + 1}
@@ -137,7 +144,7 @@ function TeamView() {
                 })}
               </select>
             </div>
-            {page !== MAX_PAGES ? (
+            {page !== maxPages ? (
               <div
                 id="next_page"
                 onClick={() => setPage((prev) => prev + 1)}
@@ -148,10 +155,10 @@ function TeamView() {
             ) : (
               ""
             )}
-            {page !== MAX_PAGES ? (
+            {page !== maxPages ? (
               <div
                 id="last_page"
-                onClick={() => setPage(MAX_PAGES)}
+                onClick={() => setPage(maxPages)}
                 className="btn btn-info"
               >
                 {"Last >|"}
