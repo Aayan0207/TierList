@@ -1462,7 +1462,7 @@ const chars = [
         tags: {
           stellar: false,
           hexerei: false,
-          lunar: false,
+          lunar: true,
           signature: false,
           constellation: 0,
           expert: false,
@@ -5158,7 +5158,7 @@ const chars = [
         tags: {
           stellar: false,
           hexerei: false,
-          lunar: false,
+          lunar: true,
           signature: false,
           constellation: 0,
           expert: false,
