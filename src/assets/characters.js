@@ -1462,7 +1462,7 @@ const chars = [
         tags: {
           stellar: false,
           hexerei: false,
-          lunar: false,
+          lunar: true,
           signature: false,
           constellation: 0,
           expert: false,
@@ -5158,7 +5158,7 @@ const chars = [
         tags: {
           stellar: false,
           hexerei: false,
-          lunar: false,
+          lunar: true,
           signature: false,
           constellation: 0,
           expert: false,
@@ -5286,9 +5286,9 @@ const chars = [
     rarity: 5,
     role: {
       dps: {
-        tier: -1,
+        tier: 0,
         tags: {
-          stellar: false,
+          stellar: true,
           hexerei: false,
           lunar: false,
           signature: false,
