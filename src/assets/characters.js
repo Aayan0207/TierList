@@ -5286,9 +5286,9 @@ const chars = [
     rarity: 5,
     role: {
       dps: {
-        tier: -1,
+        tier: 0,
         tags: {
-          stellar: false,
+          stellar: true,
           hexerei: false,
           lunar: false,
           signature: false,
